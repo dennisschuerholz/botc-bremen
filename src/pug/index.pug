@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title One Page Wonder - Start Bootstrap Template
+        title Blood on the Clocktower Bremen & Umzu
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -22,35 +22,45 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
+        // Pretix integreation
+        link(href='https://pretix.fachschaften.org/botc/widget/v1.css', rel='stylesheet')
+        script(src='https://pretix.fachschaften.org/widget/v1.de-informal.js', async)
+
     body#page-top
 
         // Navigation
         nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
             .container.px-5
-                a.navbar-brand(href='#page-top') Start Bootstrap
+                a.navbar-brand(href='#page-top') BotC Bremen & Umzu
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto
                         li.nav-item
-                            a.nav-link(href='#!') Sign Up
+                            a.nav-link(href='#events') Events
                         li.nav-item
-                            a.nav-link(href='#!') Log In
+                            a.nav-link(href='#locations') Orte
+                        li.nav-item
+                            a.nav-link(href='#links') Links
+                        li.nav-item
+                            a.nav-link(href='#contact') Kontakt
 
         // Header
         header.masthead.text-center.text-white
             .masthead-content
                 .container.px-5
-                    h1.masthead-heading.mb-0 One Page Wonder
-                    h2.masthead-subheading.mb-0 Will Rock Your Socks Off
-                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll') Learn More
+                    h1.masthead-heading.mb-0 WORK IN PROGRESS
+                    br
+                    h1.masthead-heading.mb-0 Blood on the Clocktower
+                    h2.masthead-subheading.mb-0 Lokalcommunity Bremen & Umzu
+                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#events') Anstehende Veranstaltungen
             .bg-circle-1.bg-circle
             .bg-circle-2.bg-circle
             .bg-circle-3.bg-circle
             .bg-circle-4.bg-circle
 
         // Content section 1
-        section#scroll
+        section#events
             .container.px-5
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
@@ -58,12 +68,14 @@ html(lang='en')
                             img.img-fluid.rounded-circle(src='assets/img/01.jpg', alt='...')
                     .col-lg-6.order-lg-1
                         .p-5
-                            h2.display-4 For those about to rock...
+                            h2.display-4 Anstehende Veranstaltungen
                             p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                                | Geplante Veranstaltungen können im folgenden gefunden werden. Anmeldungen werden über das System oder im Ausnahmefall direkt bei einem Storyteller entgegen genommen.
+                            p
+                                pretix-widget(event='https://pretix.fachschaften.org/botc/')
 
         // Content section 2
-        section
+        section#locations
             .container.px-5
                 .row.gx-5.align-items-center
                     .col-lg-6
@@ -71,12 +83,23 @@ html(lang='en')
                             img.img-fluid.rounded-circle(src='assets/img/02.jpg', alt='...')
                     .col-lg-6
                         .p-5
-                            h2.display-4 We salute you!
+                            h2.display-4 Orte
                             p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                                | Unsere offenen Spielerunden finden an verschiedenen Locations statt. Da wir immer unterschiedliche räumliche Möglichkeiten haben wechselt die mögliche Teilnehmendenanzahl auch bei jedem Event.
+                            p
+                                | MZH: Universität Bremen,
+                                a(href='https://www.openstreetmap.org/relation/3293414', target='_blank') Bibliothekstr. 5, 28359 Bremen
+                                | (im 1. OG)
+                                br
+                                | ITB: Universität Bremen,
+                                a(href='', target='_blank') Am Fallturm 1, 28359 Bremen
+                                | (Eingang A)
+                                br
+                                | Weyher Würfel: KGS Leeste,
+                                a(href='https://www.openstreetmap.org/way/315395128', target='_blank') Schulstr. 40, 28844 Wehyle-Leeste
 
         // Content section 3
-        section
+        section#links
             .container.px-5
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
@@ -84,14 +107,46 @@ html(lang='en')
                             img.img-fluid.rounded-circle(src='assets/img/03.jpg', alt='...')
                     .col-lg-6.order-lg-1
                         .p-5
-                            h2.display-4 Let there be rock!
+                            h2.display-4 Links
                             p
                                 | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+
+        // Content section 4
+        section#contact
+            .container.px-5
+                .row.gx-5.align-items-center
+                    .col-lg-6
+                        .p-5
+                            img.img-fluid.rounded-circle(src='assets/img/03.jpg', alt='...')
+                    .col-lg-6
+                        .p-5
+                            h2.display-4 Kontakt
+                            p
+                                | Du möchtest Informationen zum Spiel selbst bekommen?
+                                | Dann folge den obigen
+                                a(href='#links') Links
+                                | oder sprich uns auf einem
+                                a(href='#events') Event
+                                |selbst an.
+                                br
+                                | Du möchtest eine
+                                a(href='#locations') Location
+                                | anbieten oder selbst eine Runde leiten?
+                                | Kontaktiere uns via
+                                a(href='https://discord.gg/c6hhz7Dvc6') Discord
+                                | oder
+                                a(href='mailto:botc@dennisschuerholz.de') E-Mail
+                                | .
+
 
         // Footer
         footer.py-5.bg-black
             .container.px-5
-                p.m-0.text-center.text-white.small Copyright &copy; Your Website 2023
+                p.m-0.text-center.text-white.small Copyright &copy; BotC Community Bremen & Umzu 2024
+                p.m-0.text-center.text-white.small "Blood on the Clocktower" ist eine eingetragene Marke von Steven Medway und
+                    a(href='https://bloodontheclocktower.com/about-us') The Pandemonium Institute
+                    | .
+                p.m-0.text-center.text-white.small Diese Seite hat keine Verbundung zu oder wird unterstützt von The Pandemonium Institute.
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
