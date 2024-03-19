@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>One Page Wonder - Start Bootstrap Template</title>
+        <title>Blood on the Clocktower Bremen & Umzu</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -14,17 +14,22 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Pretix integreation-->
+        <link href="https://pretix.fachschaften.org/botc/widget/v1.css" rel="stylesheet" />
+        <script src="https://pretix.fachschaften.org/widget/v1.de-informal.js" async></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">BotC Bremen & Umzu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#!">Sign Up</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#locations">Orte</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#links">Links</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,9 +38,11 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-                    <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+                    <h1 class="masthead-heading mb-0">WORK IN PROGRESS</h1>
+                    <br />
+                    <h1 class="masthead-heading mb-0">Blood on the Clocktower</h1>
+                    <h2 class="masthead-subheading mb-0">Lokalcommunity Bremen & Umzu</h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#events">Anstehende Veranstaltungen</a>
                 </div>
             </div>
             <div class="bg-circle-1 bg-circle"></div>
@@ -44,7 +51,7 @@
             <div class="bg-circle-4 bg-circle"></div>
         </header>
         <!-- Content section 1-->
-        <section id="scroll">
+        <section id="events">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
@@ -52,15 +59,16 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">For those about to rock...</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <h2 class="display-4">Anstehende Veranstaltungen</h2>
+                            <p>Geplante Veranstaltungen können im folgenden gefunden werden. Anmeldungen werden über das System oder im Ausnahmefall direkt bei einem Storyteller entgegen genommen.</p>
+                            <p><pretix-widget event="https://pretix.fachschaften.org/botc/"></pretix-widget></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Content section 2-->
-        <section>
+        <section id="locations">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
@@ -68,15 +76,27 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">We salute you!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <h2 class="display-4">Orte</h2>
+                            <p>Unsere offenen Spielerunden finden an verschiedenen Locations statt. Da wir immer unterschiedliche räumliche Möglichkeiten haben wechselt die mögliche Teilnehmendenanzahl auch bei jedem Event.</p>
+                            <p>
+                                MZH: Universität Bremen,
+                                <a href="https://www.openstreetmap.org/relation/3293414" target="_blank">Bibliothekstr. 5, 28359 Bremen</a>
+                                (im 1. OG)
+                                <br />
+                                ITB: Universität Bremen,
+                                <a href="" target="_blank">Am Fallturm 1, 28359 Bremen</a>
+                                (Eingang A)
+                                <br />
+                                Weyher Würfel: KGS Leeste,
+                                <a href="https://www.openstreetmap.org/way/315395128" target="_blank">Schulstr. 40, 28844 Wehyle-Leeste</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Content section 3-->
-        <section>
+        <section id="links">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
@@ -84,8 +104,38 @@
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
-                            <h2 class="display-4">Let there be rock!</h2>
+                            <h2 class="display-4">Links</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 4-->
+        <section id="contact">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Kontakt</h2>
+                            <p>
+                                Du möchtest Informationen zum Spiel selbst bekommen? Dann folge den obigen
+                                <a href="#links">Links</a>
+                                oder sprich uns auf einem
+                                <a href="#events">Event</a>
+                                selbst an.
+                                <br />
+                                Du möchtest eine
+                                <a href="#locations">Location</a>
+                                anbieten oder selbst eine Runde leiten? Kontaktiere uns via
+                                <a href="https://discord.gg/c6hhz7Dvc6">Discord</a>
+                                oder
+                                <a href="mailto:botc@dennisschuerholz.de">E-Mail</a>
+                                .
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +143,15 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p></div>
+            <div class="container px-5">
+                <p class="m-0 text-center text-white small">Copyright &copy; BotC Community Bremen & Umzu 2024</p>
+                <p class="m-0 text-center text-white small">
+                    "Blood on the Clocktower" ist eine eingetragene Marke von Steven Medway und
+                    <a href="https://bloodontheclocktower.com/about-us">The Pandemonium Institute</a>
+                    .
+                </p>
+                <p class="m-0 text-center text-white small">Diese Seite hat keine Verbundung zu oder wird unterstützt von The Pandemonium Institute.</p>
+            </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
