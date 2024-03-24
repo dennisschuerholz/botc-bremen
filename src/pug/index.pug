@@ -18,10 +18,6 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
-        // Pretix integreation
-        link(href='https://events.botc-bremen.de/widget/v1.css', rel='stylesheet')
-        script(src='https://events.botc-bremen.de/widget/v1.de-informal.js', async)
-
     body#top
 
         // Navigation
@@ -67,8 +63,10 @@ html(lang='en')
                             h2.display-4 Anstehende Veranstaltungen
                             p
                                 | Geplante Veranstaltungen können im folgenden gefunden werden. Anmeldungen werden über das System oder im Ausnahmefall direkt bei einem Storyteller entgegen genommen.
-                            p
-                                pretix-widget(event='https://pretix.fachschaften.org/botc/', list-type='list', disable-iframe, disable-vouchers)
+                            ul.list-group.botc-event-widget
+                                li.list-group-item.d-flex.justify-content-center.align-items-center
+                                    i.fa-solid-fa-circle-notch.fa-spin
+                                    span.m-2 Lade Veranstaltungen...
 
         // Content section 2
         section#locations

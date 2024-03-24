@@ -1,39 +1,41 @@
 {
-    "title": "One Page Wonder",
-    "name": "startbootstrap-one-page-wonder",
-    "version": "6.0.6",
+    "title": "botc-bremen-website",
+    "name": "botc-bremen-website",
+    "version": "1.0.0",
     "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
+        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && npm run build:events",
         "build:assets": "node scripts/build-assets.js",
         "build:pug": "node scripts/build-pug.js",
         "build:scripts": "node scripts/build-scripts.js",
         "build:scss": "node scripts/build-scss.js",
+        "build:events": "node scripts/build-events.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A one page HTML template built with Bootstrap",
+    "description": "Website for BotC Bremen & Umzu",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "botc",
+        "blood on the clocktower",
+        "bremen"
     ],
-    "homepage": "https://startbootstrap.com/theme/one-page-wonder",
+    "custom": {
+        "eventSource": "https://cloud.itb.uni-bremen.de/remote.php/dav/public-calendars/iee76DfH3p6mQMMk?export"
+    },
+    "homepage": "https://botc-bremen.de",
+    "private": true,
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-one-page-wonder/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/dennisschuerholz/botc-bremen/issues"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Dennis Schürholz (https://dennisschuerholz.de/)",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "David Miller (https://davidmiller.io/)",
+        "Erik Michelson (https://erik.michelson.eu/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-one-page-wonder.git"
+        "url": "https://github.com/dennisschuerholz/botc-bremen.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "6.5.1",
@@ -44,11 +46,15 @@
         "browser-sync": "2.29.1",
         "chokidar": "3.5.3",
         "concurrently": "6.3.0",
+        "node-ical": "0.18.0",
         "postcss": "8.4.21",
         "prettier": "2.8.6",
         "pug": "3.0.2",
         "sass": "1.60.0",
         "shelljs": "0.8.5",
         "upath": "2.0.1"
+    },
+    "engines": {
+        "node": ">=18.0.0"
     }
 }
