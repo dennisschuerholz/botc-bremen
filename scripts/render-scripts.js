@@ -8,8 +8,15 @@ module.exports = function renderScripts() {
 
     const sourcePath = upath.resolve(upath.dirname(__filename), '../src/js');
     const destPath = upath.resolve(upath.dirname(__filename), '../dist/.');
-    
     sh.cp('-R', sourcePath, destPath)
+
+    const sourceBootstrap = upath.resolve(upath.dirname(__filename), '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js');
+    const destBootstrap = upath.resolve(upath.dirname(__filename), '../dist/js/bootstrap.bundle.min.js');
+    sh.cp('-u', sourceBootstrap, destBootstrap)
+
+    const sourceFontAwesome = upath.resolve(upath.dirname(__filename), '../node_modules/@fortawesome/fontawesome-free/js/all.min.js');
+    const destFontAwesome = upath.resolve(upath.dirname(__filename), '../dist/js/fontawesome-all.min.js');
+    sh.cp('-u', sourceFontAwesome, destFontAwesome)
 
     const sourcePathScriptsJS = upath.resolve(upath.dirname(__filename), '../src/js/scripts.js');
     const destPathScriptsJS = upath.resolve(upath.dirname(__filename), '../dist/js/scripts.js');
