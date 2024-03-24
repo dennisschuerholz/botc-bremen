@@ -1,6 +1,6 @@
 [
   {
-    "title": "Sonntag @Weyher Würfel",
+    "title": "Weyher Würfel",
     "start": "2024-03-24T13:00:00.000Z",
     "end": "2024-03-24T19:00:00.000Z",
     "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
@@ -12,7 +12,7 @@
     "extra": "Anmeldung via WhatsApp direkt bei Robert."
   },
   {
-    "title": "Samstag @MZH",
+    "title": "Uni Bremen / MZH",
     "start": "2024-03-16T12:00:00.000Z",
     "end": "2024-03-16T21:00:00.000Z",
     "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
@@ -26,7 +26,7 @@
     "extra": null
   },
   {
-    "title": "Sonntag @Weyher Würfel (vorläufig)",
+    "title": "Weyher Würfel (vorläufig)",
     "start": "2024-04-28T12:00:00.000Z",
     "end": "2024-04-28T18:00:00.000Z",
     "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
@@ -38,7 +38,7 @@
     "extra": "Anmeldung via WhatsApp direkt bei Robert."
   },
   {
-    "title": "Samstag @MZH",
+    "title": "Uni Bremen / MZH",
     "start": "2024-04-13T11:00:00.000Z",
     "end": "2024-04-13T20:00:00.000Z",
     "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
@@ -50,10 +50,10 @@
     "extra": null
   },
   {
-    "title": "Blood on the Clocktower (241M15-430) ",
+    "title": "vhs im Bamberger",
     "start": "2024-06-12T15:00:00.000Z",
     "end": "2024-06-12T19:00:00.000Z",
-    "location": "vhs im Bamberger, Raum 307, Faulenstraße 69, 28195 Bremen",
+    "location": "Raum 307, Faulenstraße 69, 28195 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/2528100306",
     "url": "https://www.vhs-bremen.de/kurssuche/kurs/241M15-430",
     "storyTellers": [
@@ -62,10 +62,10 @@
     "extra": null
   },
   {
-    "title": "Blood on the Clocktower (241M15-431) ",
+    "title": "vhs im Bamberger",
     "start": "2024-08-07T15:00:00.000Z",
     "end": "2024-08-07T19:00:00.000Z",
-    "location": "vhs im Bamberger, Raum 307, Faulenstraße 69, 28195 Bremen",
+    "location": "Raum 307, Faulenstraße 69, 28195 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/2528100306",
     "url": "https://www.vhs-bremen.de/kurssuche/kurs/241M15-431",
     "storyTellers": [
