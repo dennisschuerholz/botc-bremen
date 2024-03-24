@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Sonntag @Weyher Würfel",
+    "start": "2024-03-24T13:00:00.000Z",
+    "end": "2024-03-24T19:00:00.000Z",
+    "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
+    "locationUrl": null,
+    "url": null,
+    "storyTellers": [
+      "robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Samstag @MZH",
+    "start": "2024-03-16T12:00:00.000Z",
+    "end": "2024-03-16T21:00:00.000Z",
+    "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": null,
+    "url": null,
+    "storyTellers": [
+      "dennis",
+      "robert",
+      "alex",
+      "kathi"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Sonntag @Weyher Würfel (vorläufig)",
+    "start": "2024-04-28T12:00:00.000Z",
+    "end": "2024-04-28T18:00:00.000Z",
+    "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
+    "locationUrl": null,
+    "url": null,
+    "storyTellers": [
+      "robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Samstag @MZH",
+    "start": "2024-04-13T11:00:00.000Z",
+    "end": "2024-04-13T20:00:00.000Z",
+    "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": null,
+    "url": "https://events.botc-bremen.de/mzh240413/",
+    "storyTellers": [
+      "dennis"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Blood on the Clocktower (241M15-430) ",
+    "start": "2024-06-12T15:00:00.000Z",
+    "end": "2024-06-12T19:00:00.000Z",
+    "location": "vhs im Bamberger, Raum 307, Faulenstraße 69, 28195 Bremen",
+    "locationUrl": null,
+    "url": "https://www.vhs-bremen.de/kurssuche/kurs/241M15-430",
+    "storyTellers": [
+      "robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Blood on the Clocktower (241M15-431) ",
+    "start": "2024-08-07T15:00:00.000Z",
+    "end": "2024-08-07T19:00:00.000Z",
+    "location": "vhs im Bamberger, Raum 307, Faulenstraße 69, 28195 Bremen",
+    "locationUrl": null,
+    "url": "https://www.vhs-bremen.de/kurssuche/kurs/241M15-431",
+    "storyTellers": [
+      "robert"
+    ],
+    "extra": null
+  }
+]

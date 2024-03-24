@@ -11,9 +11,6 @@
         <script src="js/fontawesome-all.min.js" async></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!-- Pretix integreation-->
-        <link href="https://events.botc-bremen.de/widget/v1.css" rel="stylesheet" />
-        <script src="https://events.botc-bremen.de/widget/v1.de-informal.js" async></script>
     </head>
     <body id="top">
         <!-- Navigation-->
@@ -58,7 +55,12 @@
                         <div class="p-5">
                             <h2 class="display-4">Anstehende Veranstaltungen</h2>
                             <p>Geplante Veranstaltungen können im folgenden gefunden werden. Anmeldungen werden über das System oder im Ausnahmefall direkt bei einem Storyteller entgegen genommen.</p>
-                            <p><pretix-widget event="https://pretix.fachschaften.org/botc/" list-type="list" disable-iframe disable-vouchers></pretix-widget></p>
+                            <ul class="list-group botc-event-widget">
+                                <li class="list-group-item d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid-fa-circle-notch fa-spin"></i>
+                                    <span class="m-2">Lade Veranstaltungen...</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

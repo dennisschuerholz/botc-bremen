@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - One Page Wonder v6.0.6 (https://startbootstrap.com/theme/one-page-wonder)
-* Copyright 2013-2024 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+* Start Bootstrap - botc-bremen-website v1.0.0 (https://botc-bremen.de)
+* Copyright 2013-2024 Dennis Schürholz (https://dennisschuerholz.de/)
+* Licensed under MIT (https://github.com/StartBootstrap/botc-bremen-website/blob/master/LICENSE)
 */
 /* tamil */
 @font-face {
@@ -11294,4 +11294,14 @@ header.masthead .bg-circle-4 {
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
   }
+}
+.botc-event-widget .event {
+  transition: background-color 0.15s;
+}
+.botc-event-widget .cursor-pointer {
+  cursor: pointer;
+}
+.botc-event-widget .title {
+  font-size: 1.15rem;
+  margin: 0;
 }
