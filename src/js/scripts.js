@@ -40,7 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     eventElement.classList.remove('bg-light');
                 });
                 if (event.url) {
-                    eventElement.addEventListener('click', () => {
+                    eventElement.addEventListener('click', (clickEvent) => {
+                        if (clickEvent.target.tagName === 'SPAN' && clickEvent.target.parentElement.tagName === 'A') {
+                            return;
+                        }
                         window.open(event.url, '_blank');
                     });
                     eventElement.classList.add('cursor-pointer');
