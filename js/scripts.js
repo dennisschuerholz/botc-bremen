@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
             rootElement.innerHTML = '';
             events.sort((a, b) => new Date(a.start) - new Date(b.start));
             const now = new Date();
+            const dateFormat = new Intl.DateTimeFormat('de-DE', {
+               weekday: 'short',
+               year: 'numeric',
+               month: '2-digit',
+               day: '2-digit',
+               hour: '2-digit',
+               minute: '2-digit',
+            });
             events.forEach(event => {
                 if (new Date(event.end) < now) {
                     return;
@@ -22,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <b class="title d-inline-block mb-1">${event.title}</b>
                         <div title="Start">
                             <i class="fa-solid fa-calendar-days"></i>
-                            <time class="ms-1" datetime="${event.start}">${new Date(event.start).toLocaleString()} - ${new Date(event.end).toLocaleTimeString()}</time>
+                            <time class="ms-1" datetime="${event.start}">${dateFormat.formatRange(new Date(event.start), new Date(event.end))}</time>
                         </div>
                         <div title="Ort">
                             <i class="fa-solid fa-location-dot"></i>
@@ -46,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 if (event.url) {
                     eventElement.addEventListener('click', (clickEvent) => {
-                        if (clickEvent.target.tagName === 'SPAN' && clickEvent.target.parentElement.tagName === 'A') {
+                        if (clickEvent.target.parentElement.tagName === 'A') {
                             return;
                         }
                         window.open(event.url, '_blank');
