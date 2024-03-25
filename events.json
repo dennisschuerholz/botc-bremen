@@ -12,6 +12,18 @@
     "extra": "Anmeldung via WhatsApp direkt bei Robert."
   },
   {
+    "title": "ONOC: Uni Bremen / MZH",
+    "start": "2024-05-31T16:00:00.000Z",
+    "end": "2024-05-31T23:00:00.000Z",
+    "location": "MZH Ebene 0, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Keine Voranmeldung, spontane Runden mit Teilnehmender der Open Night of Code."
+  },
+  {
     "title": "Uni Bremen / MZH",
     "start": "2024-03-16T12:00:00.000Z",
     "end": "2024-03-16T21:00:00.000Z",
@@ -26,9 +38,9 @@
     "extra": null
   },
   {
-    "title": "Weyher Würfel (vorläufig)",
-    "start": "2024-04-28T12:00:00.000Z",
-    "end": "2024-04-28T18:00:00.000Z",
+    "title": "Weyher Würfel",
+    "start": "2024-05-05T12:00:00.000Z",
+    "end": "2024-05-05T18:00:00.000Z",
     "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
     "locationUrl": "https://www.openstreetmap.org/way/315395128",
     "url": null,
