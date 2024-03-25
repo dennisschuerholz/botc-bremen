@@ -3,6 +3,7 @@ const fs = require('fs');
 const packageJSON = require('../package.json');
 const upath = require('upath');
 const ical = require('node-ical');
+const RSS = require('rss');
 
 // Download ics file from source configured in package.json
 const icsUrl = packageJSON.custom.eventSource;
@@ -49,6 +50,38 @@ fetch(icsUrl)
 
         // Store the parsed events into a JSON file
         fs.writeFileSync(upath.resolve(__dirname, '../dist/events.json'), JSON.stringify(events, null, 2));
+
+        const feed = new RSS({
+            title: 'Veranstaltungen von BotC Bremen & Umzu',
+            feed_url: 'https://botc-bremen.de/events.rss',
+            site_url: 'https://botc-bremen.de',
+        });
+        const dateFormat = new Intl.DateTimeFormat('de-DE', {
+           weekday: 'short',
+           year: 'numeric',
+           month: '2-digit',
+           day: '2-digit',
+           hour: '2-digit',
+           minute: '2-digit',
+        });
+        events.forEach ((e) => {
+            let descr = `Termin: ${dateFormat.formatRange(e.start, e.end)}`
+            descr += `\nLocation: ${e.location}`;
+            if (e.locationUrl !== null) descr += ` (${e.locationUrl})`;
+            if (e.storyTellers !== []) descr += `\nStoryteller: ${e.storyTellers.join(', ')}`;
+            if (e.url !== null) descr += `\nAnmeldung: ${e.url}`;
+            if (e.extra !== null) descr += `\n\n${e.extra}`;
+            feed.item({
+                title: e.title,
+                description: descr,
+                url: e.url || 'https://botc-bremen.de',
+                guid: e.start.toISOString(),
+                author: e.storyTellers.join(', '),
+                date: e.start,
+            });
+        });
+        // Store the events into a RSS file
+        fs.writeFileSync(upath.resolve(__dirname, '../dist/events.rss'), feed.xml({indent:true}))
     })
     .catch(err => {
         console.error(err);
