@@ -1,6 +1,6 @@
-// 
+//
 // Styles
-// 
+//
 
 // Fonts
 @import "./fonts/catamaran";
@@ -21,6 +21,9 @@
 
 // Sections
 @import "./sections/masthead.scss";
+
+// Override Bootstrap padding on small devices
+@import "./override/padding.scss";
 
 // Event Widget
 @import "./components/botc-event-widget.scss";
