@@ -22,7 +22,7 @@ html(lang='de')
 
         // Navigation
         nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
-            .container.px-md-5.px-3
+            .container.px-xl-5.px-3
                 a.navbar-brand(href='#top') BotC Bremen & Umzu
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
@@ -40,7 +40,7 @@ html(lang='de')
         // Header
         header.masthead.text-center.text-white
             .masthead-content
-                .container.px-md-5.px-3
+                .container.px-xl-5.px-3
                     h1.masthead-heading.mb-0 Blood on the Clocktower
                     h2.masthead-subheading.mb-0 Lokalcommunity Bremen & Umzu
                     a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#events') Anstehende Veranstaltungen
@@ -51,34 +51,42 @@ html(lang='de')
 
         // Content section 1
         section#events
-            .container.px-md-5.px-3
+            .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
-                        .p-md-5.p-2
+                        .p-xl-5.p-2
                             img.img-fluid.rounded-circle(src='assets/img/clocktower.jpg', alt='...')
                     .col-lg-6.order-lg-1
-                        .p-md-5.p-2
+                        .p-xl-5.p-2
                             h2.display-4 Veranstaltungen
                             p.mb-0
                                 | Hier findet ihr immer die nächsten geplanten Veranstaltungen. Anmeldungen werden über den Link oder ggf. direkt von Storytellern entgegen genommen.
-                            .text-end.mb-2
-                                | Hier abonnieren:
-                                a(href='/events.ics', title='Termindownload oder Kalenderabonnement (ics/ical)').p-1.m-1
-                                    i.fa-solid.fa-calendar-check
-                            ul.list-group.botc-event-widget
+                            .row.mb-2.mt-2
+                                .text-start.col-sm-8
+                                    a(href='javascript:nextEvents(true)', title='Frühere Veranstaltungen')#prevEvents.p-1.m1
+                                        i.fa-solid.fa-calendar-minus
+                                    span#eventsCounter.p-1.m1
+                                        | Seite 1 von ...
+                                    a(href='javascript:nextEvents()', title='Spätere Veranstaltungen')#nextEvents.p-1.m1
+                                        i.fa-solid.fa-calendar-plus
+                                .text-end.col-sm-4
+                                    | Abonnieren:
+                                    a(href='/events.ics', title='Termindownload oder Kalenderabonnement (ics/ical)').p-1.m-1
+                                        i.fa-solid.fa-calendar-check
+                            ul.list-group#botc-event-widget
                                 li.list-group-item.d-flex.justify-content-center.align-items-center
                                     i.fa-solid-fa-circle-notch.fa-spin
                                     span.m-2 Lade Veranstaltungen...
 
         // Content section 2
         section#locations
-            .container.px-md-5.px-3
+            .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
                     .col-lg-6
-                        .p-md-5.p-2
+                        .p-xl-5.p-2
                             img.img-fluid.rounded-circle(src='assets/img/townsquare.jpg', alt='...')
                     .col-lg-6
-                        .p-md-5.p-2
+                        .p-xl-5.p-2
                             h2.display-4 Orte
                             p
                                 | Unsere offenen Spielerunden finden an verschiedenen Locations statt. Da wir immer unterschiedliche räumliche Möglichkeiten haben wechselt die mögliche Teilnehmendenanzahl auch bei jedem Event.
@@ -100,13 +108,13 @@ html(lang='de')
 
         // Content section 3
         section#links
-            .container.px-md-5.px-3
+            .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
-                        .p-md-5.p-2
+                        .p-xl-5.p-2
                             img.img-fluid.rounded-circle(src='assets/img/network.jpg', alt='...')
                     .col-lg-6.order-lg-1
-                        .p-md-5.p-2
+                        .p-xl-5.p-2
                             h2.display-4 Links
                             p
                                 |
@@ -130,13 +138,13 @@ html(lang='de')
 
         // Content section 4
         section#contact
-            .container.px-md-5.px-3
+            .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
-                    .col-lg-6
-                        .p-md-5.p-2
+                    .col-lg-6.order-lg-2
+                        .p-xl-5.p-2
                             img.img-fluid.rounded-circle(src='assets/img/grimsetup.jpg', alt='...')
-                    .col-lg-6
-                        .p-md-5.p-2
+                    .col-lg-6.order-lg-1
+                        .p-xl-5.p-2
                             h2.display-4 Kontakt
                             p
                                 | Du möchtest Informationen zum Spiel selbst bekommen?
@@ -158,7 +166,7 @@ html(lang='de')
 
         // Footer
         footer.py-5.bg-black
-            .container.px-md-5.px-3
+            .container.px-xl-5.px-3
                 p.m-0.text-center.text-white.small Copyright &copy; BotC Community Bremen & Umzu 2024
                 p.m-0.text-center.text-white.small "Blood on the Clocktower" ist eine eingetragene Marke von
                     a(href='https://bloodontheclocktower.com/about-us', target='_blank') The Pandemonium Institute
