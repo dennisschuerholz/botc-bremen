@@ -4,13 +4,10 @@
 
 // Override Bootstrap color system
 
-$pink: #ee0979;
-$orange: #ff6a00;
-
 // Override Bootstrap default state colors
 
-$primary: $pink;
-$secondary: $orange;
+$primary: #0054A4;
+$secondary: #8C0E12;
 $body-color: #212529; // copied from Bootstrap-source
 $link-color: $body-color;
 $link-hover-color: adjust-color($link-color, $lightness: 10%);
