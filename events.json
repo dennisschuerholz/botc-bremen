@@ -43,11 +43,11 @@
     "end": "2024-05-05T18:00:00.000Z",
     "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
     "locationUrl": "https://www.openstreetmap.org/way/315395128",
-    "url": "https://events.botc-bremen.de/Weyhe051/",
+    "url": null,
     "storyTellers": [
       "Robert"
     ],
-    "extra": null
+    "extra": "Test des Anmeldesystems ab 19.04. verfügbar."
   },
   {
     "title": "Weyher Würfel",
@@ -99,5 +99,29 @@
       "Robert"
     ],
     "extra": null
+  },
+  {
+    "title": "Weyher Würfel",
+    "start": "2024-05-01T16:00:00.000Z",
+    "end": "2024-05-01T20:00:00.000Z",
+    "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
+    "locationUrl": "https://www.openstreetmap.org/way/315395128",
+    "url": null,
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": "Test des Anmeldesystems ab 19.04. verfügbar."
+  },
+  {
+    "title": "Weyher Würfel",
+    "start": "2024-05-15T16:00:00.000Z",
+    "end": "2024-05-15T20:00:00.000Z",
+    "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
+    "locationUrl": "https://www.openstreetmap.org/way/315395128",
+    "url": null,
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": "Test des Anmeldesystems ab 19.04. verfügbar."
   }
 ]
