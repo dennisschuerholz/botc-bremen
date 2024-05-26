@@ -39,14 +39,14 @@ STATUS:CONFIRMED
 CREATED:20240322T110056Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20240526T054842Z
+DTSTAMP:20240526T055405Z
 UID:6e25668d-b055-4a79-8029-d5ad57bff2cd
-SEQUENCE:7
+SEQUENCE:8
 SUMMARY:Uni Bremen / MZH (@ONOC)
 LOCATION:MZH Ebene 0\, Bibliothekstr. 5\, 28359 Bremen
 DESCRIPTION:ST: Dennis\nLOC: https://www.openstreetmap.org/relation/3293414
  \nDie Open Night of Code (onoc.eu) startet um 18 Uhr. Keine Voranmeldungen
- \, spontane Runde(n) mit Teilnehmenden ab 21:30.
+ \, spontane Runde(n) vor Ort.
 DTSTART;TZID=Europe/Berlin:20240531T213000
 DTEND;TZID=Europe/Berlin:20240601T010000
 CLASS:PUBLIC
