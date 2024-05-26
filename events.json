@@ -12,8 +12,8 @@
     "extra": "Anmeldung via WhatsApp direkt bei Robert."
   },
   {
-    "title": "[vorläufig] Uni Bremen / MZH (@ONOC)",
-    "start": "2024-05-31T16:00:00.000Z",
+    "title": "Uni Bremen / MZH (@ONOC)",
+    "start": "2024-05-31T19:30:00.000Z",
     "end": "2024-05-31T23:00:00.000Z",
     "location": "MZH Ebene 0, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
@@ -21,7 +21,7 @@
     "storyTellers": [
       "Dennis"
     ],
-    "extra": "Keine Voranmeldungen. Spontane Runde(n) mit Teilnehmenden der Open Night of Code (onoc.eu)."
+    "extra": null
   },
   {
     "title": "Uni Bremen / MZH",
@@ -106,7 +106,7 @@
     "title": "Uni Bremen / MZH",
     "start": "2024-06-01T11:00:00.000Z",
     "end": "2024-06-01T20:00:00.000Z",
-    "location": "MZH 1450, Bibliothekstr. 5, 28359 Bremen",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "https://events.botc-bremen.de/UniBre01/",
     "storyTellers": [
