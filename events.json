@@ -25,6 +25,34 @@
   },
   {
     "title": "Uni Bremen / MZH",
+    "start": "2024-07-27T11:00:00.000Z",
+    "end": "2024-07-27T20:00:00.000Z",
+    "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh240727/",
+    "storyTellers": [
+      "Alex",
+      "Dennis",
+      "Kathi"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-07-13T11:00:00.000Z",
+    "end": "2024-07-13T20:00:00.000Z",
+    "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh240713/",
+    "storyTellers": [
+      "Alex",
+      "Dennis",
+      "Kathi"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Uni Bremen / MZH",
     "start": "2024-03-16T12:00:00.000Z",
     "end": "2024-03-16T21:00:00.000Z",
     "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
@@ -99,6 +127,20 @@
     "url": "https://events.botc-bremen.de/Weyhe062/",
     "storyTellers": [
       "Robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-06-29T11:00:00.000Z",
+    "end": "2024-06-29T20:00:00.000Z",
+    "location": "MZH 1100, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh240629/",
+    "storyTellers": [
+      "Alex",
+      "Dennis",
+      "Kathi"
     ],
     "extra": null
   },
