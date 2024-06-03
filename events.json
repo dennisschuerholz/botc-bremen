@@ -81,6 +81,18 @@
   },
   {
     "title": "Weyher Würfel",
+    "start": "2024-06-23T12:00:00.000Z",
+    "end": "2024-06-23T18:00:00.000Z",
+    "location": "ITb",
+    "locationUrl": "ITb",
+    "url": "https://events.botc-bremen.de/Weyhe062/",
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Weyher Würfel",
     "start": "2024-04-17T16:00:00.000Z",
     "end": "2024-04-17T20:00:00.000Z",
     "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
