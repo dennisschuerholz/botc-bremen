@@ -80,11 +80,11 @@
     "extra": null
   },
   {
-    "title": "Weyher Würfel",
+    "title": "ITBremen",
     "start": "2024-06-23T12:00:00.000Z",
     "end": "2024-06-23T18:00:00.000Z",
-    "location": "ITb",
-    "locationUrl": "ITb",
+    "location": "ITbremen",
+    "locationUrl": "https://maps.app.goo.gl/WrSrTotg63Hza7sc8",
     "url": "https://events.botc-bremen.de/Weyhe062/",
     "storyTellers": [
       "Robert"
