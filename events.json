@@ -80,11 +80,11 @@
     "extra": null
   },
   {
-    "title": "ITBremen",
+    "title": "Uni Bremen / ITB",
     "start": "2024-06-23T12:00:00.000Z",
     "end": "2024-06-23T18:00:00.000Z",
-    "location": "ITbremen",
-    "locationUrl": "https://maps.app.goo.gl/WrSrTotg63Hza7sc8",
+    "location": "ITB, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
     "url": "https://events.botc-bremen.de/Weyhe062/",
     "storyTellers": [
       "Robert"
