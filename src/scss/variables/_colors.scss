@@ -8,6 +8,10 @@
 
 $primary: #0054A4;
 $secondary: #8C0E12;
+$white: #f9f7f1;
+$white-rgb: rgb(249, 247, 241);
+$body-bg: $white;
+$list-group-bg: $body-bg;
 $body-color: #212529; // copied from Bootstrap-source
 $link-color: $body-color;
 $link-hover-color: adjust-color($link-color, $lightness: 10%);
