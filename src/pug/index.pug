@@ -31,9 +31,9 @@ html(lang='de')
                         li.nav-item
                             a.nav-link(href='#events') Veranstaltungen
                         li.nav-item
-                            a.nav-link(href='#locations') Orte
-                        li.nav-item
                             a.nav-link(href='#contact') Kontakt
+                        li.nav-item
+                            a.nav-link(href='#locations') Orte
                         li.nav-item
                             a.nav-link(href='#links') Links
 
@@ -75,41 +75,13 @@ html(lang='de')
                                     span.m-2 Lade Veranstaltungen...
 
         // Content section 2
-        section#locations
-            .container.px-xl-5.px-3
-                .row.gx-5.align-items-center
-                    .col-lg-6.order-lg-1
-                        .p-xl-5.p-2
-                            img.img-fluid.rounded-circle(src='assets/img/4.jpg', alt='...')
-                    .col-lg-6.order-lg-2
-                        .p-xl-5.p-2
-                            h2.display-4 Orte
-                            p
-                                | Unsere offenen Spielerunden finden an verschiedenen Locations statt. Da wir immer unterschiedliche räumliche Möglichkeiten haben wechselt die mögliche Teilnehmendenanzahl auch bei jedem Event.
-                            p
-                                | ITB: Universität Bremen,
-                                a(href='https://www.openstreetmap.org/way/7723480', target='_blank') Am Fallturm 1, 28359 Bremen
-                                | (Eingang A)
-                                br
-                                | MZH: Universität Bremen,
-                                a(href='https://www.openstreetmap.org/relation/3293414', target='_blank') Bibliothekstr. 5, 28359 Bremen
-                                | (im 1. OG)
-                                br
-                                | VHS: vhs im Bamberger,
-                                a(href='https://www.openstreetmap.org/node/2528100306', tagrte='_blank') Faulenstraße 69, 28195 Bremen
-                                | (Raum 307)
-                                br
-                                | Weyher Würfel: KGS Leeste,
-                                a(href='https://www.openstreetmap.org/way/315395128', target='_blank') Schulstr. 40, 28844 Wehyle-Leeste
-
-        // Content section 3
         section#contact
             .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
-                    .col-lg-6.order-lg-2
+                    .col-lg-6.order-lg-1
                         .p-xl-5.p-2
                             img.img-fluid.rounded-circle(src='assets/img/1.jpg', alt='...')
-                    .col-lg-6.order-lg-1
+                    .col-lg-6.order-lg-2
                         .p-xl-5.p-2
                             h2.display-4 Kontakt
                             ul.list-group.list-group-flush
@@ -143,6 +115,34 @@ html(lang='de')
                                             | Kontaktiere uns gerne per
                                             a(href='mailto:info@botc-bremen.de') E-Mail
                                             | für weitere Fragen, Anregungen oder sonstige Anliegen.
+
+        // Content section 3
+        section#locations
+            .container.px-xl-5.px-3
+                .row.gx-5.align-items-center
+                    .col-lg-6.order-lg-2
+                        .p-xl-5.p-2
+                            img.img-fluid.rounded-circle(src='assets/img/4.jpg', alt='...')
+                    .col-lg-6.order-lg-1
+                        .p-xl-5.p-2
+                            h2.display-4 Orte
+                            p
+                                | Unsere offenen Spielerunden finden an verschiedenen Locations statt. Da wir immer unterschiedliche räumliche Möglichkeiten haben wechselt die mögliche Teilnehmendenanzahl auch bei jedem Event.
+                            p
+                                | ITB: Universität Bremen,
+                                a(href='https://www.openstreetmap.org/way/7723480', target='_blank') Am Fallturm 1, 28359 Bremen
+                                | (Eingang A)
+                                br
+                                | MZH: Universität Bremen,
+                                a(href='https://www.openstreetmap.org/relation/3293414', target='_blank') Bibliothekstr. 5, 28359 Bremen
+                                | (im 1. OG)
+                                br
+                                | VHS: vhs im Bamberger,
+                                a(href='https://www.openstreetmap.org/node/2528100306', tagrte='_blank') Faulenstraße 69, 28195 Bremen
+                                | (Raum 307)
+                                br
+                                | Weyher Würfel: KGS Leeste,
+                                a(href='https://www.openstreetmap.org/way/315395128', target='_blank') Schulstr. 40, 28844 Wehyle-Leeste
 
         // Content section 4
         section#links
