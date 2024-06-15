@@ -1,5 +1,17 @@
 [
   {
+    "title": "BotC in der VHS",
+    "start": "2024-09-04T15:00:00.000Z",
+    "end": "2024-09-04T19:00:00.000Z",
+    "location": "Raum 307, Faulenstraße 69, 28195 Bremen",
+    "locationUrl": "https://maps.app.goo.gl/XDjDjytc12TK2vmk8",
+    "url": "https://www.vhs-bremen.de/kurssuche/kurs/Blood-on-the-Clocktower/242M15-432",
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
     "title": "Weyher Würfel",
     "start": "2024-03-24T13:00:00.000Z",
     "end": "2024-03-24T19:00:00.000Z",
