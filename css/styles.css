@@ -19430,6 +19430,22 @@ textarea.form-control-lg {
   content: "賈";
 }
 
+.bi-spin {
+  animation-name: bi-spin;
+  animation-direction: normal;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+@keyframes bi-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 html {
   scroll-padding-top: 67px;
 }

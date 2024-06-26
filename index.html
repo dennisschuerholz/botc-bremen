@@ -7,8 +7,6 @@
         <meta name="author" content="Dennis Schürholz, BotC Bremen &amp; Umzu" />
         <title>Blood on the Clocktower Bremen & Umzu</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="js/fontawesome-all.min.js" async></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -51,18 +49,18 @@
                             <p class="mb-0">Hier findet ihr immer die nächsten geplanten Veranstaltungen. Anmeldungen werden über den Link oder ggf. direkt von Storytellern entgegen genommen.</p>
                             <div class="row mb-2 mt-2">
                                 <div class="text-start col-sm-8">
-                                    <a class="p-1 m1" href="javascript:nextEvents(true)" title="Frühere Veranstaltungen" id="prevEvents"><i class="fa-solid fa-calendar-minus"></i></a>
+                                    <a class="p-1 m1" href="javascript:nextEvents(true)" title="Frühere Veranstaltungen" id="prevEvents"><i class="bi bi-chevron-left"></i></a>
                                     <span class="p-1 m1" id="eventsCounter">Seite 1 von ...</span>
-                                    <a class="p-1 m1" href="javascript:nextEvents()" title="Spätere Veranstaltungen" id="nextEvents"><i class="fa-solid fa-calendar-plus"></i></a>
+                                    <a class="p-1 m1" href="javascript:nextEvents()" title="Spätere Veranstaltungen" id="nextEvents"><i class="bi bi-chevron-right"></i></a>
                                 </div>
                                 <div class="text-end col-sm-4">
                                     Abonnieren:
-                                    <a class="p-1 m-1" href="/events.ics" title="Termindownload oder Kalenderabonnement (ics/ical)"><i class="fa-solid fa-calendar-check"></i></a>
+                                    <a class="p-1 m-1" href="/events.ics" title="Termindownload oder Kalenderabonnement (ics/ical)"><i class="bi bi-calendar-heart"></i></a>
                                 </div>
                             </div>
                             <ul class="list-group" id="botc-event-widget">
                                 <li class="list-group-item d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid-fa-circle-notch fa-spin"></i>
+                                    <i class="bi bi-arrow-repeat bi-spin"></i>
                                     <span class="m-2">Lade Veranstaltungen...</span>
                                 </li>
                             </ul>
