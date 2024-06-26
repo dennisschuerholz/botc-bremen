@@ -1,5 +1,5 @@
 let events = [];
-let chunksize = 4;
+let chunksize = 3;
 let startCounter = 0;
 
 function nextEvents(decrease = false) {
@@ -34,22 +34,22 @@ function fillEvents() {
             <div>
                 <b class="title d-inline-block mb-1">${event.title}</b>
                 <div title="Start">
-                    <i class="fa-solid fa-calendar-days"></i>
+                    <i class="bi bi-calendar-event"></i>
                     <time class="ms-1" datetime="${event.start}">${dateFormat.formatRange(new Date(event.start), new Date(event.end))}</time>
                 </div>
                 <div title="Ort">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="bi bi-pin-map-fill"></i>
                     ${event.locationUrl ? `<a href="${event.locationUrl}" target="_blank">` : ''}
                     <span class="ms-1">${event.location || '<i>Noch nicht bestimmt</i>'}</span>
                     ${event.locationUrl ? '</a>' : ''}
                 </div>
                 <div title="Storyteller">
-                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <i class="bi bi-person-workspace"></i>
                     <span class="ms-1">${event.storyTellers.length > 0 ? event.storyTellers.join(", ") : '<i>Noch nicht bestimmt</i>'}</span>
                 </div>
-                ${event.extra ? `<div title="Extra" class="extra"><i class="fa-solid fa-info-circle"></i> <span class="ms-1">${event.extra}</span></div>` : ''}
+                ${event.extra ? `<div title="Extra" class="extra"><i class="bi bi-info-lg"></i> <span class="ms-1">${event.extra}</span></div>` : ''}
             </div>
-            ${event.url ? `<a href="${event.url}" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>` : ''}
+            ${event.url ? `<a href="${event.url}" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>` : ''}
         `;
         eventElement.addEventListener('mouseover', () => {
             eventElement.classList.add('bg-light');

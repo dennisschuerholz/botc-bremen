@@ -12,9 +12,6 @@ html(lang='de')
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
-        // Font Awesome icons (free version)
-        script(src='js/fontawesome-all.min.js', async)
-
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
@@ -60,18 +57,18 @@ html(lang='de')
                             .row.mb-2.mt-2
                                 .text-start.col-sm-8
                                     a(href='javascript:nextEvents(true)', title='Frühere Veranstaltungen')#prevEvents.p-1.m1
-                                        i.fa-solid.fa-calendar-minus
+                                        i.bi.bi-chevron-left
                                     span#eventsCounter.p-1.m1
                                         | Seite 1 von ...
                                     a(href='javascript:nextEvents()', title='Spätere Veranstaltungen')#nextEvents.p-1.m1
-                                        i.fa-solid.fa-calendar-plus
+                                        i.bi.bi-chevron-right
                                 .text-end.col-sm-4
                                     | Abonnieren:
                                     a(href='/events.ics', title='Termindownload oder Kalenderabonnement (ics/ical)').p-1.m-1
-                                        i.fa-solid.fa-calendar-check
+                                        i.bi.bi-calendar-heart
                             ul.list-group#botc-event-widget
                                 li.list-group-item.d-flex.justify-content-center.align-items-center
-                                    i.fa-solid-fa-circle-notch.fa-spin
+                                    i.bi.bi-arrow-repeat.bi-spin
                                     span.m-2 Lade Veranstaltungen...
 
         // Content section 2
