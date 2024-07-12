@@ -182,6 +182,21 @@
     "extra": null
   },
   {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-08-10T11:00:00.000Z",
+    "end": "2024-08-10T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh240810/",
+    "storyTellers": [
+      "Alex",
+      "Daniel",
+      "Dennis",
+      "Kathi"
+    ],
+    "extra": null
+  },
+  {
     "title": "BotC in der VHS",
     "start": "2024-06-12T15:00:00.000Z",
     "end": "2024-06-12T19:00:00.000Z",
