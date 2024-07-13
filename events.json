@@ -197,6 +197,30 @@
     "extra": null
   },
   {
+    "title": "Weyher Würfel",
+    "start": "2024-08-21T16:00:00.000Z",
+    "end": "2024-08-21T20:00:00.000Z",
+    "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
+    "locationUrl": "https://www.openstreetmap.org/way/315395128",
+    "url": "https://events.botc-bremen.de/weyhe081/",
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Uni Bremen / ITB",
+    "start": "2024-08-14T16:00:00.000Z",
+    "end": "2024-08-14T20:00:00.000Z",
+    "location": "ITB, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
+    "url": "https://events.botc-bremen.de/Itb0801/",
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
     "title": "BotC in der VHS",
     "start": "2024-06-12T15:00:00.000Z",
     "end": "2024-06-12T19:00:00.000Z",
