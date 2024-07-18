@@ -1,0 +1,82 @@
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    color: $dark-purple;
+}
+
+.navbar-custom {
+    .navbar-nav .nav-item .nav-link {
+        font-family: "Spectral SC", #{$font-family-base};
+        text-transform: none;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-family: "Spectral SC", #{$font-family-base};
+        text-transform: none;
+        font-weight: 600;
+    }
+}
+
+footer {
+    background-color: $dark-purple;
+    a:hover {
+        color: #ffffff;
+    }
+}
+
+#contact .bi {
+    color: $dark-purple;
+}
+
+#team .card-title svg {
+    width: 100%;
+    height: 100%;
+    color: $dark-purple;
+}
+
+#koop .card-img-container {
+    flex: 1 2 100%;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
+}
+
+emph.good {
+    color: $good;
+}
+emph.bad {
+    color: $bad;
+}
+
+.dot::after, .ddot::after, .qmark::after, .emark::after {
+    color: initial;
+    text-decoration: none;
+    text-transform: none;
+}
+.dot::after {
+    content: '.';
+}
+.ddot::after {
+    content: ':';
+}
+.qmark::after {
+    content: '?';
+}
+.emark::after {
+    content: '!';
+}
+
+/*a[target="_blank"]::after {
+    font-family: "bootstrap-icons" !important;
+    content: '\F1C5';
+}*/
+
+a .bi {
+    text-decoration: none;
+    margin: 0 1ex;
+}

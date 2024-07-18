@@ -6,11 +6,12 @@
 
 // Override Bootstrap default state colors
 $almost-white: rgb(249, 247, 241);
+$dark-purple: rgb(49, 21, 62);
 $good: #0054A4;
 $bad: #8C0E12;
 
 $primary: $good;
-$secondary: $bad;
+$secondary: $dark-purple;
 $white: $almost-white;
 $white-rgb: $almost-white;
 $body-bg: $white;

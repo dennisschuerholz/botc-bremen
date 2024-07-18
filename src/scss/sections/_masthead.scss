@@ -18,11 +18,24 @@ header.masthead {
         position: relative;
 
         .masthead-heading {
-            font-size: 4rem;
+            font-size: 5rem;
+            color: $almost-white;
+            font-family: "Middle Saxony Text", #{$headings-font-family};
+            font-weight: 400;
         }
 
         .masthead-subheading {
             font-size: 2rem;
+            font-weight: 400;
+            color: $almost-white;
+        }
+
+        a.btn {
+            color: $dark-purple;
+            background-color: $almost-white;
+            font-family: "Spectral SC", #{$headings-font-family};
+            text-transform: none;
+            font-size: 1rem;
         }
     }
 }
@@ -34,11 +47,11 @@ header.masthead {
 
         .masthead-content {
             .masthead-heading {
-                font-size: 6rem;
+                font-size: 8rem;
             }
 
             .masthead-subheading {
-                font-size: 4rem;
+                font-size: 3rem;
             }
         }
     }

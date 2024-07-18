@@ -28,18 +28,94 @@ html(lang='de')
                         li.nav-item
                             a.nav-link(href='#events') Veranstaltungen
                         li.nav-item
+                            a.nav-link(href='#team') Team
                         li.nav-item
                             a.nav-link(href='#contact') Kontakt
                         li.nav-item
-                            a.nav-link(href='#links') Links
+                            a.nav-link(href='#links') Ressourcen
+                        li.nav-item
+                            a.nav-link(href='#koop') Kooperationen
 
         // Header
         header.masthead.text-center.text-white
             .masthead-content
                 .container.px-xl-5.px-3
-                    h1.masthead-heading.mb-0 Blood on the Clocktower
-                    h2.masthead-subheading.mb-0 Lokalcommunity Bremen & Umzu
+                    h1.masthead-heading.mb-0 Blood on&nbsp;the Clocktower
+                    h2.masthead-subheading.mb-0 Lokalcommunity Bremen &amp;&nbsp;Umzu
                     a.btn.btn-dark.btn-xl.rounded-pill.mt-5(href='#events') Anstehende Veranstaltungen
+
+        section#intro
+            .container.px-xl-5.px-3
+                .row.gx-5.align-items-center
+                    .col
+                        .p-xl-5.p-2
+                            h2.display-4 Nur ein Spiel ... oder?
+                            p
+                                | Über der verschlafenen Stadt Ravenswood Bluff tobt ein schweres Gewitter.
+                                | Plötzlich hörst du um Mitternacht einen Schrei!
+                                | Als du zum Marktplatz eilst entdeckst du, aufgespießt auf dem Stundenzeiger der Turmuhr, eine ermordete Gestalt.
+                                | Langsam tropft das Blut auf das Kopfsteinpflaster des Platzes darunter.
+                                | Welches Unheil sucht hier eure Stadt heim?
+                            p
+                                | Im Verborgenen agiert ein
+                                emph.bad böser Dämon
+                                | mit einigen
+                                emph.bad Lakeien
+                                | und möchte alles Gute eliminieren.
+                                | Die Aufgabe der
+                                emph.good guten Bürger:innen
+                                | und seltsamen
+                                emph.good Außenseiter:innen
+                                | ist es daher, den
+                                emph.bad Dämon
+                                | zu finden und über ihn zu richten, bevor sich der böse Plan entfalten kann.
+                            p
+                                | Jede Person im Dorf verkörpert einen einzigartigen Charakter.
+                                | Auch der
+                                emph.bad Dämon
+                                | und die
+                                emph.bad Lakeien
+                                | wirken am Tag wie normale Menschen.
+                                | In der Nacht jedoch agieren viele Charaktere,
+                                emph.good gute
+                                | wie
+                                emph.bad.ddot böse
+                                //| :
+                                | Du erhältst eine Information oder darfst aktiv werden, vielleicht ist deine besondere Fähigkeit aber auch passiv.
+                                | Das
+                                emph.bad böse Team
+                                | kann diese Informationen jedoch trüben und außerdem jede Nacht eine Person töten, bevor sie handeln kann.
+                                | Deine persönliche Fähigkeit wird dir zu Beginn des Spiels geheim zugeteilt.
+                                | Gegenüber der übrigen Runde darfst du aber alles vorgeben, was du möchtest.
+                                | Schließlich ist unter ihnen auch der mordende
+                                emph.bad.emark Dämon
+                                //| !
+                                | In einer Abstimmung wird nach den täglichen Diskussionen bestimmt, wen ihr hinrichtet um der Befreiung etwas näher zu kommen.
+                                br
+                                | In unserer famosen Stadt ist aber auch der Tod nicht das Ende:
+                                | Als Geist nimmst du weiter am Spiel teil, auch wenn deine Fähigkeit meistens erlischt.
+                                | Deine Worte hallen aus dem Jenseits nach, denn du kannst dich weiter mit deinen Vertrauten beraten, um schließlich gemeinsam gegen das
+                                emph.bad böse Team
+                                | zu siegen.
+                                | Am Ende könnte deine letzte Stimme die Abstimmung herum reißen und den
+                                emph.bad Dämon
+                                | zur Hinrichtung führen.
+                            p
+                                | Hast du nach dieser kurzen Einführung Lust bekommen, dich selbst mit uns auf die Suche nach dem
+                                emph.bad Dämon
+                                | und seinen
+                                emph.bad Lakeien
+                                | zu begeben?
+                            p.lead
+                                | Dann melde dich direkt zu einem unserer nächsten Treffen an!
+                            p
+                                | Du bist jetzt schon bestens gerüstet, um direkt in deine erste Runde zu starten.
+                                | Eine Übersicht der möglichen Charaktere für diese erhältst du nach der Anmeldung.
+                                | Vor Ort wird dir noch gezeigt, wie die stille Kommunikation in der Nacht abläuft.
+                                | Außerdem können Fragen zu den unterschiedlichen Charakteren beantwortet werden.
+                                //| Wenn du dennoch nicht genug bekommst haben wir unten für dich eine Auswahl weiterführender Ressourcen wie eine Videoanleitung zum Spiel und das Regelwerk selbst verlinkt.
+                            .text-end(style='font-family:"Charmonman";font-size:1.4rem;')
+                                | Bis bald in Ravenswood Bluff!
 
         section#events
             .container.px-xl-5.px-3
@@ -72,13 +148,56 @@ html(lang='de')
                                     i.bi.bi-arrow-repeat.bi-spin
                                     span.m-2 Lade Veranstaltungen...
 
-        // Content section 2
+        section#team
+            .container.px-xl-5.px-3
+                .row.gx-5.align-items-center
+                    .col
+                        .p-xl-5.p-2
+                            h2.display-4 Team
+                            .row.row-cols-1.row-cols-md-2.row-cols-lg-3.g-4
+                                .col
+                                    .card.p-2.h-100
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Alex_Vortox.svg
+                                        .card-body.p-0
+                                            .card-text
+                                .col
+                                    .card.p-2.h-100
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Daniel_Yaggababble.svg
+                                        .card-body.p-0
+                                            .card-text
+                                .col
+                                    .card.p-2.h-100
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Dennis_Legion.svg
+                                        .card-body.p-0
+                                            .card-text
+                                .col
+                                    .card.p-2.h-100
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Jessica_Leviathan.svg
+                                        .card-body.p-0
+                                            .card-text
+                                .col
+                                    .card.p-2.h-100
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Kathi_Ojo.svg
+                                        .card-body.p-0
+                                            .card-text
+                                .col
+                                    .card.p-2.h-100
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Robert_LilMonsta.svg
+                                        .card-body.p-0
+                                            .card-text
+
         section#contact
             .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-1
                         .p-xl-5.p-2
-                            img.img-fluid.rounded-circle(src='assets/img/2.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/4.jpg', alt='...')
                     .col-lg-6.order-lg-2
                         .p-xl-5.p-2
                             h2.display-4 Kontakt
@@ -87,8 +206,8 @@ html(lang='de')
                                     .row.align-items-center
                                         i.col-1.p-0.fs-1.bi.bi-people
                                         .col
-                                            | Sprich uns einfach auf einem unserer
-                                            a(href='#events') Events
+                                            | Sprich uns einfach auf einem
+                                            a(href='#events') Event
                                             | persönlich an.
                                 li.list-group-item
                                     .row.align-items-center
@@ -101,16 +220,15 @@ html(lang='de')
                                     .row.align-items-center
                                         i.col-1.p-0.fs-1.bi.bi-whatsapp
                                         .col
-                                            | Du möchtest Teil unserer WhatsApp-Community werden?
+                                            | Du möchtest Teil der WhatsApp-Community sein?
                                             br
-                                            | Schreibe uns unter
+                                            | Schreibe uns eine Nachricht:
                                             a(href='https://wa.me/491722879225', target='_blank') +49 172 2879 225
-                                            | eine Nachricht.
                                 li.list-group-item
                                     .row.align-items-center
                                         i.col-1.p-0.fs-1.bi.bi-telegram
                                         .col
-                                            | Ankündigungen kannst du auch auf Telegram abonnieren:
+                                            | Ankündigungen auch auf Telegram abonnieren:
                                             br
                                             a(href='https://t.me/botc_bremen', target='_blank') https://t.me/botc_bremen
                                 li.list-group-item
@@ -126,10 +244,10 @@ html(lang='de')
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
                         .p-xl-5.p-2
-                            img.img-fluid.rounded-circle(src='assets/img/4.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/5.jpg', alt='...')
                     .col-lg-6.order-lg-1
                         .p-xl-5.p-2
-                            h2.display-4 Weitere Ressourcen
+                            h2.display-4 Ressourcen
                             p
                                 |
                             ul.list-group.list-group-flush
@@ -160,8 +278,54 @@ html(lang='de')
                                     a(href='https://linktr.ee/bloodontheclocktower', target='_blank') Offizielle Linkliste
                                     | [en]
 
+        section#koop
+            .container.px-xl-5.px-3
+                .row.gx-5.align-items-center
+                    .col
+                        .p-xl-5.p-2
+                            h2.display-4 Kooperationen
+                            .row.row-cols-1.row-cols-md-3.g-4
+                                .col
+                                    .card.h-100
+                                        .card-img-container
+                                            img.w-50.p-1(src='assets/img/stugainf_comp.svg', alt='StugA Informatik')
+                                            img.w-50.p-1(src='assets/img/stugamathe.svg', alt='StugA Mathematik')
+                                        .card-body
+                                            .card-text
+                                                | Dank Kooperation mit den Stugen des FB3 an der Universität Bremen können wir die regelmäßigen Spieletage im MZH anbieten.
+                                                | Im Gegenzug unterstützen wir auch Veranstaltungen der Studierendenschaft.
+                                        .card-footer
+                                            a(href='https://fb3.stugen.de', target='_blank')
+                                                | Zu den Stugen des FB3
+                                                //i.bi.bi-box-arrow-up-right
+
+                                .col
+                                    .card.h-100
+                                        .card-img-container
+                                            img(src='assets/img/vhs_bremen.svg', alt='Bremer Volkshochschule')
+                                        .card-body
+                                            .card-text
+                                                | An der Bremer Volkshochschule finden neben Fortbildungen auch kulturelle Veranstaltungen statt.
+                                                | Darunter auch regelmäßige Spieletreffs und Termine zu Blood on the Clocktower mit uns.
+                                        .card-footer
+                                            a(href='https://www.vhs-bremen.de/index.php?id=41&kathaupt=26&kfs_stichwort_schlagwort=%22Blood+on+the+Clocktower%22', target='_blank')
+                                                | Zur Bremer Volkshochschule
+                                                //i.bi.bi-box-arrow-up-right
+                                .col
+                                    .card.h-100
+                                        .card-img-container
+                                            img.w-75(src='assets/img/weyher_wuerfel.png', alt='Weyher Würfel Spieletreff')
+                                        .card-body
+                                            .card-text
+                                                | Der Weyher Würfel Spieletreff bietet einen offenen Raum für alle Spieleinteressierten.
+                                                | Auch wir nutzen dieses Angebot für einige unserer Spielerunden.
+                                        .card-footer
+                                            a(href='https://weyher-wuerfel.de/', target='_blank')
+                                                | Zum Weyher Würfel Spieletreff
+                                                //i.bi.bi-box-arrow-up-right
+
         // Footer
-        footer.py-5.bg-black
+        footer.py-5 //.bg-black
             .container.px-xl-5.px-3
                 p.m-0.text-center.text-white.small Copyright &copy; BotC Community Bremen & Umzu 2024
                 p.m-0.mt-3.text-center.text-white.small "Blood on the Clocktower" ist eine eingetragene Marke von
