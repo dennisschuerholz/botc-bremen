@@ -28,9 +28,8 @@ html(lang='de')
                         li.nav-item
                             a.nav-link(href='#events') Veranstaltungen
                         li.nav-item
-                            a.nav-link(href='#contact') Kontakt
                         li.nav-item
-                            a.nav-link(href='#locations') Orte
+                            a.nav-link(href='#contact') Kontakt
                         li.nav-item
                             a.nav-link(href='#links') Links
 
@@ -42,7 +41,6 @@ html(lang='de')
                     h2.masthead-subheading.mb-0 Lokalcommunity Bremen & Umzu
                     a.btn.btn-dark.btn-xl.rounded-pill.mt-5(href='#events') Anstehende Veranstaltungen
 
-        // Content section 1
         section#events
             .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
@@ -53,7 +51,10 @@ html(lang='de')
                         .p-xl-5.p-2
                             h2.display-4 Veranstaltungen
                             p.mb-0
-                                | Hier findet ihr immer die nächsten geplanten Veranstaltungen. Anmeldungen werden über den Link oder ggf. direkt von Storytellern entgegen genommen.
+                                | Hier findet ihr immer die nächsten geplanten Veranstaltungen.
+                                | Unsere offenen Runden finden an wechselnden Locations statt.
+                                | Durch die jeweiligen Möglichkeiten schwankt auch die maximale Anmeldezahl.
+                                | Anmeldungen über den Link oder ggf. direkt bei den Storytellern.
                             .row.mb-2.mt-2
                                 .text-start.col-sm-8
                                     a(href='javascript:nextEvents(true)', title='Frühere Veranstaltungen')#prevEvents.p-1.m1
@@ -77,7 +78,7 @@ html(lang='de')
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-1
                         .p-xl-5.p-2
-                            img.img-fluid.rounded-circle(src='assets/img/1.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/2.jpg', alt='...')
                     .col-lg-6.order-lg-2
                         .p-xl-5.p-2
                             h2.display-4 Kontakt
@@ -95,7 +96,7 @@ html(lang='de')
                                         .col
                                             | Tritt unserer Discord-Community bei:
                                             br
-                                            a(href='http://join.botc-bremen.de') http://join.botc-bremen.de
+                                            a(href='http://join.botc-bremen.de', target='_blank') http://join.botc-bremen.de
                                 li.list-group-item
                                     .row.align-items-center
                                         i.col-1.p-0.fs-1.bi.bi-whatsapp
@@ -103,8 +104,15 @@ html(lang='de')
                                             | Du möchtest Teil unserer WhatsApp-Community werden?
                                             br
                                             | Schreibe uns unter
-                                            a(href='https://wa.me/491722879225') +49 172 2879 225
+                                            a(href='https://wa.me/491722879225', target='_blank') +49 172 2879 225
                                             | eine Nachricht.
+                                li.list-group-item
+                                    .row.align-items-center
+                                        i.col-1.p-0.fs-1.bi.bi-telegram
+                                        .col
+                                            | Ankündigungen kannst du auch auf Telegram abonnieren:
+                                            br
+                                            a(href='https://t.me/botc_bremen', target='_blank') https://t.me/botc_bremen
                                 li.list-group-item
                                     .row.align-items-center
                                         i.col-1.p-0.fs-1.bi.bi-envelope
@@ -113,8 +121,7 @@ html(lang='de')
                                             a(href='mailto:info@botc-bremen.de') E-Mail
                                             | für weitere Fragen, Anregungen oder sonstige Anliegen.
 
-        // Content section 3
-        section#locations
+        section#links
             .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
@@ -122,54 +129,36 @@ html(lang='de')
                             img.img-fluid.rounded-circle(src='assets/img/4.jpg', alt='...')
                     .col-lg-6.order-lg-1
                         .p-xl-5.p-2
-                            h2.display-4 Orte
-                            p
-                                | Unsere offenen Spielerunden finden an verschiedenen Locations statt. Da wir immer unterschiedliche räumliche Möglichkeiten haben wechselt die mögliche Teilnehmendenanzahl auch bei jedem Event.
-                            p
-                                | ITB: Universität Bremen,
-                                a(href='https://www.openstreetmap.org/way/7723480', target='_blank') Am Fallturm 1, 28359 Bremen
-                                | (Eingang A)
-                                br
-                                | MZH: Universität Bremen,
-                                a(href='https://www.openstreetmap.org/relation/3293414', target='_blank') Bibliothekstr. 5, 28359 Bremen
-                                | (im 1. OG)
-                                br
-                                | VHS: vhs im Bamberger,
-                                a(href='https://www.openstreetmap.org/node/2528100306', tagrte='_blank') Faulenstraße 69, 28195 Bremen
-                                | (Raum 307)
-                                br
-                                | Weyher Würfel: KGS Leeste,
-                                a(href='https://www.openstreetmap.org/way/315395128', target='_blank') Schulstr. 40, 28844 Wehyle-Leeste
-
-        // Content section 4
-        section#links
-            .container.px-xl-5.px-3
-                .row.gx-5.align-items-center
-                    .col-lg-6.order-lg-1
-                        .p-xl-5.p-2
-                            img.img-fluid.rounded-circle(src='assets/img/5.jpg', alt='...')
-                    .col-lg-6.order-lg-2
-                        .p-xl-5.p-2
-                            h2.display-4 Links
+                            h2.display-4 Weitere Ressourcen
                             p
                                 |
                             ul.list-group.list-group-flush
                                 li.list-group-item
-                                    a(href='https://bloodontheclocktower.com/') Offizielle Homepage [en]
+                                    a(href='https://bloodontheclocktower.com/', target='_blank') Offizielle Homepage
+                                    | [en]
                                 li.list-group-item
-                                    a(href='https://wiki.bloodontheclocktower.com/') Offizielles Wiki [en]
+                                    a(href='https://wiki.bloodontheclocktower.com/', target='_blank') Offizielles Wiki
+                                    | [en]
                                 li.list-group-item
-                                    a(href='https://funtails.de/produkt/blood-on-the-clocktower-deutsch/') Deutsche Spielversion bei Funtails
+                                    a(href='https://funtails.de/produkt/blood-on-the-clocktower-deutsch/', target='_blank') Deutsche Spielversion bei Funtails
                                 li.list-group-item
-                                    a(href='https://clocktowertimer.com/') Clocktowertimer
+                                    a(href='https://clocktowertimer.com/', target='_blank') Clocktowertimer
                                 li.list-group-item
-                                    a(href='http://join.botc-bremen.de') Bremer Discord (Inoffiziell)
+                                    a(href='https://youtu.be/M-aZP47Nm9g', target='_blank') Kurze Einführung
+                                    | (9 Minuten) [en]
                                 li.list-group-item
-                                    a(href='https://discord.com/invite/hQrXsWutt6') Deutscher Discord (Inoffiziell)
+                                    a(href='https://youtu.be/-xT_pnFNZBA', target='_blank') Ausführliche Regelerklärung
+                                    | (41 Minuten) [de]
                                 li.list-group-item
-                                    a(href='https://discord.gg/botc') Globaler Discord (Inoffiziell) [en]
+                                    a(href='https://discord.com/invite/hQrXsWutt6', target='_blank') Deutscher Discord
+                                    | (Inoffiziell)
                                 li.list-group-item
-                                    a(href='https://linktr.ee/bloodontheclocktower') Offizielle Linkliste [en]
+                                    a(href='https://discord.gg/botc', target='_blank') Globaler Discord
+                                    | (Inoffiziell)
+                                    | [en]
+                                li.list-group-item
+                                    a(href='https://linktr.ee/bloodontheclocktower', target='_blank') Offizielle Linkliste
+                                    | [en]
 
         // Footer
         footer.py-5.bg-black
