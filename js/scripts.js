@@ -11,6 +11,7 @@ function nextEvents(decrease = false) {
     const oc = startCounter;
     if (decrease) startCounter = Math.max(0, startCounter-chunksize);
     else startCounter = Math.min(events.length -  events.length % chunksize, startCounter + chunksize);
+    if (startCounter >= events.length) startCounter = oc;
     if (oc !== startCounter) fillEvents();
 }
 
