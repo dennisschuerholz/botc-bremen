@@ -101,3 +101,10 @@ window.onscroll = () => {
         if (link != null) link.classList.add('active');
     }
 };
+
+document.querySelectorAll('.navbar a.navbar-brand, #navbarResponsive .nav-item .nav-link').forEach(link => {
+    link.addEventListener('click', (evt) => {
+        const navbar = bootstrap.Collapse.getInstance(document.querySelector('#navbarResponsive'));
+        if (navbar != null) navbar.hide();
+    });
+});
