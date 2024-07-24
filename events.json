@@ -43,7 +43,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "https://events.botc-bremen.de/mzh240727/",
     "storyTellers": [
-      "Alex",
+      "Daniel",
       "Dennis",
       "Robert"
     ],
@@ -114,6 +114,21 @@
       "Robert"
     ],
     "extra": "Anmeldung via WhatsApp direkt bei Robert."
+  },
+  {
+    "title": "Uni Bremen / ITB",
+    "start": "2024-08-24T11:00:00.000Z",
+    "end": "2024-08-24T20:00:00.000Z",
+    "location": "ITB, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
+    "url": "https://events.botc-bremen.de/itb240824",
+    "storyTellers": [
+      "Alex",
+      "Daniel",
+      "Dennis",
+      "Kathi"
+    ],
+    "extra": "Dieser Samstagstermin findet abweichend im ITB statt!"
   },
   {
     "title": "Weyher Würfel",
