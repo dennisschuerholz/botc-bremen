@@ -70,14 +70,14 @@ STATUS:CONFIRMED
 CREATED:20240325T140416Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20240724T125655Z
+DTSTAMP:20240726T095453Z
 UID:741d1984-c100-42c6-b6f5-33e15634e354
-SEQUENCE:4
+SEQUENCE:5
 SUMMARY:Uni Bremen / MZH
 LOCATION:MZH 1090\, Bibliothekstr. 5\, 28359 Bremen
-DESCRIPTION:ST: Daniel\, Dennis\, Robert\nLOC: https://www.openstreetmap.or
- g/relation/3293414\nURL: https://events.botc-bremen.de/mzh240727/\nGenutzt
- e Räume: 1090\, 1450\, 1460
+DESCRIPTION:ST: Dennis\, Robert\nLOC: https://www.openstreetmap.org/relatio
+ n/3293414\nURL: https://events.botc-bremen.de/mzh240727/\nGenutzte Räume:
+  1090\, 1450\, 1460
 DTSTART;TZID=Europe/Berlin:20240727T130000
 DTEND;TZID=Europe/Berlin:20240727T220000
 CLASS:PUBLIC
