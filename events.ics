@@ -159,13 +159,14 @@ STATUS:CONFIRMED
 LAST-MODIFIED:20240418T105438Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20240724T125657Z
+DTSTAMP:20240810T043308Z
 UID:71dc0738-ecb3-4f12-bd0f-0bd8d2f9c478
+SEQUENCE:1
 SUMMARY:Uni Bremen / ITB
 LOCATION:ITB\, Am Fallturm 1\, 28359 Bremen (Eingang A)
-DESCRIPTION:ST: Alex\, Daniel\, Dennis\, Kathi\nLOC: https://www.openstreet
- map.org/way/7723480\nURL: https://events.botc-bremen.de/itb240824\nDieser 
- Samstagstermin findet abweichend im ITB statt!
+DESCRIPTION:ST: Daniel & Kathi\nLOC: https://www.openstreetmap.org/way/7723
+ 480\nURL: https://events.botc-bremen.de/itb240824\nDieser Samstagstermin f
+ indet abweichend im ITB statt!
 DTSTART;TZID=Europe/Berlin:20240824T130000
 DTEND;TZID=Europe/Berlin:20240824T220000
 CLASS:PUBLIC
@@ -253,21 +254,19 @@ CREATED:20240508T182304Z
 LAST-MODIFIED:20240531T223457Z
 END:VEVENT
 BEGIN:VEVENT
-CREATED:20240711T195332Z
-DTSTAMP:20240711T195500Z
-LAST-MODIFIED:20240711T195500Z
-SEQUENCE:2
+DTSTAMP:20240810T043306Z
 UID:863bafa4-81a4-41c8-b5e8-d99e5fc767a5
-DTSTART;TZID=Europe/Berlin:20240810T130000
-DTEND;TZID=Europe/Berlin:20240810T220000
+SEQUENCE:3
 SUMMARY:Uni Bremen / MZH
 LOCATION:MZH 1460\, Bibliothekstr. 5\, 28359 Bremen
-DESCRIPTION:ST: Alex\, Daniel\, Dennis\, Kathi\nLOC: https://www.openstreet
- map.org/relation/3293414\nURL: https://events.botc-bremen.de/mzh240810/\nG
- enutzte Räume: 1450\, 1460\, 1470
+DESCRIPTION:ST: Daniel & Kathi\, Dennis\nLOC: https://www.openstreetmap.org
+ /relation/3293414\nURL: https://events.botc-bremen.de/mzh240810/\nGenutzte
+  Räume: 1450\, 1460\, 1470
+DTSTART;TZID=Europe/Berlin:20240810T130000
+DTEND;TZID=Europe/Berlin:20240810T220000
 CLASS:PUBLIC
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+CREATED:20240711T195332Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20240721T121045Z
