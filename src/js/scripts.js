@@ -34,23 +34,25 @@ function fillEvents() {
         eventElement.innerHTML = `
             <div>
                 <b class="title d-inline-block mb-1">${event.title}</b>
-                <div title="Start">
+                <div title="Start" class="my-2">
                     <i class="bi bi-calendar-event"></i>
                     <time class="ms-1" datetime="${event.start}">${dateFormat.formatRange(new Date(event.start), new Date(event.end))}</time>
                 </div>
-                <div title="Ort">
+                <div title="Ort" class="my-2">
                     <i class="bi bi-pin-map-fill"></i>
                     ${event.locationUrl ? `<a href="${event.locationUrl}" target="_blank">` : ''}
                     <span class="ms-1">${event.location || '<i>Noch nicht bestimmt</i>'}</span>
                     ${event.locationUrl ? '</a>' : ''}
                 </div>
-                <div title="Storyteller">
+                <div title="Storyteller" class="my-2 d-flex align-items-center">
                     <i class="bi bi-person-workspace"></i>
-                    <span class="ms-1">${event.storyTellers.length > 0 ? event.storyTellers.join(", ") : '<i>Noch nicht bestimmt</i>'}</span>
+                    <div class="ms-1 d-flex gap-2 storytellers">
+                        ${event.storyTellers.length === 0 ? '<i>Noch nicht bestimmt</i>' : ''}
+                    </div>
                 </div>
-                ${event.extra ? `<div title="Extra" class="extra"><i class="bi bi-info-lg"></i> <span class="ms-1">${event.extra}</span></div>` : ''}
+                ${event.extra ? `<div title="Extra" class="extra my-2"><i class="bi bi-info-lg"></i> <span class="ms-1">${event.extra}</span></div>` : ''}
             </div>
-            ${event.url ? `<a href="${event.url}" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>` : ''}
+            ${event.url ? `<a href="${event.url}" target="_blank" title="Zur Anmeldung"><i class="bi bi-box-arrow-up-right"></i></a>` : ''}
         `;
         eventElement.addEventListener('mouseover', () => {
             eventElement.classList.add('bg-light');
@@ -68,6 +70,18 @@ function fillEvents() {
             eventElement.classList.add('cursor-pointer');
         }
         rootElement.appendChild(eventElement);
+        event.storyTellers.forEach((storyTeller) => {
+            const img = document.createElement('img');
+            img.src = `/assets/img/storyteller/${storyTeller.toLowerCase()}.svg`;
+            img.alt = storyTeller;
+            img.title = storyTeller;
+            img.onerror = () => {
+                const text = document.createElement('span');
+                text.textContent = storyTeller;
+                img.replaceWith(text);
+            };
+            eventElement.querySelector('.storytellers').appendChild(img);
+        });
     });
 }
 

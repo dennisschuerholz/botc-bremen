@@ -1,4 +1,4 @@
-.botc-event-widget {
+#botc-event-widget {
     .event {
         transition: background-color 0.15s;
     }
@@ -6,7 +6,10 @@
         cursor: pointer;
     }
     .title {
-        font-size: 1.15rem;
+        font-size: 1.05rem;
         margin: 0;
+    }
+    .storytellers img {
+        height: 64px;
     }
 }
