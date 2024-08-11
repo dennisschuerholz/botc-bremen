@@ -28,10 +28,35 @@ footer {
     color: $dark-purple;
 }
 
-#team .card-title svg {
+#team .svg-avatar {
+    background-color: $dark-purple;
     width: 100%;
-    height: 100%;
-    color: $dark-purple;
+    aspect-ratio: 1 / 0.88;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+
+    &::after {
+        content: '\200b';
+    }
+
+    &.alex {
+        mask-image: url('../assets/img/storyteller/alex.svg');
+    }
+    &.daniel {
+        mask-image: url('../assets/img/storyteller/daniel.svg');
+    }
+    &.dennis{
+        mask-image: url('../assets/img/storyteller/dennis.svg');
+    }
+    &.kathi {
+        mask-image: url('../assets/img/storyteller/kathi.svg');
+    }
+    &.jessica {
+        mask-image: url('../assets/img/storyteller/jessica.svg');
+    }
+    &.robert {
+        mask-image: url('../assets/img/storyteller/robert.svg');
+    }
 }
 
 #koop .card-img-container {
