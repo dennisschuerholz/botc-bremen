@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('/events.json')
         .then(response => response.json())
         .then(all_events => {
-            all_events.sort((a, b) => new Date(a.start) - new Date(b.start));
             const now = new Date();
             events = all_events.filter((event) => new Date(event.end) >= now);
             fillEvents(0);
