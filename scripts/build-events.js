@@ -21,31 +21,42 @@ fetch(icsUrl)
 
         // Extract the relevant data from the ics events
         const events = icsEvents.map(event => {
-            const details = event.description.split('\n').reduce((acc, line) => {
-                if (line.trim() === '') {
-                    return acc;
+            const descriptionLines = event.description.split('\n');
+            let url = null;
+            let locationUrl = null;
+            let storyTellers = [];
+            let extra = null;
+            for (const line of descriptionLines) {
+                // Extract the relevant data from the description
+                const text = line.trim();
+                if (text.startsWith('URL: ')) {
+                    url = text.substring(5);
                 }
-                const [key, ...values] = line.split(':');
-                const value = values.join(':');
-                if (values.length === 0) {
-                    acc["extra"] = key;
-                    return acc;
+                else if (text.startsWith('LOC: ')) {
+                    locationUrl = text.substring(5);
                 }
-                acc[key.trim().toLowerCase()] = value.trim();
-                return acc;
-            }, {});
-            const storyTellers = details['st'] ? details['st'].split(',').map(st => st.trim()) : [];
+                else if (text.startsWith('ST: ')) {
+                    storyTellers = text.substring(4).split(',').map(st => st.trim());
+                }
+                else {
+                    // Add other lines to the extra data, but ignore the first empty lines
+                    extra = extra ? `${extra}\n${text}` : text === '' ? null : text;
+                }
+            }
             return {
                 title: event.summary,
                 start: event.start,
                 end: event.end,
                 location: event.location,
-                locationUrl: details['loc'] || null,
-                url: details['url'] || null,
+                locationUrl,
+                url,
                 storyTellers,
-                extra: details['extra'] || null,
+                extra
             };
         });
+
+        // Sort the events by start date
+        events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
         // Store the parsed events into a JSON file
         fs.writeFileSync(upath.resolve(__dirname, '../dist/events.json'), JSON.stringify(events, null, 2));
