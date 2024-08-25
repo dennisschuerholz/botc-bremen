@@ -263,7 +263,7 @@
     "storyTellers": [
       "Dennis"
     ],
-    "extra": "Wir sind zu Gast beim Stadtteilfest Zu Tisch! in der Überseestadt und bieten eine Spielrunde für die Nachbarschaft an. Keine Voranmeldung!"
+    "extra": "Wir sind zu Gast beim Stadtteilfest 'Zu Tisch!' in der Überseestadt und bieten eine Spielrunde für die Nachbarschaft an. Keine Voranmeldung!"
   },
   {
     "title": "BotC in der VHS",
@@ -289,7 +289,7 @@
       "Dennis",
       "Robert"
     ],
-    "extra": "Genutzte Räume: 1450, 1460, 1470"
+    "extra": null
   },
   {
     "title": "Uni Bremen / ITB",
@@ -314,7 +314,7 @@
       "Daniel & Kathi",
       "Dennis & Jessica"
     ],
-    "extra": "Genutzte Räume: 1450, 1460, 1470"
+    "extra": null
   },
   {
     "title": "Uni Bremen / ITB",
@@ -340,6 +340,6 @@
       "Dennis",
       "Robert"
     ],
-    "extra": "Genutzte Räume: 1450, 1460, 1470"
+    "extra": null
   }
 ]
