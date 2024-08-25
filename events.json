@@ -254,6 +254,18 @@
     "extra": "Dieser Samstagstermin findet abweichend im ITB statt!"
   },
   {
+    "title": "Zu Tisch!",
+    "start": "2024-08-31T13:00:00.000Z",
+    "end": "2024-08-31T16:00:00.000Z",
+    "location": "Kommodore-Johnsen-Boulevard, 28217 Bremen",
+    "locationUrl": "https://www.kultur-vor-ort.com/zutischprogramm/",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Wir sind zu Gast beim Stadtteilfest Zu Tisch! in der Überseestadt und bieten eine Spielrunde für die Nachbarschaft an. Keine Voranmeldung!"
+  },
+  {
     "title": "BotC in der VHS",
     "start": "2024-09-04T15:00:00.000Z",
     "end": "2024-09-04T19:00:00.000Z",
@@ -264,6 +276,20 @@
       "Robert"
     ],
     "extra": null
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-09-07T11:00:00.000Z",
+    "end": "2024-09-07T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh240907/",
+    "storyTellers": [
+      "Daniel & Kathi",
+      "Dennis",
+      "Robert"
+    ],
+    "extra": "Genutzte Räume: 1450, 1460, 1470"
   },
   {
     "title": "Uni Bremen / ITB",
@@ -278,6 +304,19 @@
     "extra": null
   },
   {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-09-21T11:00:00.000Z",
+    "end": "2024-09-21T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh240921/",
+    "storyTellers": [
+      "Daniel & Kathi",
+      "Dennis & Jessica"
+    ],
+    "extra": "Genutzte Räume: 1450, 1460, 1470"
+  },
+  {
     "title": "Uni Bremen / ITB",
     "start": "2024-09-25T16:00:00.000Z",
     "end": "2024-09-25T20:00:00.000Z",
@@ -288,5 +327,19 @@
       "Robert"
     ],
     "extra": null
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-10-05T11:00:00.000Z",
+    "end": "2024-10-05T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh241005/",
+    "storyTellers": [
+      "Alex",
+      "Dennis",
+      "Robert"
+    ],
+    "extra": "Genutzte Räume: 1450, 1460, 1470"
   }
 ]
