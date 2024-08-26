@@ -304,6 +304,18 @@
     "extra": null
   },
   {
+    "title": "Special: Midnight Oasis",
+    "start": "2024-09-17T16:00:00.000Z",
+    "end": "2024-09-17T20:00:00.000Z",
+    "location": "ITB, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
+    "url": null,
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": "An diesem Tag wird in geschlossener Gesellschaft ein Skript ausprobiert."
+  },
+  {
     "title": "Uni Bremen / MZH",
     "start": "2024-09-21T11:00:00.000Z",
     "end": "2024-09-21T20:00:00.000Z",
