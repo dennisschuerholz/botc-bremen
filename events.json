@@ -367,6 +367,18 @@
     "extra": null
   },
   {
+    "title": "Special: <Titel fehlt>",
+    "start": "2024-11-12T17:00:00.000Z",
+    "end": "2024-11-12T21:00:00.000Z",
+    "location": "ITB, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
+    "url": null,
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": "An diesem Tag wird in geschlossener Gesellschaft ein Skript ausprobiert."
+  },
+  {
     "title": "BotC in der VHS",
     "start": "2024-11-13T16:00:00.000Z",
     "end": "2024-11-13T20:00:00.000Z",
