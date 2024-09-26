@@ -367,6 +367,30 @@
     "extra": null
   },
   {
+    "title": "Uni Bremen / ITB",
+    "start": "2024-10-15T16:00:00.000Z",
+    "end": "2024-10-15T20:00:00.000Z",
+    "location": "GW2, beim MZH, Raum B2900",
+    "locationUrl": "https://maps.app.goo.gl/ansarp66Dg161Kpt9",
+    "url": "https://events.botc-bremen.de/Gw21001/",
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Uni Bremen / ITB",
+    "start": "2024-10-30T17:00:00.000Z",
+    "end": "2024-10-30T21:00:00.000Z",
+    "location": "GW2, beim MZH, Raum B2900",
+    "locationUrl": "https://maps.app.goo.gl/ansarp66Dg161Kpt9",
+    "url": "https://events.botc-bremen.de/Gw21002/",
+    "storyTellers": [
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
     "title": "Special: <Titel fehlt>",
     "start": "2024-11-12T17:00:00.000Z",
     "end": "2024-11-12T21:00:00.000Z",
