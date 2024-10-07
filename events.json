@@ -403,22 +403,10 @@
     "extra": null
   },
   {
-    "title": "BotC in der VHS",
-    "start": "2024-11-13T16:00:00.000Z",
-    "end": "2024-11-13T20:00:00.000Z",
-    "location": "Raum 309, Faulenstraße 69, 28195 Bremen",
-    "locationUrl": "https://www.openstreetmap.org/node/2528100306",
-    "url": "https://www.vhs-bremen.de/kurssuche/kurs/Blood-on-the-Clocktower/242M15-434",
-    "storyTellers": [
-      "Robert"
-    ],
-    "extra": null
-  },
-  {
-    "title": "Special: <Titel fehlt>",
+    "title": "Special: You know nothing",
     "start": "2024-11-13T17:00:00.000Z",
     "end": "2024-11-13T21:00:00.000Z",
-    "location": "GW2, beim MZH, Raum ...",
+    "location": "GW2, beim MZH, Raum B2900",
     "locationUrl": "https://maps.app.goo.gl/ansarp66Dg161Kpt9",
     "url": null,
     "storyTellers": [
