@@ -404,6 +404,19 @@
     "extra": "Nachbarschaftlicher Spieletreff in der Überseestadt."
   },
   {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-10-26T11:00:00.000Z",
+    "end": "2024-10-26T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": "https://events.botc-bremen.de/mzh241026/",
+    "storyTellers": [
+      "Alex",
+      "Daniel & Kathi"
+    ],
+    "extra": null
+  },
+  {
     "title": "MZH / Gebäude GW2",
     "start": "2024-10-30T17:00:00.000Z",
     "end": "2024-10-30T21:00:00.000Z",
