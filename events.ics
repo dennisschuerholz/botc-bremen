@@ -41,20 +41,18 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241008T134928Z
+DTSTAMP:20241009T202223Z
 UID:003b1bf5-c521-4c68-9f3e-62a28736c356
+SEQUENCE:2
 SUMMARY:Jetzt Hier Überseequartier
 LOCATION:Kommodore-Johnsen-Boulevard 19\, 28217 Bremen
 DESCRIPTION:ST: Dennis\nURL: https://events.botc-bremen.de/jetzthier241017/
  \nLOC: https://www.openstreetmap.org/node/11114562722\n\nNachbarschaftlich
- er Spieletreff in der Überseestadt. Neben BotC sind ggf. auch andere Grup
- pen vor Ort.
+ er Spieletreff in der Überseestadt.
 DTSTART;TZID=Europe/Berlin:20241017T180000
 DTEND;TZID=Europe/Berlin:20241017T220000
 CLASS:PUBLIC
 STATUS:CONFIRMED
-SEQUENCE:1
-LAST-MODIFIED:20241008T134928Z
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20240825T114746Z
