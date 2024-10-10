@@ -377,7 +377,7 @@
       "Alex",
       "Dennis"
     ],
-    "extra": "Veranstaltung im Rahmen der Orientierungswoche für neue Studierende aus Mathematik, Informatik und verwandten Studiengängen."
+    "extra": "Veranstaltung der Orientierungswoche für neue Studierende aus Mathematik, Informatik."
   },
   {
     "title": "MZH / Gebäude GW2",
@@ -392,7 +392,7 @@
     "extra": null
   },
   {
-    "title": "Jetzt Hier Überseequartier",
+    "title": "Überseestadt / jetzt hier",
     "start": "2024-10-17T16:00:00.000Z",
     "end": "2024-10-17T20:00:00.000Z",
     "location": "Kommodore-Johnsen-Boulevard 19, 28217 Bremen",
@@ -401,7 +401,7 @@
     "storyTellers": [
       "Dennis"
     ],
-    "extra": "Nachbarschaftlicher Spieletreff in der Überseestadt."
+    "extra": "Offener Spieletreff in der Überseestadt."
   },
   {
     "title": "Uni Bremen / MZH",

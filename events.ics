@@ -41,14 +41,14 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241009T202223Z
+DTSTAMP:20241010T221002Z
 UID:003b1bf5-c521-4c68-9f3e-62a28736c356
-SEQUENCE:2
-SUMMARY:Jetzt Hier Überseequartier
+SEQUENCE:3
+SUMMARY:Überseestadt / jetzt hier
 LOCATION:Kommodore-Johnsen-Boulevard 19\, 28217 Bremen
 DESCRIPTION:ST: Dennis\nURL: https://events.botc-bremen.de/jetzthier241017/
- \nLOC: https://www.openstreetmap.org/node/11114562722\n\nNachbarschaftlich
- er Spieletreff in der Überseestadt.
+ \nLOC: https://www.openstreetmap.org/node/11114562722\n\nOffener Spieletre
+ ff in der Überseestadt.
 DTSTART;TZID=Europe/Berlin:20241017T180000
 DTEND;TZID=Europe/Berlin:20241017T220000
 CLASS:PUBLIC
@@ -283,21 +283,19 @@ CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-CREATED:20241008T142754Z
-DTSTAMP:20241008T142958Z
-LAST-MODIFIED:20241008T142958Z
-SEQUENCE:3
+DTSTAMP:20241010T220923Z
 UID:3f26019a-f1da-439f-9bfc-9949d857d937
-DTSTART;TZID=Europe/Berlin:20241011T180000
-DTEND;TZID=Europe/Berlin:20241011T220000
+SEQUENCE:4
 SUMMARY:FB3 O-Woche
 LOCATION:MZH 1400\, Bibliothekstr. 5\, 28359 Bremen
 DESCRIPTION:ST: Alex\, Dennis\nLOC: https://www.openstreetmap.org/relation/
- 3293414\n\nVeranstaltung im Rahmen der Orientierungswoche für neue Studie
- rende aus Mathematik\, Informatik und verwandten Studiengängen.
+ 3293414\n\nVeranstaltung der Orientierungswoche für neue Studierende aus 
+ Mathematik\, Informatik.
+DTSTART;TZID=Europe/Berlin:20241011T180000
+DTEND;TZID=Europe/Berlin:20241011T220000
 CLASS:PUBLIC
 STATUS:CONFIRMED
-TRANSP:OPAQUE
+CREATED:20241008T142754Z
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20241010T124802Z
