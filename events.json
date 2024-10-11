@@ -429,6 +429,20 @@
     "extra": null
   },
   {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-11-09T12:00:00.000Z",
+    "end": "2024-11-09T21:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Daniel",
+      "Dennis",
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
     "title": "Special: You know nothing",
     "start": "2024-11-13T17:00:00.000Z",
     "end": "2024-11-13T21:00:00.000Z",
@@ -439,6 +453,19 @@
       "Robert"
     ],
     "extra": "An diesem Tag wird in geschlossener Gesellschaft ein Skript ausprobiert."
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-11-23T12:00:00.000Z",
+    "end": "2024-11-23T21:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Alex",
+      "Daniel"
+    ],
+    "extra": null
   },
   {
     "title": "BotC in der VHS",
