@@ -4,7 +4,7 @@
 * Licensed under MIT (https://github.com/StartBootstrap/botc-bremen-website/blob/master/LICENSE)
 */
 let events = [];
-let chunksize = 3;
+let chunksize = 5;
 let startCounter = 0;
 
 function nextEvents(decrease = false) {

@@ -468,6 +468,20 @@
     "extra": null
   },
   {
+    "title": "Uni Bremen / MZH",
+    "start": "2024-12-07T12:00:00.000Z",
+    "end": "2024-12-07T21:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Daniel & Kathi",
+      "Dennis",
+      "Robert"
+    ],
+    "extra": null
+  },
+  {
     "title": "BotC in der VHS",
     "start": "2024-12-11T16:00:00.000Z",
     "end": "2024-12-11T20:00:00.000Z",
@@ -476,6 +490,42 @@
     "url": "https://www.vhs-bremen.de/kurssuche/kurs/Blood-on-the-Clocktower/242M15-435",
     "storyTellers": [
       "Robert"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Unter Vorbehalt: Uni Bremen / MZH",
+    "start": "2024-12-21T12:00:00.000Z",
+    "end": "2024-12-21T21:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "TBA"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Unter Vorbehalt: Uni Bremen / MZH",
+    "start": "2025-01-04T12:00:00.000Z",
+    "end": "2025-01-04T21:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "TBA"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Unter Vorbehalt: Uni Bremen / MZH",
+    "start": "2025-01-18T12:00:00.000Z",
+    "end": "2025-01-18T21:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "TBA"
     ],
     "extra": null
   }
