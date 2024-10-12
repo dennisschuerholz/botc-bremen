@@ -380,18 +380,6 @@
     "extra": "Veranstaltung der Orientierungswoche für neue Studierende aus Mathematik & Informatik."
   },
   {
-    "title": "MZH / Gebäude GW2",
-    "start": "2024-10-15T16:00:00.000Z",
-    "end": "2024-10-15T20:00:00.000Z",
-    "location": "GW2, beim MZH, Raum B2900",
-    "locationUrl": "https://maps.app.goo.gl/ansarp66Dg161Kpt9",
-    "url": "https://events.botc-bremen.de/Gw21001/",
-    "storyTellers": [
-      "Robert"
-    ],
-    "extra": null
-  },
-  {
     "title": "Überseestadt / jetzt hier",
     "start": "2024-10-17T16:00:00.000Z",
     "end": "2024-10-17T20:00:00.000Z",
@@ -417,18 +405,6 @@
     "extra": null
   },
   {
-    "title": "MZH / Gebäude GW2",
-    "start": "2024-10-30T17:00:00.000Z",
-    "end": "2024-10-30T21:00:00.000Z",
-    "location": "GW2, beim MZH, Raum B2900",
-    "locationUrl": "https://maps.app.goo.gl/ansarp66Dg161Kpt9",
-    "url": "https://events.botc-bremen.de/Gw21002/",
-    "storyTellers": [
-      "Robert"
-    ],
-    "extra": null
-  },
-  {
     "title": "Uni Bremen / MZH",
     "start": "2024-11-09T12:00:00.000Z",
     "end": "2024-11-09T21:00:00.000Z",
@@ -441,18 +417,6 @@
       "Robert"
     ],
     "extra": null
-  },
-  {
-    "title": "Special: You know nothing",
-    "start": "2024-11-13T17:00:00.000Z",
-    "end": "2024-11-13T21:00:00.000Z",
-    "location": "GW2, beim MZH, Raum B2900",
-    "locationUrl": "https://maps.app.goo.gl/ansarp66Dg161Kpt9",
-    "url": null,
-    "storyTellers": [
-      "Robert"
-    ],
-    "extra": "An diesem Tag wird in geschlossener Gesellschaft ein Skript ausprobiert."
   },
   {
     "title": "Uni Bremen / MZH",
