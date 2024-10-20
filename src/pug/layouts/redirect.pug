@@ -1,0 +1,28 @@
+block config
+doctype html
+html(lang='de')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='Dennis Schürholz, BotC Bremen & Umzu')
+
+        title Blood on the Clocktower Bremen & Umzu
+
+        link(rel='icon', type='image/x-icon', href='/assets/favicon.ico')
+        link(rel='apple-touch-icon', sizes='180x180', href='/assets/apple-touch-icon.png')
+        link(rel='icon' type='image/png', sizes='16x16', href='/assets/favicon-16x16.png')
+        link(rel='icon' type='image/png', sizes='32x32', href='/assets/favicon-32x32.png')
+
+        link(rel='canonical', href=target)
+        script
+            | location = "#{target}"
+        meta(http-equiv='refresh' content='0; url=#{target}')
+        meta(name='robots', content='noindex')
+
+    body
+        h1 Weiterleitung...
+        p
+            | Diese Seite sollte automatisch auf
+            a(href=target) #{target}
+            | weiterleiten.
