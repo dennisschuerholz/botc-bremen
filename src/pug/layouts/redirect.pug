@@ -16,8 +16,8 @@ html(lang='de')
 
         link(rel='canonical', href=target)
         script
-            | location = "#{target}"
-        meta(http-equiv='refresh' content='0; url=#{target}')
+            | window.location.replace("#{target}");
+        meta(http-equiv='refresh', content=`0; url=${target}`)
         meta(name='robots', content='noindex')
 
     body
