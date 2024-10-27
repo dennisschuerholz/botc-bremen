@@ -71,6 +71,23 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+CREATED:20241027T111901Z
+DTSTAMP:20241027T140237Z
+LAST-MODIFIED:20241027T140237Z
+SEQUENCE:3
+UID:029f7e19-23ae-4228-b984-102326bbb4b6
+DTSTART;TZID=Europe/Berlin:20241031T180000
+DTEND;TZID=Europe/Berlin:20241031T220000
+LOCATION:ITB 2.07\, Am Fallturm 1\, 28359 Bremen (Eingang A)
+DESCRIPTION:ST: Alex\, Daniel\, Kathi\nLOC: https://www.openstreetmap.org/w
+ ay/7723480\nURL: https://events.botc-bremen.de/itb241031\n\nBegrenzte Plä
+ tze! Gespielt wird das fortgeschrittene Skript Sects and Violets.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+SUMMARY:Uni Bremen / ITB
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20240324T233608Z
 UID:6463605f-90b6-4b10-abee-e59721a0a3fa
 SEQUENCE:7
@@ -325,6 +342,25 @@ SUMMARY:Weyher Würfel
 LOCATION:KGS Leeste\, Schulstr. 40\, 28844 Weyhe-Leeste
 DESCRIPTION:ST: Robert\nLOC: https://www.openstreetmap.org/way/315395128\nU
  RL: https://events.botc-bremen.de/Weyhe053/
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20241027T112100Z
+DTSTAMP:20241027T140224Z
+LAST-MODIFIED:20241027T140224Z
+SEQUENCE:3
+UID:73711989-4324-40d1-9a6f-ffa2261ac105
+DTSTART;TZID=Europe/Berlin:20241031T163000
+DTEND;TZID=Europe/Berlin:20241031T180000
+SUMMARY:Academy: Sects and Violets
+LOCATION:ITB 2.05\, Am Fallturm 1\, 28359 Bremen (Eingang A)
+DESCRIPTION:ST: Alex\, Daniel\, Kathi\nLOC: https://www.openstreetmap.org/w
+ ay/7723480\nURL: https://events.botc-bremen.de/itb241031\n\nWir möchten i
+ n dieser Session mit euch die Regeln des Skriptes Sects and Violets genau 
+ durchgehen. Dabei werden untereinander auch Tipps und Kniffe diskutiert\, 
+ um das eigene Spiel zu verbessern.
 CLASS:PUBLIC
 STATUS:CONFIRMED
 TRANSP:OPAQUE

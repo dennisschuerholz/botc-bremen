@@ -405,6 +405,34 @@
     "extra": null
   },
   {
+    "title": "Academy: Sects and Violets",
+    "start": "2024-10-31T15:30:00.000Z",
+    "end": "2024-10-31T17:00:00.000Z",
+    "location": "ITB 2.05, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
+    "url": "https://events.botc-bremen.de/itb241031",
+    "storyTellers": [
+      "Alex",
+      "Daniel",
+      "Kathi"
+    ],
+    "extra": "Wir möchten in dieser Session mit euch die Regeln des Skriptes Sects and Violets genau durchgehen. Dabei werden untereinander auch Tipps und Kniffe diskutiert, um das eigene Spiel zu verbessern."
+  },
+  {
+    "title": "Uni Bremen / ITB",
+    "start": "2024-10-31T17:00:00.000Z",
+    "end": "2024-10-31T21:00:00.000Z",
+    "location": "ITB 2.07, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
+    "url": "https://events.botc-bremen.de/itb241031",
+    "storyTellers": [
+      "Alex",
+      "Daniel",
+      "Kathi"
+    ],
+    "extra": "Begrenzte Plätze! Gespielt wird das fortgeschrittene Skript Sects and Violets."
+  },
+  {
     "title": "Uni Bremen / MZH",
     "start": "2024-11-09T12:00:00.000Z",
     "end": "2024-11-09T21:00:00.000Z",
