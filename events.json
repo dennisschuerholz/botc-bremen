@@ -447,6 +447,18 @@
     "extra": null
   },
   {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2024-11-14T16:00:00.000Z",
+    "end": "2024-11-14T20:00:00.000Z",
+    "location": "Kommodore-Johnsen-Boulevard 19, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/11114562722",
+    "url": "https://events.botc-bremen.de/jetzthier241114/",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 13:30 Erste Spielrunde."
+  },
+  {
     "title": "Uni Bremen / MZH",
     "start": "2024-11-23T12:00:00.000Z",
     "end": "2024-11-23T21:00:00.000Z",
@@ -460,17 +472,41 @@
     "extra": null
   },
   {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2024-11-28T16:00:00.000Z",
+    "end": "2024-11-28T20:00:00.000Z",
+    "location": "Kommodore-Johnsen-Boulevard 19, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/11114562722",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 13:30 Erste Spielrunde."
+  },
+  {
     "title": "Uni Bremen / MZH",
     "start": "2024-12-07T12:00:00.000Z",
     "end": "2024-12-07T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "https://events.botc-bremen.de/mzh241207/",
     "storyTellers": [
       "Daniel & Kathi",
       "Dennis"
     ],
     "extra": null
+  },
+  {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2024-12-12T16:00:00.000Z",
+    "end": "2024-12-12T20:00:00.000Z",
+    "location": "Kommodore-Johnsen-Boulevard 19, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/11114562722",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 13:30 Erste Spielrunde."
   },
   {
     "title": "Unter Vorbehalt: Uni Bremen / MZH",
