@@ -102,19 +102,20 @@ STATUS:CONFIRMED
 CREATED:20240322T110056Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241101T071844Z
+DTSTAMP:20241101T132359Z
 UID:3a075e6f-b332-4fc2-b383-c3418a3b05de
-SEQUENCE:3
+SEQUENCE:4
 SUMMARY:Überseestadt / jetzt hier
 LOCATION:Kommodore-Johnsen-Boulevard 19\, 28217 Bremen
 DESCRIPTION:ST: Dennis\nLOC: https://www.openstreetmap.org/node/11114562722
- \n\nOffener Spieletreff in der Überseestadt. Ab 17:00 Einführung\, 17:30
-  Erste Spielrunde.
+ \nURL: https://events.botc-bremen.de/jetzthier241212/\n\nOffener Spieletre
+ ff in der Überseestadt. Ab 17:00 Einführung\, 17:30 Erste Spielrunde.
 DTSTART;TZID=Europe/Berlin:20241212T170000
 DTEND;TZID=Europe/Berlin:20241212T210000
 CLASS:PUBLIC
 STATUS:CONFIRMED
 CREATED:20241031T132506Z
+LAST-MODIFIED:20241101T132359Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20240526T055405Z
@@ -283,19 +284,20 @@ STATUS:CONFIRMED
 LAST-MODIFIED:20240418T105438Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20241101T071846Z
+DTSTAMP:20241101T131050Z
 UID:aa2b1cdf-7f19-4059-8e53-917c5e853207
-SEQUENCE:4
+SEQUENCE:5
 SUMMARY:Überseestadt / jetzt hier
 LOCATION:Kommodore-Johnsen-Boulevard 19\, 28217 Bremen
 DESCRIPTION:ST: Dennis\nLOC: https://www.openstreetmap.org/node/11114562722
- \n\nOffener Spieletreff in der Überseestadt. Ab 17:00 Einführung\, 17:30
-  Erste Spielrunde.
+ \nURL: https://events.botc-bremen.de/jetzthier241128/\n\nOffener Spieletre
+ ff in der Überseestadt. Ab 17:00 Einführung\, 17:30 Erste Spielrunde.
 DTSTART;TZID=Europe/Berlin:20241128T170000
 DTEND;TZID=Europe/Berlin:20241128T210000
 CLASS:PUBLIC
 STATUS:CONFIRMED
 CREATED:20241031T132413Z
+LAST-MODIFIED:20241101T131050Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20240810T043308Z
