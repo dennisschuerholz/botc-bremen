@@ -459,6 +459,19 @@
     "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 17:30 Erste Spielrunde."
   },
   {
+    "title": "Academy: Uncertain Death",
+    "start": "2024-11-19T17:00:00.000Z",
+    "end": "2024-11-19T21:00:00.000Z",
+    "location": "ITB 2.05, Am Fallturm 1, 28359 Bremen (Eingang A)",
+    "locationUrl": "https://www.openstreetmap.org/way/7723480",
+    "url": "https://events.botc-bremen.de/itb241119/",
+    "storyTellers": [
+      "Kathi",
+      "Sorel"
+    ],
+    "extra": "Academy mit Sorel zu den Kniffen von Uncertain Death mit anschließender Spielrunde."
+  },
+  {
     "title": "Uni Bremen / MZH",
     "start": "2024-11-23T12:00:00.000Z",
     "end": "2024-11-23T21:00:00.000Z",
