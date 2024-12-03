@@ -522,26 +522,30 @@
     "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 17:30 Erste Spielrunde."
   },
   {
-    "title": "Unter Vorbehalt: Uni Bremen / MZH",
+    "title": "Uni Bremen / MZH",
     "start": "2024-12-21T12:00:00.000Z",
     "end": "2024-12-21T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "https://events.botc-bremen.de/mzh241221/",
     "storyTellers": [
-      "TBA"
+      "Alex",
+      "Daniel & Kathi",
+      "Dennis",
+      "Sorel"
     ],
     "extra": null
   },
   {
-    "title": "Unter Vorbehalt: Uni Bremen / MZH",
+    "title": "Uni Bremen / MZH",
     "start": "2025-01-04T12:00:00.000Z",
     "end": "2025-01-04T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "https://events.botc-bremen.de/mzh250104/",
     "storyTellers": [
-      "TBA"
+      "Daniel & Kathi",
+      "Dennis"
     ],
     "extra": null
   },
