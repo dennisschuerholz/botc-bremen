@@ -33,7 +33,7 @@ html(lang='de')
                         li.nav-item
                             a.nav-link(href='#team') Team
                         li.nav-item
-                            a.nav-link(href='#contact') Community
+                            a.nav-link(href='#community') Community
                         li.nav-item
                             a.nav-link(href='#links') Ressourcen
                         li.nav-item
@@ -46,7 +46,7 @@ html(lang='de')
                     h1.masthead-heading.mb-0 Blood on&nbsp;the Clocktower
                     h2.masthead-subheading.mb-0 Lokalcommunity Bremen &amp;&nbsp;Umzu
                     a.btn.btn-dark.btn-xl.rounded-pill.mt-4.mt-lg-5.mx-2(href='#events') Anstehende Veranstaltungen
-                    a.btn.btn-dark.btn-xl.rounded-pill.mt-2.mt-lg-5.mx-2(href='#contact') Werde Teil der Community
+                    a.btn.btn-dark.btn-xl.rounded-pill.mt-2.mt-lg-5.mx-2(href='#community') Werde Teil der Community
 
         section#intro
             .container.px-xl-5.px-3
@@ -197,7 +197,7 @@ html(lang='de')
                                         .card-body.p-0
                                             .card-text
 
-        section#contact
+        section#community
             .container.px-xl-5.px-3
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-1.order-2
@@ -329,7 +329,7 @@ html(lang='de')
                                                 //i.bi.bi-box-arrow-up-right
 
         // Footer
-        footer.py-5 //.bg-black
+        footer.py-5#contact //.bg-black
             .container.px-xl-5.px-3
                 p.m-0.text-center.text-white.small Copyright &copy; BotC Community Bremen & Umzu 2024
                 p.m-0.mt-3.text-center.text-white.small "Blood on the Clocktower" ist eine eingetragene Marke von
@@ -337,14 +337,21 @@ html(lang='de')
                     | und Steven Medway.
                 p.m-0.text-center.text-white.small Verwendete Spielgrafiken wurden durch The Pandemonium Institute freundlicherweise für nichtkommerzielle Zwecke freigegeben.
                 p.m-0.text-center.text-white.small Diese Seite hat keine weitere Verbindung zu, noch wird unterstützt von, The Pandemonium Institute.
-                p.mt-3.text-center.text-white.small
-                    | Anbieter nach § 5 TMG und verantwortlich nach § 55 Abs. 2 RStV:
-                    br
-                    | Dennis Schürholz, Meta-Sattler-Str. 33, 28217 Bremen
-                    br
-                    | E-Mail:
-                    a(href='mailto:dennis@botc-bremen.de') dennis@botc-bremen.de
-                    | &bull; Telefon: 015678 / 390 797
+                .mt-3.text-center.text-white.small.row.w-xl-75.m-auto
+                    p.col-12
+                        | Anbieter nach § 5 TMG und verantwortlich nach § 55 Abs. 2 RStV:
+                    .col-12.col-lg-6
+                        | Dennis Schürholz, Meta-Sattler-Str. 33, 28217 Bremen
+                        br
+                        | E-Mail:
+                        a(href='mailto:dennis@botc-bremen.de') dennis@botc-bremen.de
+                        | &bull; Telefon: 015678 / 390 797
+                    .col-12.col-lg-6.mt-2.mt-lg-0
+                        | Alexander Seedorf, Am Waldrand 7, 27628 Bremen
+                        br
+                        | E-Mail:
+                        a(href='mailto:alex@botc-bremen.de') alex@botc-bremen.de
+                        | &bull; Telefon: 0177 / 45 53 700
 
         // Bootstrap core JS
         script(src='/js/bootstrap.bundle.min.js')
