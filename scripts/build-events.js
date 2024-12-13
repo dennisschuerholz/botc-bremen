@@ -58,6 +58,9 @@ fetch(icsUrl)
         // Sort the events by start date
         events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
+        const next_mzh = events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date());
+        fs.appendFileSync(upath.resolve(__dirname, '../src/pug/events/mzh.pug'), `    - const target = '${next_mzh.url}';`);
+
         // Store the parsed events into a JSON file
         fs.writeFileSync(upath.resolve(__dirname, '../dist/events.json'), JSON.stringify(events, null, 2));
     })
