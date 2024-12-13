@@ -9,6 +9,7 @@ const icsUrl = packageJSON.custom.eventSource;
 fetch(icsUrl)
     .then(response => response.text())
     .then(icsContent => {
+        fs.mkdirSync(upath.resolve(__dirname, '../dist/'));
         // Store the original ics file into dist folder for easier calendar subscribe links (https://botc-bremen.de/events.ics)
         fs.writeFileSync(upath.resolve(__dirname, '../dist/events.ics'), icsContent);
 
