@@ -9,7 +9,11 @@ const icsUrl = packageJSON.custom.eventSource;
 fetch(icsUrl)
     .then(response => response.text())
     .then(icsContent => {
-        fs.mkdirSync(upath.resolve(__dirname, '../dist/'));
+        try {
+            fs.mkdirSync(upath.resolve(__dirname, '../dist/'));
+        } catch (e) {
+            // ignore
+        }
         // Store the original ics file into dist folder for easier calendar subscribe links (https://botc-bremen.de/events.ics)
         fs.writeFileSync(upath.resolve(__dirname, '../dist/events.ics'), icsContent);
 
@@ -59,8 +63,14 @@ fetch(icsUrl)
         // Sort the events by start date
         events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
+        const next = events.find((evt) => new Date(evt.start) > new Date());
+        if (next && next.url !== '') {
+            fs.appendFileSync(upath.resolve(__dirname, '../src/pug/events/next.pug'), `block config\n    - const target = '${next.url}';`);
+        }
         const next_mzh = events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date());
-        fs.appendFileSync(upath.resolve(__dirname, '../src/pug/events/mzh.pug'), `    - const target = '${next_mzh.url}';`);
+        if (next_mzh && next_mzh.url !== '') {
+            fs.appendFileSync(upath.resolve(__dirname, '../src/pug/events/mzh.pug'), `block config\n    - const target = '${next_mzh.url}';`);
+        }
 
         // Store the parsed events into a JSON file
         fs.writeFileSync(upath.resolve(__dirname, '../dist/events.json'), JSON.stringify(events, null, 2));
