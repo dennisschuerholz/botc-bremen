@@ -50,7 +50,7 @@ function fillEvents() {
                 </div>
                 ${event.extra ? `<div title="Extra" class="extra"><i class="bi bi-info-lg"></i> <span class="ms-1">${event.extra}</span></div>` : ''}
             </div>
-            ${event.url ? `<a href="${event.url}" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>` : ''}
+            ${event.url ? `<a href="${event.url}" target="_blank" title="Zur Anmeldung"><i class="bi bi-box-arrow-up-right"></i></a>` : ''}
         `;
         eventElement.addEventListener('mouseover', () => {
             eventElement.classList.add('bg-light');
