@@ -1,157 +1,133 @@
-doctype html
-html(lang='de')
+extends /pug/layouts/base
 
-    head
+block nav-items
+    li.nav-item
+        a.nav-link(href='#events') Veranstaltungen
+    li.nav-item
+        a.nav-link(href='#team') Team
+    li.nav-item
+        a.nav-link(href='#community') Community
+    li.nav-item
+        a.nav-link(href='#rules') Regeln & Tipps
+    li.nav-item
+        a.nav-link(href='#links') Ressourcen
+    li.nav-item
+        a.nav-link(href='#koop') Kooperationen
 
-        meta(charset='utf-8')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='Dennis Schürholz, BotC Bremen & Umzu')
-
-        title Blood on the Clocktower Bremen & Umzu
-
-        link(rel='icon', type='image/x-icon', href='/assets/favicon.ico')
-        link(rel='apple-touch-icon', sizes='180x180', href='/assets/apple-touch-icon.png')
-        link(rel='icon' type='image/png', sizes='16x16', href='/assets/favicon-16x16.png')
-        link(rel='icon' type='image/png', sizes='32x32', href='/assets/favicon-32x32.png')
-
-        // Core theme CSS (includes Bootstrap)
-        link(href='/css/styles.css', rel='stylesheet')
-
-    body#top
-
-        // Navigation
-        nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
+block content
+    // Header
+    header.masthead.text-center.text-white
+        .masthead-content
             .container.px-xl-5.px-3
-                a.navbar-brand(href='#top') BotC Bremen & Umzu
-                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Navigation ein-/ausblenden')
-                    span.navbar-toggler-icon
-                #navbarResponsive.collapse.navbar-collapse
-                    ul.navbar-nav.ms-auto
-                        li.nav-item
-                            a.nav-link(href='#events') Veranstaltungen
-                        li.nav-item
-                            a.nav-link(href='#team') Team
-                        li.nav-item
-                            a.nav-link(href='#community') Community
-                        li.nav-item
-                            a.nav-link(href='#links') Ressourcen
-                        li.nav-item
-                            a.nav-link(href='#koop') Kooperationen
+                h1.masthead-heading.mb-0 Blood on&nbsp;the Clocktower
+                h2.masthead-subheading.mb-0 Lokalcommunity Bremen &amp;&nbsp;Umzu
+                a.btn.btn-dark.btn-xl.rounded-pill.mt-4.mt-lg-5.mx-2(href='#events') Anstehende Veranstaltungen
+                a.btn.btn-dark.btn-xl.rounded-pill.mt-2.mt-lg-5.mx-2(href='#community') Werde Teil der Community
 
-        // Header
-        header.masthead.text-center.text-white
-            .masthead-content
-                .container.px-xl-5.px-3
-                    h1.masthead-heading.mb-0 Blood on&nbsp;the Clocktower
-                    h2.masthead-subheading.mb-0 Lokalcommunity Bremen &amp;&nbsp;Umzu
-                    a.btn.btn-dark.btn-xl.rounded-pill.mt-4.mt-lg-5.mx-2(href='#events') Anstehende Veranstaltungen
-                    a.btn.btn-dark.btn-xl.rounded-pill.mt-2.mt-lg-5.mx-2(href='#community') Werde Teil der Community
+    section#intro
+        .container.px-xl-5.px-3
+            .row.gx-5.align-items-center
+                .col
+                    .p-xl-5.p-2
+                        h2.display-4 Nur ein Spiel ... oder?
+                        p
+                            | Über der verschlafenen Stadt Ravenswood Bluff tobt ein schweres Gewitter.
+                            | Plötzlich hörst du um Mitternacht einen Schrei!
+                            | Als du zum Marktplatz eilst entdeckst du, aufgespießt auf dem Stundenzeiger der Turmuhr, eine ermordete Gestalt.
+                            | Langsam tropft das Blut auf das Kopfsteinpflaster des Platzes darunter.
+                            | Welches Unheil sucht hier eure Stadt heim?
+                        p
+                            | Im Verborgenen agiert ein
+                            emph.bad böser Dämon
+                            | mit einigen
+                            emph.bad Schergen
+                            | und möchte alles Gute eliminieren.
+                            | Die Aufgabe der
+                            emph.good guten Bürger:innen
+                            | und seltsamen
+                            emph.good Außenseiter:innen
+                            | ist es daher, den
+                            emph.bad Dämon
+                            | zu finden und über ihn zu richten, bevor sich der böse Plan entfalten kann.
+                        p
+                            | Jede Person im Dorf verkörpert einen einzigartigen Charakter.
+                            | Auch der
+                            emph.bad Dämon
+                            | und die
+                            emph.bad Schergen
+                            | wirken am Tag wie normale Menschen.
+                            | In der Nacht jedoch agieren viele Charaktere,
+                            emph.good gute
+                            | wie
+                            emph.bad.ddot böse
+                            //| :
+                            | Du erhältst eine Information oder darfst aktiv werden, vielleicht ist deine besondere Fähigkeit aber auch passiv.
+                            | Das
+                            emph.bad böse Team
+                            | kann diese Informationen jedoch trüben und außerdem jede Nacht eine Person töten, bevor sie handeln kann.
+                            | Deine persönliche Fähigkeit wird dir zu Beginn des Spiels geheim zugeteilt.
+                            | Gegenüber der übrigen Runde darfst du aber alles vorgeben, was du möchtest.
+                            | Schließlich ist unter ihnen auch der mordende
+                            emph.bad.emark Dämon
+                            //| !
+                            | In einer Abstimmung wird nach den täglichen Diskussionen bestimmt, wen ihr hinrichtet um der Befreiung etwas näher zu kommen.
+                            br
+                            | In unserer famosen Stadt ist aber auch der Tod nicht das Ende:
+                            | Als Geist nimmst du weiter am Spiel teil, auch wenn deine Fähigkeit meistens erlischt.
+                            | Deine Worte hallen aus dem Jenseits nach, denn du kannst dich weiter mit deinen Vertrauten beraten, um schließlich gemeinsam gegen das
+                            emph.bad böse Team
+                            | zu siegen.
+                            | Am Ende könnte deine letzte Stimme die Abstimmung herum reißen und den
+                            emph.bad Dämon
+                            | zur Hinrichtung führen.
+                        p
+                            | Hast du nach dieser kurzen Einführung Lust bekommen, dich selbst mit uns auf die Suche nach dem
+                            emph.bad Dämon
+                            | und seinen
+                            emph.bad Schergen
+                            | zu begeben?
+                        p.lead
+                            | Dann melde dich direkt zu einem unserer nächsten Treffen an!
+                        p
+                            | Du bist jetzt schon bestens gerüstet, um direkt in deine erste Runde zu starten.
+                            | Eine Übersicht der möglichen Charaktere für diese erhältst du nach der Anmeldung.
+                            | Vor Ort wird dir noch gezeigt, wie die stille Kommunikation in der Nacht abläuft.
+                            | Außerdem können Fragen zu den unterschiedlichen Charakteren beantwortet werden.
+                            //| Wenn du dennoch nicht genug bekommst haben wir unten für dich eine Auswahl weiterführender Ressourcen wie eine Videoanleitung zum Spiel und das Regelwerk selbst verlinkt.
+                        .text-end(style='font-family:"Charmonman";font-size:1.4rem;')
+                            | Bis bald in Ravenswood Bluff!
 
-        section#intro
-            .container.px-xl-5.px-3
-                .row.gx-5.align-items-center
-                    .col
-                        .p-xl-5.p-2
-                            h2.display-4 Nur ein Spiel ... oder?
-                            p
-                                | Über der verschlafenen Stadt Ravenswood Bluff tobt ein schweres Gewitter.
-                                | Plötzlich hörst du um Mitternacht einen Schrei!
-                                | Als du zum Marktplatz eilst entdeckst du, aufgespießt auf dem Stundenzeiger der Turmuhr, eine ermordete Gestalt.
-                                | Langsam tropft das Blut auf das Kopfsteinpflaster des Platzes darunter.
-                                | Welches Unheil sucht hier eure Stadt heim?
-                            p
-                                | Im Verborgenen agiert ein
-                                emph.bad böser Dämon
-                                | mit einigen
-                                emph.bad Schergen
-                                | und möchte alles Gute eliminieren.
-                                | Die Aufgabe der
-                                emph.good guten Bürger:innen
-                                | und seltsamen
-                                emph.good Außenseiter:innen
-                                | ist es daher, den
-                                emph.bad Dämon
-                                | zu finden und über ihn zu richten, bevor sich der böse Plan entfalten kann.
-                            p
-                                | Jede Person im Dorf verkörpert einen einzigartigen Charakter.
-                                | Auch der
-                                emph.bad Dämon
-                                | und die
-                                emph.bad Schergen
-                                | wirken am Tag wie normale Menschen.
-                                | In der Nacht jedoch agieren viele Charaktere,
-                                emph.good gute
-                                | wie
-                                emph.bad.ddot böse
-                                //| :
-                                | Du erhältst eine Information oder darfst aktiv werden, vielleicht ist deine besondere Fähigkeit aber auch passiv.
-                                | Das
-                                emph.bad böse Team
-                                | kann diese Informationen jedoch trüben und außerdem jede Nacht eine Person töten, bevor sie handeln kann.
-                                | Deine persönliche Fähigkeit wird dir zu Beginn des Spiels geheim zugeteilt.
-                                | Gegenüber der übrigen Runde darfst du aber alles vorgeben, was du möchtest.
-                                | Schließlich ist unter ihnen auch der mordende
-                                emph.bad.emark Dämon
-                                //| !
-                                | In einer Abstimmung wird nach den täglichen Diskussionen bestimmt, wen ihr hinrichtet um der Befreiung etwas näher zu kommen.
-                                br
-                                | In unserer famosen Stadt ist aber auch der Tod nicht das Ende:
-                                | Als Geist nimmst du weiter am Spiel teil, auch wenn deine Fähigkeit meistens erlischt.
-                                | Deine Worte hallen aus dem Jenseits nach, denn du kannst dich weiter mit deinen Vertrauten beraten, um schließlich gemeinsam gegen das
-                                emph.bad böse Team
-                                | zu siegen.
-                                | Am Ende könnte deine letzte Stimme die Abstimmung herum reißen und den
-                                emph.bad Dämon
-                                | zur Hinrichtung führen.
-                            p
-                                | Hast du nach dieser kurzen Einführung Lust bekommen, dich selbst mit uns auf die Suche nach dem
-                                emph.bad Dämon
-                                | und seinen
-                                emph.bad Schergen
-                                | zu begeben?
-                            p.lead
-                                | Dann melde dich direkt zu einem unserer nächsten Treffen an!
-                            p
-                                | Du bist jetzt schon bestens gerüstet, um direkt in deine erste Runde zu starten.
-                                | Eine Übersicht der möglichen Charaktere für diese erhältst du nach der Anmeldung.
-                                | Vor Ort wird dir noch gezeigt, wie die stille Kommunikation in der Nacht abläuft.
-                                | Außerdem können Fragen zu den unterschiedlichen Charakteren beantwortet werden.
-                                //| Wenn du dennoch nicht genug bekommst haben wir unten für dich eine Auswahl weiterführender Ressourcen wie eine Videoanleitung zum Spiel und das Regelwerk selbst verlinkt.
-                            .text-end(style='font-family:"Charmonman";font-size:1.4rem;')
-                                | Bis bald in Ravenswood Bluff!
-
-        section#events
-            .container.px-xl-5.px-3
-                .row.gx-5
-                    .col-lg-6
-                        .p-xl-5.p-2
-                            h2.display-4 Veranstaltungen
-                            p.mb-0
-                                | Hier findet ihr immer die nächsten geplanten Veranstaltungen.
-                                | Unsere offenen Runden finden an wechselnden Locations statt.
-                                | Durch die jeweiligen Möglichkeiten schwankt auch die maximale Anmeldezahl.
-                                | Anmeldungen über den Link oder ggf. direkt bei den Storytellern.
-                            img.img-fluid.rounded-circle.d-none.d-lg-block.mt-2(src='/assets/img/3.jpg', alt='...')
-                    .col-lg-6
-                        .p-xl-5.p-2
-                            .row.mb-2.mt-2
-                                .text-start.col-7
-                                    a(href='javascript:nextEvents(true)', title='Frühere Veranstaltungen')#prevEvents.p-1.m1
-                                        i.bi.bi-chevron-left
-                                    span#eventsCounter.p-1.m1
-                                        | Seite 1 von ...
-                                    a(href='javascript:nextEvents()', title='Spätere Veranstaltungen')#nextEvents.p-1.m1
-                                        i.bi.bi-chevron-right
-                                .text-end.col-5.text-nowrap
-                                    | Abonnieren:
-                                    a(href='/events.ics', title='Termindownload oder Kalenderabonnement (ics/ical)').p-1.m-1
-                                        i.bi.bi-calendar-heart
-                            ul.list-group#botc-event-widget
-                                li.list-group-item.d-flex.justify-content-center.align-items-center
-                                    i.bi.bi-arrow-repeat.bi-spin
-                                    span.m-2 Lade Veranstaltungen...
-                            img.img-fluid.rounded-circle.mt-2.d-lg-none(src='/assets/img/3.jpg', alt='...')
+    section#events
+        .container.px-xl-5.px-3
+            .row.gx-5
+                .col-lg-6
+                    .p-xl-5.p-2
+                        h2.display-4 Veranstaltungen
+                        p.mb-0
+                            | Hier findet ihr immer die nächsten geplanten Veranstaltungen.
+                            | Unsere offenen Runden finden an wechselnden Locations statt.
+                            | Durch die jeweiligen Möglichkeiten schwankt auch die maximale Anmeldezahl.
+                            | Anmeldungen über den Link oder ggf. direkt bei den Storytellern.
+                        img.img-fluid.rounded-circle.d-none.d-lg-block.mt-2(src='/assets/img/3.jpg', alt='...')
+                .col-lg-6
+                    .p-xl-5.p-2
+                        .row.mb-2.mt-2
+                            .text-start.col-7
+                                a(href='javascript:nextEvents(true)', title='Frühere Veranstaltungen')#prevEvents.p-1.m1
+                                    i.bi.bi-chevron-left
+                                span#eventsCounter.p-1.m1
+                                    | Seite 1 von ...
+                                a(href='javascript:nextEvents()', title='Spätere Veranstaltungen')#nextEvents.p-1.m1
+                                    i.bi.bi-chevron-right
+                            .text-end.col-5.text-nowrap
+                                | Abonnieren:
+                                a(href='/events.ics', title='Termindownload oder Kalenderabonnement (ics/ical)').p-1.m-1
+                                    i.bi.bi-calendar-heart
+                        ul.list-group#botc-event-widget
+                            li.list-group-item.d-flex.justify-content-center.align-items-center
+                                i.bi.bi-arrow-repeat.bi-spin
+                                span.m-2 Lade Veranstaltungen...
+                        img.img-fluid.rounded-circle.mt-2.d-lg-none(src='/assets/img/3.jpg', alt='...')
 
         section#team
             .container.px-xl-5.px-3
@@ -197,103 +173,61 @@ html(lang='de')
                                         .card-body.p-0
                                             .card-text
 
-        section#community
-            .container.px-xl-5.px-3
-                .row.gx-5.align-items-center
-                    .col-lg-6.order-lg-1.order-2
-                        .p-xl-5.p-2
-                            img.img-fluid.rounded-circle(src='/assets/img/4.jpg', alt='...')
-                    .col-lg-6.order-lg-2.order-1
-                        .p-xl-5.p-2
-                            h2.display-4 Community
-                            ul.list-group.list-group-flush
-                                li.list-group-item
-                                    .row.align-items-center
-                                        i.col-1.p-0.fs-1.bi.bi-people
-                                        .col
-                                            | Sprich uns einfach auf einem
-                                            a(href='#events') Event
-                                            | persönlich an.
-                                li.list-group-item
-                                    .row.align-items-center
-                                        i.col-1.p-0.fs-1.bi.bi-discord
-                                        .col
-                                            | Tritt unserem Discord-Server bei:
-                                            br
-                                            a(href='/discord', target='_blank') https://botc-bremen.de/discord
-                                li.list-group-item
-                                    .row.align-items-center
-                                        i.col-1.p-0.fs-1.bi.bi-whatsapp
-                                        .col
-                                            | Du möchtest Teil der WhatsApp-Gruppen werden?
-                                            br
-                                            | Schreibe uns eine Nachricht:
-                                            a(href='https://wa.me/4915678390797', target='_blank') +49 15678 390797
-                                li.list-group-item
-                                    .row.align-items-center
-                                        i.col-1.p-0.fs-1.bi.bi-telegram
-                                        .col
-                                            | Ankündigungen auch auf Telegram abonnieren:
-                                            br
-                                            a(href='/telegram', target='_blank') https://botc-bremen.de/telegram
-                                li.list-group-item
-                                    .row.align-items-center
-                                        i.col-1.p-0.fs-1.bi.bi-envelope-plus
-                                        .col
-                                            | E-Mail-Newsletter für Ankündigungen
-                                            a.dot(href='/newsletter', target='_blank') abonnieren
-                                li.list-group-item
-                                    .row.align-items-center
-                                        i.col-1.p-0.fs-1.bi.bi-envelope-fill
-                                        .col
-                                            | Kontaktiere das
-                                            a(href='#team') Team
-                                            | gerne per
-                                            a(href='mailto:info@botc-bremen.de') E-Mail
-                                            | für weitere Fragen, Anregungen oder sonstige Anliegen.
 
-        section#links
-            .container.px-xl-5.px-3
-                .row.gx-5.align-items-center
-                    .col-lg-6.order-lg-2.order-2
-                        .p-xl-5.p-2
-                            img.img-fluid.rounded-circle(src='/assets/img/5.jpg', alt='...')
-                    .col-lg-6.order-lg-1.order-1
-                        .p-xl-5.p-2
-                            h2.display-4 Ressourcen
-                            p
-                                |
-                            ul.list-group.list-group-flush
-                                li.list-group-item
-                                    a(href='https://bloodontheclocktower.com/', target='_blank') Offizielle Homepage
-                                    | [en]
-                                li.list-group-item
-                                    a(href='https://wiki.bloodontheclocktower.com/', target='_blank') Offizielles Wiki
-                                    | [en]
-                                li.list-group-item
-                                    a(href='https://funtails.de/produkt/blood-on-the-clocktower-deutsch/', target='_blank') Deutsche Spielversion bei Funtails
-                                li.list-group-item
-                                    a(href='https://youtu.be/M-aZP47Nm9g', target='_blank') Kurze Einführung
-                                    | (9 Minuten) [en]
-                                li.list-group-item
-                                    a(href='https://youtu.be/-xT_pnFNZBA', target='_blank') Ausführliche Regelerklärung
-                                    | (41 Minuten) [de]
-                                li.list-group-item
-                                    a(href='https://clocktowertimer.com/', target='_blank') Clocktowertimer
-                                    | (Storyteller-Tool)
-                                li.list-group-item
-                                    a(href='https://savant.botc-bremen.de/', target='_blank') Savant Info-Generator
-                                    | (Storyteller-Tool)
-                                li.list-group-item
-                                    a(href='https://discord.com/invite/hQrXsWutt6', target='_blank') Deutscher Discord
-                                    | (Inoffiziell)
-                                li.list-group-item
-                                    a(href='https://discord.gg/botc', target='_blank') Globaler Discord
-                                    | (Inoffiziell)
-                                    | [en]
-                                li.list-group-item
-                                    a(href='https://linktr.ee/bloodontheclocktower', target='_blank') Offizielle Linkliste
-                                    | [en]
+    section#community
+        .container.px-xl-5.px-3
+            .row.gx-5.align-items-center
+                .col-lg-6.order-lg-1.order-2
+                    .p-xl-5.p-2
+                        img.img-fluid.rounded-circle(src='/assets/img/4.jpg', alt='...')
+                .col-lg-6.order-lg-2.order-1
+                    .p-xl-5.p-2
+                        h2.display-4 Community
+                        ul.list-group.list-group-flush
+                            li.list-group-item
+                                .row.align-items-center
+                                    i.col-1.p-0.fs-1.bi.bi-people
+                                    .col
+                                        | Sprich uns einfach auf einem
+                                        a(href='#events') Event
+                                        | persönlich an.
+                            li.list-group-item
+                                .row.align-items-center
+                                    i.col-1.p-0.fs-1.bi.bi-discord
+                                    .col
+                                        | Tritt unserem Discord-Server bei:
+                                        br
+                                        a(href='/discord', target='_blank') https://botc-bremen.de/discord
+                            li.list-group-item
+                                .row.align-items-center
+                                    i.col-1.p-0.fs-1.bi.bi-whatsapp
+                                    .col
+                                        | Du möchtest Teil der WhatsApp-Gruppen werden?
+                                        br
+                                        | Schreibe uns eine Nachricht:
+                                        a(href='https://wa.me/4915678390797', target='_blank') +49 15678 390797
+                            li.list-group-item
+                                .row.align-items-center
+                                    i.col-1.p-0.fs-1.bi.bi-telegram
+                                    .col
+                                        | Ankündigungen auch auf Telegram abonnieren:
+                                        br
+                                        a(href='/telegram', target='_blank') https://botc-bremen.de/telegram
+                            li.list-group-item
+                                .row.align-items-center
+                                    i.col-1.p-0.fs-1.bi.bi-envelope-plus
+                                    .col
+                                        | E-Mail-Newsletter für Ankündigungen
+                                        a.dot(href='/newsletter', target='_blank') abonnieren
+                            li.list-group-item
+                                .row.align-items-center
+                                    i.col-1.p-0.fs-1.bi.bi-envelope-fill
+                                    .col
+                                        | Kontaktiere das
+                                        a(href='#team') Team
+                                        | gerne per
+                                        a(href='mailto:info@botc-bremen.de') E-Mail
+                                        | für weitere Fragen, Anregungen oder sonstige Anliegen.
 
         section#koop
             .container.px-xl-5.px-3
@@ -355,8 +289,78 @@ html(lang='de')
                         a(href='mailto:alex@botc-bremen.de') alex@botc-bremen.de
                         | &bull; Telefon: 0177 / 45 53 700
 
-        // Bootstrap core JS
-        script(src='/js/bootstrap.bundle.min.js')
+    section#links
+        .container.px-xl-5.px-3
+            .row.gx-5.align-items-center
+                .col-lg-6.order-lg-2.order-2
+                    .p-xl-5.p-2
+                        img.img-fluid.rounded-circle(src='/assets/img/5.jpg', alt='...')
+                .col-lg-6.order-lg-1.order-1
+                    .p-xl-5.p-2
+                        h2.display-4 Ressourcen
+                        p
+                            |
+                        ul.list-group.list-group-flush
+                            li.list-group-item
+                                a(href='https://bloodontheclocktower.com/', target='_blank') Offizielle Homepage
+                                | [en]
+                            li.list-group-item
+                                a(href='https://wiki.bloodontheclocktower.com/', target='_blank') Offizielles Wiki
+                                | [en]
+                            li.list-group-item
+                                a(href='https://funtails.de/produkt/blood-on-the-clocktower-deutsch/', target='_blank') Deutsche Spielversion bei Funtails
+                            li.list-group-item
+                                a(href='https://youtu.be/M-aZP47Nm9g', target='_blank') Kurze Einführung
+                                | (9 Minuten) [en]
+                            li.list-group-item
+                                a(href='https://youtu.be/-xT_pnFNZBA', target='_blank') Ausführliche Regelerklärung
+                                | (41 Minuten) [de]
+                            li.list-group-item
+                                a(href='https://clocktowertimer.com/', target='_blank') Clocktowertimer
+                                | (Storyteller-Tool)
+                            li.list-group-item
+                                a(href='https://savant.botc-bremen.de/', target='_blank') Savant Info-Generator
+                                | (Storyteller-Tool)
+                            li.list-group-item
+                                a(href='https://discord.com/invite/hQrXsWutt6', target='_blank') Deutscher Discord
+                                | (Inoffiziell)
+                            li.list-group-item
+                                a(href='https://discord.gg/botc', target='_blank') Globaler Discord
+                                | (Inoffiziell)
+                                | [en]
+                            li.list-group-item
+                                a(href='https://linktr.ee/bloodontheclocktower', target='_blank') Offizielle Linkliste
+                                | [en]
 
-        // Core theme JS
-        script(src='/js/scripts.js')
+    section#koop
+        .container.px-xl-5.px-3
+            .row.gx-5.align-items-center
+                .col
+                    .p-xl-5.p-2
+                        h2.display-4 Kooperationen
+                        .row.row-cols-1.row-cols-md-3.g-4
+                            .col
+                                .card.h-100
+                                    .card-img-container
+                                        img.w-50.p-1(src='/assets/img/stugainf_comp.svg', alt='StugA Informatik')
+                                        img.w-50.p-1(src='/assets/img/stugamathe.svg', alt='StugA Mathematik')
+                                    .card-body
+                                        .card-text
+                                            | Dank Kooperation mit den Stugen des FB3 an der Universität Bremen können wir die regelmäßigen Spieletage im MZH anbieten.
+                                            | Im Gegenzug unterstützen wir auch Veranstaltungen der Studierendenschaft.
+                                    .card-footer
+                                        a(href='https://fb3.stugen.de', target='_blank')
+                                            | Zu den Stugen des FB3
+                                            //i.bi.bi-box-arrow-up-right
+                            .col
+                                .card.h-100
+                                    .card-img-container
+                                        .img(style="mask-image: url('/assets/img/jetzthier.svg'); background-color: rgb(227, 173, 234); aspect-ratio: 1125/411;", alt='Jetzt Hier Quartiersentwicklung')
+                                        //img(src='/assets/img/jetzthier.svg', alt='Jetzt Hier Quartiersentwicklung')
+                                    .card-body
+                                        .card-text
+                                            | jetzt hier ist ein Projekt von Kultur Vor Ort e.V. zur Förderung nachbarschaftlicher Verbundenheit in der Überseestadt. Gemeinsam mit Bewohner:innen werden Formate und Programme entwickelt, die das Miteinander stärken.
+                                    .card-footer
+                                        a(href='https://jetzthier.eu/', target='_blank')
+                                            | Zu jetzt hier Quartiersentwicklung
+                                            //i.bi.bi-box-arrow-up-right
