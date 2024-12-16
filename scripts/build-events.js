@@ -65,11 +65,11 @@ fetch(icsUrl)
 
         const next = events.find((evt) => new Date(evt.start) > new Date());
         if (next && next.url !== '') {
-            fs.appendFileSync(upath.resolve(__dirname, '../src/pug/events/next.pug'), `block config\n    - const target = '${next.url}';`);
+            fs.writeFileSync(upath.resolve(__dirname, '../src/pug/events/next.pug'), `extends /pug/events\nblock config\n    - const target = '${next.url}';`);
         }
         const next_mzh = events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date());
         if (next_mzh && next_mzh.url !== '') {
-            fs.appendFileSync(upath.resolve(__dirname, '../src/pug/events/mzh.pug'), `block config\n    - const target = '${next_mzh.url}';`);
+            fs.writeFileSync(upath.resolve(__dirname, '../src/pug/events/mzh.pug'), `extends /pug/events\nblock config\n    - const target = '${next_mzh.url}';`);
         }
 
         // Store the parsed events into a JSON file

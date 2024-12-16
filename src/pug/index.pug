@@ -8,6 +8,8 @@ block nav-items
     li.nav-item
         a.nav-link(href='#community') Community
     li.nav-item
+        a.nav-link(href='#rules') Regeln & Tipps
+    li.nav-item
         a.nav-link(href='#links') Ressourcen
     li.nav-item
         a.nav-link(href='#koop') Kooperationen
@@ -134,42 +136,72 @@ block content
                     .p-xl-5.p-2
                         h2.display-4 Team
                         .row.row-cols-1.row-cols-md-2.row-cols-lg-3.g-4
-                            .col
-                                .card.p-2.h-100
-                                    .card-img-top.card-title
-                                        include ../assets/img/Vector_Storyteller-Icon_Alex_Vortox.svg
-                                    .card-body.p-0
-                                        .card-text
-                            .col
-                                .card.p-2.h-100
-                                    .card-img-top.card-title
-                                        include ../assets/img/Vector_Storyteller-Icon_Daniel_Yaggababble.svg
-                                    .card-body.p-0
-                                        .card-text
-                            .col
-                                .card.p-2.h-100
-                                    .card-img-top.card-title
-                                        include ../assets/img/Vector_Storyteller-Icon_Dennis_Legion.svg
-                                    .card-body.p-0
-                                        .card-text
-                            .col
-                                .card.p-2.h-100
-                                    .card-img-top.card-title
-                                        include ../assets/img/Vector_Storyteller-Icon_Jessica_Leviathan.svg
-                                    .card-body.p-0
-                                        .card-text
-                            .col
-                                .card.p-2.h-100
-                                    .card-img-top.card-title
-                                        include ../assets/img/Vector_Storyteller-Icon_Kathi_Ojo.svg
-                                    .card-body.p-0
-                                        .card-text
-                            .col
-                                .card.p-2.h-100
-                                    .card-img-top.card-title
-                                        include ../assets/img/Vector_Storyteller-Icon_Sorel_No_Dashii.svg
-                                    .card-body.p-0
-                                        .card-text
+                            label(for="cardAlex").card-flip
+                                input(type="checkbox")#cardAlex
+                                .col
+                                    .card.p-2.h-100.front
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Alex_Vortox.svg
+                                    .card.p-2.h-100.back
+                                        .card-body.p-2
+                                            h3.card-title Alex
+                                            .card-text
+                                                | Alex ist unser Tüftler, er überrascht uns regelmäßig mit eigenen Kreationen und setzt um, was Jessica so designt und an verrückten Ideen produziert, zudem verwaltet er unsere Spendenkasse. Alex spielt wahnsinnig gerne und spielt auch gerne wahnsinnig.
+                            label(for="cardDaniel").card-flip
+                                input(type="checkbox")#cardDaniel
+                                .col
+                                    .card.p-2.h-100.front
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Daniel_Yaggababble.svg
+                                    .card.p-2.h-100.back
+                                        .card-body.p-2
+                                            h3.card-title Daniel
+                                            .card-text
+                                                | Daniel ist unser fleißiges Bienchen, er ist sehr engagiert auf vielen Ebenen, er ist sogar Vorsitzender eines Spielevereins. Er ist äußerst hilfsbereit, situativ spielt er entweder selber als Spieler mit oder er leitet Runden, meist für fortgeschrittene Spieler:innen, oft auch im Duo mit Kathi.
+                            label(for="cardDennis").card-flip
+                                input(type="checkbox")#cardDennis
+                                .col
+                                    .card.p-2.h-100.front
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Dennis_Legion.svg
+                                    .card.p-2.h-100.back
+                                        .card-body.p-2
+                                            h3.card-title Dennis
+                                            .card-text
+                                                | Dennis ist der Meister der Einstiegsrunden, welche er regelmäßig anbietet. Er ist auch für die Online-Ressourcen verantwortlich, wie Website, Anmeldung oder den Savant Info-Generator. Er hat unsere lokale Community und unser Storyteller-Team initial zusammengeführt und träumt davon, mit einer BotC-Convention noch viel mehr Menschen zusammen zu bringen.
+                            label(for="cardJessica").card-flip
+                                input(type="checkbox")#cardJessica
+                                .col
+                                    .card.p-2.h-100.front
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Jessica_Leviathan.svg
+                                    .card.p-2.h-100.back
+                                        .card-body.p-2
+                                            h3.card-title Jessica
+                                            .card-text
+                                                | Jessica ist für alles Kreative, Design, Corporate Identity und Übersetzungen zuständig. Wenn ihr unser Spielmaterial in euren Händen haltet hat sie es entworfen. Sie leitet eher selten Runden, ist dennoch regelmäßig als Mitspielerin dabei.
+                            label(for="cardKathi").card-flip
+                                input(type="checkbox")#cardKathi
+                                .col
+                                    .card.p-2.h-100.front
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Kathi_Ojo.svg
+                                    .card.p-2.h-100.back
+                                        .card-body.p-2
+                                            h3.card-title Kathi
+                                            .card-text
+                                                | Kathi ist unser Organisationstalent und gute Seele, sie hat für alle ein offenes Ohr und manchmal auch eine liebevolle Strenge. Sie vermittelt bei Unstimmigkeiten und sorgt für Struktur der Zusammenarbeit im Storyteller-Team, sowie mit der Community.
+                            label(for="cardSorel").card-flip
+                                input(type="checkbox")#cardSorel
+                                .col
+                                    .card.p-2.h-100.front
+                                        .card-img-top.card-title
+                                            include ../assets/img/Vector_Storyteller-Icon_Sorel_No_Dashii.svg
+                                    .card.p-2.h-100.back
+                                        .card-body.p-2
+                                            h3.card-title Sorel
+                                            .card-text
+                                                | Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
     section#community
         .container.px-xl-5.px-3
@@ -218,6 +250,18 @@ block content
                                         a.dot(href='/newsletter', target='_blank') abonnieren
                             li.list-group-item
                                 .row.align-items-center
+                                    .col
+                                    a(href='/instagram').col-1.p-0.fs-1
+                                        i.bi.bi-instagram
+                                    .col
+                                    a(href='/bluesky').col-1.p-0.fs-1
+                                        i.bi.bi-bluesky(style="mask-image:url('assets/img/tmp-bluesky.svg');mask-repeat:no-repeat;mask-size:contain;background-color:var(--bs-list-group-color);height:2.5rem;width:2.5rem;display:inline-block;vertical-align:-0.4rem;")
+                                    .col
+                                    a(href='/threads').col-1.p-0.fs-1
+                                        i.bi.bi-threads
+                                    .col
+                            li.list-group-item
+                                .row.align-items-center
                                     i.col-1.p-0.fs-1.bi.bi-envelope-fill
                                     .col
                                         | Kontaktiere das
@@ -225,6 +269,67 @@ block content
                                         | gerne per
                                         a(href='mailto:info@botc-bremen.de') E-Mail
                                         | für weitere Fragen, Anregungen oder sonstige Anliegen.
+
+    section#rules
+        .container.px-xl-5.px-3
+            .row.gx-5.align-items-center
+                .col
+                    .p-xl-5.p-2
+                        nav
+                            .nav.nav-tabs(role="tablist")
+                                button#nav-rules-game-tab.nav-link.active(data-bs-toggle="tab", data-bs-target="#nav-rules-game", type="button", role="tab", aria-controls="nav-rules-game") Die vier Kernregeln des Spiels
+                                button#nav-rules-tipps-tab.nav-link(data-bs-toggle="tab", data-bs-target="#nav-rules-tipps", type="button", role="tab", aria-controls="nav-rules-tipps") 10 Tipps zum Spiel
+                                button#nav-rules-community-tab.nav-link(data-bs-toggle="tab", data-bs-target="#nav-rules-community", type="button", role="tab", aria-controls="nav-rules-community") Unsere Communityregeln
+                        .tab-content.py-2
+                            #nav-rules-game.tab-pane.fade.show.active(role="tabpanel", aria-labelledby="nav-rules-game-tab")
+                                h2.display-4 Die vier Kernregeln des Spiels
+                                .row.row-cols-1.row-cols-md-3.row-cols-lg-3.g-4
+                                    .col
+                                        .card.h-100
+                                            .card-header.p-2
+                                                .fs-5 Du kannst sagen, was du möchtest.
+                                            .card-body.p-2
+                                                .card-text
+                                                    | Dies ist ein Kommunikationsspiel.
+                                                    | Du kannst öffentlich mit der Gruppe reden oder private Unterhaltungen führen, das ist dir überlassen.
+                                    .col
+                                        .card.h-100
+                                            .card-header.p-2
+                                                .fs-5 Nicht spicken.
+                                            .card-body.p-2
+                                                .card-text
+                                                    | Bitte halte dein Charakterplättchen geheim und schaue niemals in das Grimoire, denn es enthält alle Charaktere des Spiels.
+                                                    | Falls du etwas siehst, das du nicht sehen solltest, verdirbt es dir den Spaß.
+                                    .col
+                                        .card.h-100
+                                            .card-header.p-2
+                                                .fs-5 Sei nett.
+                                            .card-body.p-2
+                                                .card-text
+                                                    | In diesem Spiel geht es um Täuschung und Betrug, also behandle andere bitte mit Respekt und Rücksicht.
+                                                    | Töte mit Anstand und stirb mit Würde.
+                                .row.g-4(style="margin-top: var(--bs-gutter-y)/2;")
+                                    .col
+                                        .card.h-100
+                                            .card-header.p-2
+                                                .fs-5 Stell dem Erzähler alle Fragen, die nötig sind.
+                                            .card-body.p-2
+                                                .card-text
+                                                    | Falls du verwirrt bist oder nicht verstehst, wie dein Charakter funktioniert, falls du nicht verstehst, wie der Charakter, der du zu sein vorgibst, funktioniert, falls etwas in der Nacht passiert, das du nicht verstehst, oder falls du einfach einen Strategietipp brauchst... was auch immer es ist, frag bitte.
+                                                    | Der Erzähler ist neutral und seine Aufgabe ist es, dir zu helfen, die Regeln zu verstehen und Spaß beim Spielen zu haben.
+                                                    | Sag ihm Bescheid, wenn du eine Frage hast, und ihr könnt unter vier Augen reden, damit niemand weiß, welche Frage du gestellt hast.
+                            #nav-rules-tipps.tab-pane.fade(role="tabpanel", aria-labelledby="nav-rules-tipps-tab")
+                                h2.display-4 10 Tipps zum Spiel
+                                p
+                                    | Diese Tipps wurden von Better Board Games in
+                                    a(href='https://youtu.be/-xT_pnFNZBA?t=1702') einem Video
+                                    | zusammengetragen. Wir möchten sie euch auch zusammengefasst mitgeben:
+                                ol.list-group.list-group-numbered
+                                    li.list-group-item Sammle Informationen: Versuche so viele Informationen wie möglich zu sammeln. Zieht daraus Schlüsse, wen ihr bestätigen oder verdächtigen könnt, mit wem lohnt sich ein Gespräch? Stimmen die Informationen oder wiederspricht sich etwas?
+                                    li.list-group-item Führe Gespräche auch in kleineren Gruppen. Nutze unterschiedliche Konstellationen um Informationen auszutauschen. Aber: Alles was ihr der ganzen Gruppe mitteilt ist natürlich auch dem bösen Team bekannt.
+                                    li.list-group-item Der Tod ist nicht das Ende des Spiels. Ihr seid zwar durch den Verlust der Fähigkeit und in den Abstimmungen eingeschränkt, aber ihr nehmt ansonsten weiterhin Teil. Ein Tod sorgt häufig dafür, dass auch neue Informationen verfügbar werden.
+                            #nav-rules-community.tab-pane.fade(role="tabpanel", aria-labelledby="nav-rules-community-tab")
+                                h2.display-4 Unsere Communityregeln
 
     section#links
         .container.px-xl-5.px-3
