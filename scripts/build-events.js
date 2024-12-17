@@ -36,14 +36,11 @@ fetch(icsUrl)
                 const text = line.trim();
                 if (text.startsWith('URL: ')) {
                     url = text.substring(5);
-                }
-                else if (text.startsWith('LOC: ')) {
+                } else if (text.startsWith('LOC: ')) {
                     locationUrl = text.substring(5);
-                }
-                else if (text.startsWith('ST: ')) {
+                } else if (text.startsWith('ST: ')) {
                     storyTellers = text.substring(4).split(',').map(st => st.trim());
-                }
-                else {
+                } else {
                     // Add other lines to the extra data, but ignore the first empty lines
                     extra = extra ? `${extra}\n${text}` : text === '' ? null : text;
                 }
@@ -63,13 +60,17 @@ fetch(icsUrl)
         // Sort the events by start date
         events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
-        const next = events.find((evt) => new Date(evt.start) > new Date());
-        if (next && next.url !== '') {
-            fs.writeFileSync(upath.resolve(__dirname, '../src/pug/events/next.pug'), `extends /pug/events/index\nblock config\n    - const target = '${next.url}';`);
-        }
-        const next_mzh = events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date());
-        if (next_mzh && next_mzh.url !== '') {
-            fs.writeFileSync(upath.resolve(__dirname, '../src/pug/events/mzh.pug'), `extends /pug/events/index\nblock config\n    - const target = '${next_mzh.url}';`);
+        const filter = {
+            'next': events.find((evt) => new Date(evt.start) > new Date()),
+            'mzh': events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date()),
+        };
+        for (const next in filter) {
+            let content = 'extends /pug/events/index';
+            if (filter[next] && filter[next].url !== '') {
+                content += `\nblock config\n    - const target = '${filter[next].url}';`;
+            }
+            fs.writeFileSync(upath.resolve(__dirname, `../src/pug/events/${next}.pug`), content);
+            console.log("foobar");
         }
 
         // Store the parsed events into a JSON file
