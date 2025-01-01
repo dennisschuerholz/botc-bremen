@@ -1,6 +1,6 @@
 /*!
 * Start Bootstrap - botc-bremen-website v1.0.0 (https://botc-bremen.de)
-* Copyright 2013-2024 Dennis Schürholz (https://dennisschuerholz.de/)
+* Copyright 2013-2025 Dennis Schürholz (https://dennisschuerholz.de/)
 * Licensed under MIT (https://github.com/StartBootstrap/botc-bremen-website/blob/master/LICENSE)
 */
 let events = [];
