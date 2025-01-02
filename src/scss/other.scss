@@ -2,11 +2,13 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     color: $dark-purple;
 }
 
-$sizes: ( 25: 25%, 50: 50%, 75: 75%, 100: 100%, );
+$sizes: (25: 25%, 50: 50%, 75: 75%, 100: 100%,);
 @each $breakpoint in map-keys($grid-breakpoints) {
     @each $size, $length in $sizes {
         @include media-breakpoint-up($breakpoint) {
-            .w-#{$breakpoint}-#{$size} {width: $length !important;}
+            .w-#{$breakpoint}-#{$size} {
+                width: $length !important;
+            }
         }
     }
 }
@@ -28,6 +30,7 @@ $sizes: ( 25: 25%, 50: 50%, 75: 75%, 100: 100%, );
 
 footer {
     background-color: $dark-purple;
+
     a:hover {
         color: #ffffff;
     }
@@ -37,10 +40,16 @@ footer {
     color: $dark-purple;
 }
 
-#team .card-title svg {
-    width: 100%;
-    height: 100%;
-    color: $dark-purple;
+#team {
+    .card-title svg {
+        width: 100%;
+        height: 100%;
+        color: $dark-purple;
+    }
+    h3.card-title {
+        text-transform: uppercase;
+        font-family: "Dumbledore 1", #{$font-family-base};
+    }
 }
 
 #koop .card-img-container {
@@ -58,6 +67,7 @@ footer {
 emph.good {
     color: $good;
 }
+
 emph.bad {
     color: $bad;
 }
@@ -67,15 +77,19 @@ emph.bad {
     text-decoration: none;
     text-transform: none;
 }
+
 .dot::after {
     content: '.';
 }
+
 .ddot::after {
     content: ':';
 }
+
 .qmark::after {
     content: '?';
 }
+
 .emark::after {
     content: '!';
 }

@@ -1,4 +1,4 @@
-.botc-event-widget {
+#botc-event-widget {
     .event {
         transition: background-color 0.15s;
     }
@@ -8,5 +8,10 @@
     .title {
         font-size: 1.15rem;
         margin: 0;
+    }
+    a .bi-person-plus-fill::before {
+        border-radius: 1em;
+        padding: 0.5ex;
+        outline: 1px solid var(--bs-link-color);
     }
 }
