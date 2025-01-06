@@ -561,37 +561,14 @@
   },
   {
     "title": "Uni Bremen / MZH",
-    "start": "2025-01-18T12:00:00.000Z",
-    "end": "2025-01-18T21:00:00.000Z",
-    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
-    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": "https://events.botc-bremen.de/mzh250118/",
-    "storyTellers": [
-      "Daniel & Kathi"
-    ],
-    "extra": null
-  },
-  {
-    "title": "Uni Bremen / MZH",
     "start": "2025-02-01T12:00:00.000Z",
     "end": "2025-02-01T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "https://events.botc-bremen.de/mzh250201/",
     "storyTellers": [
-      "Daniel & Kathi",
-      "Dennis"
+      "Jessica & Sorel"
     ],
-    "extra": null
-  },
-  {
-    "title": "Uni Bremen / MZH",
-    "start": "2025-02-15T12:00:00.000Z",
-    "end": "2025-02-15T21:00:00.000Z",
-    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
-    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
-    "storyTellers": [],
     "extra": null
   },
   {
