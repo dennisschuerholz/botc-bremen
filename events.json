@@ -590,7 +590,10 @@
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
-    "storyTellers": [],
+    "storyTellers": [
+      "Dennis",
+      "Sorel"
+    ],
     "extra": null
   },
   {
