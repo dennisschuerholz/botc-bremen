@@ -63,7 +63,7 @@ fetch(icsUrl)
         const filter = {
             'next': events.find((evt) => new Date(evt.start) > new Date()),
             'mzh': events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date()),
-            'jh': events.find((evt) => evt.title.contains('jetzt hier') && new Date(evt.start) > new Date()),
+            'jh': events.find((evt) => evt.title.includes('jetzt hier') && new Date(evt.start) > new Date()),
         };
         for (const next in filter) {
             let content = 'extends /pug/events/index';
@@ -71,7 +71,6 @@ fetch(icsUrl)
                 content += `\nblock config\n    - const target = '${filter[next].url}';`;
             }
             fs.writeFileSync(upath.resolve(__dirname, `../src/pug/events/${next}.pug`), content);
-            console.log("foobar");
         }
 
         // Store the parsed events into a JSON file
