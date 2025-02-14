@@ -112,3 +112,9 @@ document.querySelectorAll('.navbar a.navbar-brand, #navbarResponsive .nav-item .
         if (navbar != null) navbar.hide();
     });
 });
+
+function orderqr(evt) {
+    evt.preventDefault();
+    const orderurl = encodeURIComponent(document.querySelector('#orderurl').value);
+    document.querySelector('#orderqr').setAttribute('src', "https://api.qrserver.com/v1/create-qr-code/?format=svg&qzone=1&bgcolor=249-247-241&color=49-21-62&data=" + orderurl);
+}

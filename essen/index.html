@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Dennis Schürholz, BotC Bremen &amp; Umzu" />
+        <title>Verpflegung | Blood on the Clocktower Bremen & Umzu</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-xl-5 px-3">
+                <a class="navbar-brand" href="/#top">BotC Bremen & Umzu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Navigation ein-/ausblenden"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="/">Hauptseite</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--header.masthead.text-center.text-white.masthead-content
+    .container.px-xl-5.px-3
+        h1.masthead-heading.mb-0 Verpflegung
+-->
+        <section class="mt-5">
+            <div class="container px-xl-5 px-3">
+                <div class="row gx-5">
+                    <div class="col-lg-6">
+                        <div class="p-xl-5 p-2">
+                            <h2 class="display-4">Bestellung</h2>
+                            <p class="mb-0">Für das Leibliche Wohl bestellen wir an unseren Spieleabenden häufig gemeinsam Pizza o.Ä.</p>
+                            <p class="mb-0">Am Abend wird am Beamer hier die Bestellseite hinterlegt.</p>
+                            <img class="w-100" id="orderqr" src="https://api.qrserver.com/v1/create-qr-code/?format=svg&amp;qzone=1&amp;bgcolor=249-247-241&amp;color=49-21-62&amp;data=https%3A%2F%2Fbotc-bremen.de%2Fessen" />
+                            <form class="w-100 px-3" onsubmit="orderqr(event)"><input class="w-100 text-center" id="orderurl" type="text" placeholder="https://321pizza.de?gruppe=XXXXXX" /></form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-xl-5 p-2">
+                            <h2 class="display-4">PayPal</h2>
+                            <p class="mb-0">Deinen Anteil kannst du via PayPal oder Bar bezahlen.</p>
+                            <p class="mb-0">Für weitere Möglichkeiten sprich dich bitte vor Ort ab.</p>
+                            <p class="mb-0">Für Dennis sind das entsprechend diese Daten:</p>
+                            <a href="https://paypal.me/schuerholz"><img class="w-100" src="https://api.qrserver.com/v1/create-qr-code/?format=svg&amp;qzone=1&amp;bgcolor=249-247-241&amp;color=49-21-62&amp;data=https%3A%2F%2Fpaypal.me%2Fschuerholz" /></a>
+                            <p class="mb-0 text-center">
+                                <a class="text-decoration-none" href="https://paypal.me/schuerholz">paypal.me/schuerholz</a>
+                                &bull; paypal@dennisschuerholz.de
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5" id="contact">
+            //.bg-black
+            <div class="container px-xl-5 px-3">
+                <p class="m-0 text-center text-white small">Copyright &copy; BotC Community Bremen & Umzu 2023-2025</p>
+                <p class="m-0 mt-3 text-center text-white small">
+                    "Blood on the Clocktower" ist eine eingetragene Marke von
+                    <a href="https://bloodontheclocktower.com/about-us" target="_blank">The Pandemonium Institute</a>
+                    und Steven Medway.
+                </p>
+                <p class="m-0 text-center text-white small">Verwendete Spielgrafiken wurden durch The Pandemonium Institute freundlicherweise für nichtkommerzielle Zwecke freigegeben.</p>
+                <p class="m-0 text-center text-white small">Diese Seite hat keine weitere Verbindung zu, noch wird unterstützt von, The Pandemonium Institute.</p>
+                <div class="mt-5 text-center text-white small row w-xl-75 m-auto">
+                    <div class="col-12 fs-5">Impressum &bull; Anbieterkennzeichnung</div>
+                    <div class="col-12 my-3"><a href="/impressum/">Ausführliches Impressum und Datenschutzerklärung</a></div>
+                    <div class="col-12 mb-1">Anbieter nach § 5 DDG und verantwortlich nach § 18 MStV:</div>
+                    <div class="col-12">
+                        Dennis Schürholz, Meta-Sattler-Str. 33, 28217 Bremen
+                        <br />
+                        E-Mail:
+                        <a href="mailto:dennis@botc-bremen.de">dennis@botc-bremen.de</a>
+                        &bull; Telefon: 015678 / 390 797
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
