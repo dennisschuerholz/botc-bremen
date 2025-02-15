@@ -7,11 +7,6 @@ block nav-items
         a.nav-link(href='/') Hauptseite
 
 block content
-    //header.masthead.text-center.text-white
-        .masthead-content
-            .container.px-xl-5.px-3
-                h1.masthead-heading.mb-0 Verpflegung
-
     section.mt-5
         .container.px-xl-5.px-3
             .row.gx-5
@@ -21,7 +16,7 @@ block content
 
                         p.mb-0 Für das Leibliche Wohl bestellen wir an unseren Spieleabenden häufig gemeinsam Pizza o.Ä.
                         p.mb-0 Am Abend wird am Beamer hier die Bestellseite hinterlegt.
-                        img#orderqr(src="https://api.qrserver.com/v1/create-qr-code/?format=svg&qzone=1&bgcolor=249-247-241&color=49-21-62&data=https%3A%2F%2Fbotc-bremen.de%2Fessen").w-100
+                        img#orderqr(src="/assets/img/QR_essen.svg").w-100
                         form(onsubmit="orderqr(event)").w-100.px-3
                             input#orderurl(type="text", placeholder="https://321pizza.de?gruppe=XXXXXX").w-100.text-center
 
@@ -32,7 +27,7 @@ block content
                         p.mb-0 Für weitere Möglichkeiten sprich dich bitte vor Ort ab.
                         p.mb-0 Für Dennis sind das entsprechend diese Daten:
                         a(href="https://paypal.me/schuerholz")
-                            img(src="https://api.qrserver.com/v1/create-qr-code/?format=svg&qzone=1&bgcolor=249-247-241&color=49-21-62&data=https%3A%2F%2Fpaypal.me%2Fschuerholz").w-100
+                            img(src="/assets/img/QR_PayPal_Dennis.svg").w-100
                         p.mb-0.text-center
                             a(href="https://paypal.me/schuerholz").text-decoration-none paypal.me/schuerholz
                             | &bull; paypal@dennisschuerholz.de
