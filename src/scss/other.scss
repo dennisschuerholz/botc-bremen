@@ -103,3 +103,9 @@ a .bi {
     text-decoration: none;
     margin: 0 1ex;
 }
+
+input.bg-transparent:focus-visible {
+    outline: none;
+    background-color: var(--bs-secondary) !important;
+    color: var(--bs-white) !important;
+}

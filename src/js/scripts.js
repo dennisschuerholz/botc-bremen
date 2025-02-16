@@ -110,6 +110,9 @@ document.querySelectorAll('.navbar a.navbar-brand, #navbarResponsive .nav-item .
 
 function orderqr(evt) {
     evt.preventDefault();
-    const orderurl = encodeURIComponent(document.querySelector('#orderurl').value);
-    document.querySelector('#orderqr').setAttribute('src', "https://api.qrserver.com/v1/create-qr-code/?format=svg&qzone=1&bgcolor=249-247-241&color=49-21-62&data=" + orderurl);
+    const orderurl = document.querySelector('#orderurl').value.trim();
+    if (orderurl && orderurl !== "") {
+        document.querySelector('#orderqr').setAttribute('src', "https://api.qrserver.com/v1/create-qr-code/?format=svg&qzone=1&bgcolor=249-247-241&color=49-21-62&data=" + encodeURIComponent(orderurl));
+        document.querySelector('#orderurl').blur();
+    }
 }
