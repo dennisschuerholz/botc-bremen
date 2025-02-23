@@ -597,13 +597,15 @@
     "extra": "Special: Lars bringt ein eigens kreiertes einzigartiges Skript mit."
   },
   {
-    "title": "Uni Bremen / MZH",
+    "title": "Privat im MZH",
     "start": "2025-03-15T12:00:00.000Z",
     "end": "2025-03-15T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
-    "storyTellers": [],
+    "storyTellers": [
+      "Alex"
+    ],
     "extra": null
   },
   {
@@ -612,8 +614,11 @@
     "end": "2025-03-29T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
-    "storyTellers": [],
+    "url": "https://events.botc-bremen.de/mzh250329/",
+    "storyTellers": [
+      "Dennis",
+      "Sorel"
+    ],
     "extra": null
   }
 ]
