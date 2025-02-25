@@ -597,6 +597,18 @@
     "extra": "Special: Lars bringt ein eigens kreiertes einzigartiges Skript mit."
   },
   {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-03-06T16:00:00.000Z",
+    "end": "2025-03-06T20:00:00.000Z",
+    "location": "Kommodore-Johnsen-Boulevard 19, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/11114562722",
+    "url": "https://events.botc-bremen.de/jetzthier250306/",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "17:00 Einführung, 17:30 erste Runde."
+  },
+  {
     "title": "Privat im MZH: B-Day Edition",
     "start": "2025-03-15T12:00:00.000Z",
     "end": "2025-03-15T21:00:00.000Z",
@@ -607,6 +619,18 @@
       "Alex"
     ],
     "extra": "Very Bad Moon Rising & Friends"
+  },
+  {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-03-20T16:00:00.000Z",
+    "end": "2025-03-20T20:00:00.000Z",
+    "location": "Kommodore-Johnsen-Boulevard 19, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/11114562722",
+    "url": "https://events.botc-bremen.de/jetzthier250320/",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "17:00 Einführung, 17:30 erste Runde."
   },
   {
     "title": "Uni Bremen / MZH",
