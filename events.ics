@@ -117,17 +117,20 @@ STATUS:CONFIRMED
 CREATED:20240322T110056Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250225T083836Z
+DTSTAMP:20250304T203705Z
 UID:2f4e4eca-c5f1-45b1-b3b3-42a2c0bd735e
-SUMMARY:Überseestadt / jetzt hier
-LOCATION:Kommodore-Johnsen-Boulevard 19\, 28217 Bremen
-DESCRIPTION:ST: Dennis\nLOC: https://www.openstreetmap.org/node/11114562722
- \nURL: https://events.botc-bremen.de/jetzthier250306/\n\n17:00 Einführung
- \, 17:30 erste Runde.
-DTSTART;TZID=Europe/Berlin:20250306T170000
-DTEND;TZID=Europe/Berlin:20250306T210000
+LOCATION:Offizielle BotC-Webanwendung
+DESCRIPTION:ST: Dennis\nLOC: https://botc.app/\nURL: https://events.botc-br
+ emen.de/jetzthier250306/\n\nKostenloser Account unter https://botc.app/ be
+ nötigt!\nTechnikeinführung ab 17:30\, bitte vorher einen Account anlegen
+ . Den Link zur Partie gibt es vorab per E-Mail.
+DTSTART;TZID=Europe/Berlin:20250306T180000
+DTEND;TZID=Europe/Berlin:20250306T220000
 CLASS:PUBLIC
 STATUS:CONFIRMED
+SUMMARY:online / vorher: jetzt hier
+SEQUENCE:2
+LAST-MODIFIED:20250304T203705Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20241101T132359Z
