@@ -64,6 +64,7 @@ fetch(icsUrl)
             'next': events.find((evt) => new Date(evt.start) > new Date()),
             'mzh': events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date()),
             'jh': events.find((evt) => evt.title.includes('jetzt hier') && new Date(evt.start) > new Date()),
+            'online': events.find((evt) => evt.title.includes('online') && new Date(evt.start) > new Date()),
         };
         for (const next in filter) {
             let content = 'extends /pug/events/index';
