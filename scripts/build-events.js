@@ -61,14 +61,14 @@ fetch(icsUrl)
         events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
         const filter = {
-            'next': events.find((evt) => new Date(evt.start) > new Date()),
-            'mzh': events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date()),
-            'jh': events.find((evt) => evt.title.includes('jetzt hier') && new Date(evt.start) > new Date()),
-            'online': events.find((evt) => evt.title.includes('online') && new Date(evt.start) > new Date()),
+            'next': events.find((evt) => new Date(evt.start) > new Date() && evt.url),
+            'mzh': events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date() && evt.url),
+            'jh': events.find((evt) => evt.title.includes('jetzt hier') && new Date(evt.start) > new Date() && evt.url),
+            'online': events.find((evt) => evt.title.includes('online') && new Date(evt.start) > new Date() && evt.url),
         };
         for (const next in filter) {
             let content = 'extends /pug/events/index';
-            if (filter[next] && filter[next].url !== '') {
+            if (filter[next] && filter[next].url && filter[next].url !== '') {
                 content += `\nblock config\n    - const target = '${filter[next].url}';`;
             }
             fs.writeFileSync(upath.resolve(__dirname, `../src/pug/events/${next}.pug`), content);
