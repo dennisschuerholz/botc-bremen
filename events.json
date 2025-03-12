@@ -644,5 +644,29 @@
       "Sorel"
     ],
     "extra": null
+  },
+  {
+    "title": "Digital Donnerstag",
+    "start": "2025-04-03T16:00:00.000Z",
+    "end": "2025-04-03T20:00:00.000Z",
+    "location": "https://botc.app",
+    "locationUrl": "https://botc.app/",
+    "url": "https://events.botc-bremen.de/digi250403/",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Bitte vorher einen kostenlosen Account unter https://botc.app/ anlegen!\nTechnikcheck ab 17:45. Der Teilnahmelink kommt per E-Mail."
+  },
+  {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-04-17T15:00:00.000Z",
+    "end": "2025-04-17T19:00:00.000Z",
+    "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/9833701807",
+    "url": "https://events.botc-bremen.de/jetzthier250417/",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   }
 ]
