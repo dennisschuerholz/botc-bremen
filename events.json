@@ -668,5 +668,41 @@
       "Dennis"
     ],
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
+  },
+  {
+    "title": "Überseestadt / jetzt hier / Special",
+    "start": "2025-05-01T11:00:00.000Z",
+    "end": "2025-05-01T19:00:00.000Z",
+    "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/9833701807",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Special in der Überseestadt in Extralänge!\nDetals folgen mit der Anmeldung."
+  },
+  {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-05-15T15:00:00.000Z",
+    "end": "2025-05-15T19:00:00.000Z",
+    "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/9833701807",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
+  },
+  {
+    "title": "Überseestadt / jetzt hier / Special",
+    "start": "2025-05-29T12:00:00.000Z",
+    "end": "2025-05-29T19:00:00.000Z",
+    "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/9833701807",
+    "url": "https://events.botc-bremen.de/jetzthier250529",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Special in der Überseestadt in Extralänge!"
   }
 ]
