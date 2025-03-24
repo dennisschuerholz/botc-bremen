@@ -658,6 +658,18 @@
     "extra": "Bitte vorher einen kostenlosen Account unter https://botc.app/ anlegen!\nTechnikcheck ab 17:45. Der Teilnahmelink kommt per E-Mail."
   },
   {
+    "title": "Uni Bremen / MZH",
+    "start": "2025-04-12T11:00:00.000Z",
+    "end": "2025-04-12T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Daniel & Kathi"
+    ],
+    "extra": null
+  },
+  {
     "title": "Überseestadt / jetzt hier",
     "start": "2025-04-17T15:00:00.000Z",
     "end": "2025-04-17T19:00:00.000Z",
@@ -668,6 +680,18 @@
       "Dennis"
     ],
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2025-04-26T12:00:00.000Z",
+    "end": "2025-04-26T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": "Achtung! Spätere Startzeit!"
   },
   {
     "title": "Überseestadt / jetzt hier / Special",
@@ -694,15 +718,53 @@
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   },
   {
-    "title": "Überseestadt / jetzt hier / Special",
-    "start": "2025-05-29T12:00:00.000Z",
-    "end": "2025-05-29T19:00:00.000Z",
+    "title": "Uni Bremen / MZH",
+    "start": "2025-05-24T11:00:00.000Z",
+    "end": "2025-05-24T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Dennis",
+      "Kathi",
+      "Sorel"
+    ],
+    "extra": "First time with a dedicated English speaking group!"
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2025-06-07T11:00:00.000Z",
+    "end": "2025-06-07T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Daniel & Kathi"
+    ],
+    "extra": null
+  },
+  {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-06-12T15:00:00.000Z",
+    "end": "2025-06-12T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": "https://events.botc-bremen.de/jetzthier250529",
+    "url": null,
     "storyTellers": [
       "Dennis"
     ],
-    "extra": "Special in der Überseestadt in Extralänge!"
+    "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
+  },
+  {
+    "title": "Uni Bremen / MZH",
+    "start": "2025-06-21T11:00:00.000Z",
+    "end": "2025-06-21T20:00:00.000Z",
+    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "url": null,
+    "storyTellers": [
+      "Dennis"
+    ],
+    "extra": null
   }
 ]
