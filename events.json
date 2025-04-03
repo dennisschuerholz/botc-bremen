@@ -687,7 +687,7 @@
     "end": "2025-04-26T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "https://events.botc-bremen.de/mzh250426/",
     "storyTellers": [
       "Dennis"
     ],
@@ -699,11 +699,11 @@
     "end": "2025-05-01T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "https://events.botc-bremen.de/jetzthier250501/",
     "storyTellers": [
       "Dennis"
     ],
-    "extra": "Special in der Überseestadt in Extralänge!\nDetails folgen mit der Anmeldung."
+    "extra": "Special zum Script World Cup 2025 in Extralänge!"
   },
   {
     "title": "Überseestadt / jetzt hier",
@@ -723,7 +723,7 @@
     "end": "2025-05-24T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "https://events.botc-bremen.de/mzh250524/",
     "storyTellers": [
       "Dennis",
       "Kathi",
@@ -732,12 +732,12 @@
     "extra": "First time with a dedicated English speaking group!"
   },
   {
-    "title": "Uni Bremen / MZH",
+    "title": "Geschlossene Runde im MZH",
     "start": "2025-06-07T11:00:00.000Z",
     "end": "2025-06-07T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "https://events.botc-bremen.de/mzh250607/",
     "storyTellers": [
       "Daniel & Kathi"
     ],
@@ -749,7 +749,7 @@
     "end": "2025-06-12T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "https://events.botc-bremen.de/jetzthier250612/",
     "storyTellers": [
       "Dennis"
     ],
@@ -761,7 +761,7 @@
     "end": "2025-06-21T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "https://events.botc-bremen.de/mzh250621/",
     "storyTellers": [
       "Dennis"
     ],
