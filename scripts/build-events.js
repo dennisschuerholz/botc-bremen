@@ -61,8 +61,8 @@ fetch(icsUrl)
         events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
         const filter = {
-            'next': events.find((evt) => new Date(evt.start) > new Date() && evt.url),
-            'mzh': events.find((evt) => evt.location.startsWith('MZH') && new Date(evt.start) > new Date() && evt.url),
+            'next': events.find((evt) => new Date(evt.start) > new Date() && (evt.title.includes('privat') || evt.title.includes('Privat') || evt.title.includes('geschlossen') || evt.title.includes('Geschlossen')) && evt.url),
+            'mzh': events.find((evt) => evt.title.includes('Uni Bremen / MZH') && new Date(evt.start) > new Date() && evt.url),
             'jh': events.find((evt) => evt.title.includes('jetzt hier') && new Date(evt.start) > new Date() && evt.url),
             'online': events.find((evt) => evt.title.includes('online') && new Date(evt.start) > new Date() && evt.url),
         };
