@@ -70,19 +70,19 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250403T082136Z
+DTSTAMP:20250425T184856Z
 UID:13bbe0e5-c759-4714-859d-2618f18cd2ca
 SUMMARY:Überseestadt / jetzt hier / Special
 LOCATION:Konsul-Schmidt-Straße 38\, 28217 Bremen
-DESCRIPTION:ST: Dennis\nURL: https://events.botc-bremen.de/jetzthier250501/
- \nLOC: https://www.openstreetmap.org/node/9833701807\n\nSpecial zum Script
-  World Cup 2025 in Extralänge!
+DESCRIPTION:ST: Dennis\, Alex\nURL: https://events.botc-bremen.de/jetzthier
+ 250501/\nLOC: https://www.openstreetmap.org/node/9833701807\n\nSpecial zum
+  Script World Cup 2025 in Extralänge!
 DTSTART;TZID=Europe/Berlin:20250501T130000
 DTEND;TZID=Europe/Berlin:20250501T210000
 CLASS:PUBLIC
 STATUS:CONFIRMED
-SEQUENCE:4
-LAST-MODIFIED:20250403T082136Z
+SEQUENCE:5
+LAST-MODIFIED:20250425T184856Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250204T103034Z
