@@ -111,13 +111,13 @@ STATUS:CONFIRMED
 LAST-MODIFIED:20250204T103034Z
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250523T201326Z
+DTSTAMP:20250523T203049Z
 UID:16f544a8-521d-4ccd-9a86-365e788312b6
+SEQUENCE:1
 SUMMARY:Daylight Paranoia online mit Lars
 LOCATION:botc.app
-DESCRIPTION:URL: https://discord.com/channels/1197876498980421652/126070041
- 8103574558/1374536117755318327\nLOC: https://botc.app\nST: Lars\n\nLars' e
- igenes Skript - Anmeldung via Discord oder direkt bei Lars.
+DESCRIPTION:URL: https://discord.gg/jUANMArgwU\nLOC: https://botc.app\nST: 
+ Lars\n\nLars' eigenes Skript - Anmeldung via Discord oder direkt bei Lars.
 DTSTART;TZID=Europe/Berlin:20250525T200000
 DTEND;TZID=Europe/Berlin:20250525T220000
 STATUS:CONFIRMED
