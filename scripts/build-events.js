@@ -30,6 +30,7 @@ fetch(icsUrl)
             let url = null;
             let locationUrl = null;
             let storyTellers = [];
+            let languages = [];
             let extra = null;
             for (const line of descriptionLines) {
                 // Extract the relevant data from the description
@@ -40,6 +41,8 @@ fetch(icsUrl)
                     locationUrl = text.substring(5);
                 } else if (text.startsWith('ST: ')) {
                     storyTellers = text.substring(4).split(',').map(st => st.trim());
+                } else if (text.startsWith('LANG: ')) {
+                    languages = text.substring(6).split(',').map(lang => lang.trim());
                 } else {
                     // Add other lines to the extra data, but ignore the first empty lines
                     extra = extra ? `${extra}\n${text}` : text === '' ? null : text;
@@ -53,6 +56,7 @@ fetch(icsUrl)
                 locationUrl,
                 url,
                 storyTellers,
+                languages,
                 extra
             };
         });

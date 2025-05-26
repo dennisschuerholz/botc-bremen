@@ -24,6 +24,7 @@ function fillEvents() {
        minute: '2-digit',
     });
     let counter = 0;
+    const langs = { 'de': 'Deutsch', 'en': 'Englisch'};
     events.forEach(event => {
         counter++;
         if (counter <= startCounter || counter > startCounter+chunksize) {
@@ -34,6 +35,11 @@ function fillEvents() {
         eventElement.innerHTML = `
             <div>
                 <b class="title d-inline-block mb-1">${event.title}</b>
+                ${event.languages.length > 0 ? `
+                    <div title="Kommunikationssprache">
+                        <i class="bi bi-translate"></i>
+                        <span class="ms-1">${event.languages.map(lc => langs[lc]).join(", ")}</span>
+                    </div>` : '' }
                 <div title="Start">
                     <i class="bi bi-calendar-event"></i>
                     <time class="ms-1" datetime="${event.start}">${dateFormat.formatRange(new Date(event.start), new Date(event.end))}</time>
@@ -48,7 +54,7 @@ function fillEvents() {
                     <i class="bi bi-person-workspace"></i>
                     <span class="ms-1">${event.storyTellers.length > 0 ? event.storyTellers.join(", ") : '<i>Noch nicht bestimmt</i>'}</span>
                 </div>
-                ${event.extra ? `<div title="Extra" class="extra"><i class="bi bi-info-lg"></i> <span class="ms-1">${event.extra}</span></div>` : ''}
+                ${event.extra ? `<div title="Weitere Informationen" class="extra"><i class="bi bi-info-lg"></i> <span class="ms-1">${event.extra}</span></div>` : ''}
             </div>
             ${event.url ? `<a href="${event.url}" target="_blank" title="Zur Anmeldung"><i class="bi bi-box-arrow-up-right"></i></a>` : ''}
         `;
