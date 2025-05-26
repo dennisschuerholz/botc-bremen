@@ -758,6 +758,18 @@
     "extra": "Lars' eigenes Skript - Anmeldung via Discord oder direkt bei Lars."
   },
   {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-05-29T15:00:00.000Z",
+    "end": "2025-05-29T19:00:00.000Z",
+    "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/9833701807",
+    "url": "https://events.botc-bremen.de/jetzthier250529/",
+    "storyTellers": [
+      "Clemens"
+    ],
+    "extra": null
+  },
+  {
     "title": "All-Amnesiac Special im MZH",
     "start": "2025-06-07T11:00:00.000Z",
     "end": "2025-06-07T20:00:00.000Z",
@@ -782,24 +794,25 @@
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   },
   {
-    "title": "Uni Bremen / MZH",
+    "title": "Uni Bremen / MZH [Deu/Eng]",
     "start": "2025-06-21T11:00:00.000Z",
     "end": "2025-06-21T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "https://events.botc-bremen.de/mzh250621/",
     "storyTellers": [
-      "Dennis"
+      "Dennis",
+      "Sorel"
     ],
-    "extra": null
+    "extra": "Event with a dedicated English speaking group!"
   },
   {
     "title": "Überseestadt / jetzt hier",
-    "start": "2025-06-26T15:30:00.000Z",
+    "start": "2025-06-26T15:00:00.000Z",
     "end": "2025-06-26T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "https://events.botc-bremen.de/jetzthier250626/",
     "storyTellers": [
       "Dennis"
     ],
