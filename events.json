@@ -11,6 +11,7 @@
       "Robert",
       "Alex & Kathi"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -23,6 +24,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": "Anmeldung via WhatsApp direkt bei Robert."
   },
   {
@@ -38,6 +40,7 @@
       "Kathi",
       "Robert"
     ],
+    "languages": [],
     "extra": "Anmeldungen vorerst noch direkt bei den Storytellern."
   },
   {
@@ -50,6 +53,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": "Anmeldung via WhatsApp direkt bei Robert."
   },
   {
@@ -64,6 +68,7 @@
       "Kathi",
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -76,6 +81,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -88,6 +94,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -100,6 +107,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Die Open Night of Code (onoc.eu) startet um 18 Uhr. Keine Voranmeldungen, spontane Runde(n) vor Ort."
   },
   {
@@ -113,6 +121,7 @@
       "Alex",
       "Kathi"
     ],
+    "languages": [],
     "extra": "Genutzte Räume: 1450, 1460, 1100"
   },
   {
@@ -125,6 +134,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -137,6 +147,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -149,6 +160,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -163,6 +175,7 @@
       "Dennis",
       "Kathi"
     ],
+    "languages": [],
     "extra": "Genutzte Räume: 1100, 1110, 1450"
   },
   {
@@ -177,6 +190,7 @@
       "Dennis",
       "Kathi"
     ],
+    "languages": [],
     "extra": "Genutzte Räume: 1090, 1450, 1460"
   },
   {
@@ -190,6 +204,7 @@
       "Dennis",
       "Robert"
     ],
+    "languages": [],
     "extra": "Genutzte Räume: 1090, 1450, 1460"
   },
   {
@@ -202,6 +217,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -215,6 +231,7 @@
       "Daniel & Kathi",
       "Dennis"
     ],
+    "languages": [],
     "extra": "Genutzte Räume: 1450, 1460, 1470"
   },
   {
@@ -227,6 +244,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -239,6 +257,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -251,6 +270,7 @@
     "storyTellers": [
       "Daniel & Kathi"
     ],
+    "languages": [],
     "extra": "Dieser Samstagstermin findet abweichend im ITB statt!"
   },
   {
@@ -263,6 +283,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Wir sind zu Gast beim Stadtteilfest 'Zu Tisch!' in der Überseestadt und bieten eine Spielrunde für die Nachbarschaft an. Keine Voranmeldung!"
   },
   {
@@ -275,6 +296,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -289,6 +311,7 @@
       "Dennis",
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -301,6 +324,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -313,6 +337,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": "An diesem Tag wird in geschlossener Gesellschaft ein Skript ausprobiert."
   },
   {
@@ -326,6 +351,7 @@
       "Daniel & Kathi",
       "Dennis & Jessica"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -338,6 +364,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -350,6 +377,7 @@
     "storyTellers": [
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -364,6 +392,7 @@
       "Dennis",
       "Robert"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -377,6 +406,7 @@
       "Alex",
       "Dennis"
     ],
+    "languages": [],
     "extra": "Veranstaltung der Orientierungswoche für neue Studierende aus Mathematik & Informatik."
   },
   {
@@ -389,6 +419,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Offener Spieletreff in der Überseestadt."
   },
   {
@@ -402,6 +433,7 @@
       "Alex",
       "Daniel & Kathi"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -416,6 +448,7 @@
       "Daniel",
       "Kathi"
     ],
+    "languages": [],
     "extra": "Wir möchten in dieser Session mit euch die Regeln des Skriptes Sects and Violets genau durchgehen. Dabei werden untereinander auch Tipps und Kniffe diskutiert, um das eigene Spiel zu verbessern."
   },
   {
@@ -430,6 +463,7 @@
       "Daniel",
       "Kathi"
     ],
+    "languages": [],
     "extra": "Begrenzte Plätze! Gespielt wird das fortgeschrittene Skript Sects and Violets."
   },
   {
@@ -444,6 +478,7 @@
       "Dennis",
       "Alex"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -456,6 +491,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 17:30 Erste Spielrunde."
   },
   {
@@ -469,6 +505,7 @@
       "Kathi",
       "Sorel"
     ],
+    "languages": [],
     "extra": "Academy mit Sorel zu den Kniffen von Uncertain Death mit anschließender Spielrunde."
   },
   {
@@ -482,6 +519,7 @@
       "Alex",
       "Daniel"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -494,6 +532,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 17:30 Erste Spielrunde."
   },
   {
@@ -507,6 +546,7 @@
       "Daniel & Kathi",
       "Dennis"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -519,6 +559,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Offener Spieletreff in der Überseestadt. Ab 17:00 Einführung, 17:30 Erste Spielrunde."
   },
   {
@@ -532,6 +573,7 @@
       "Daniel & Kathi",
       "Sorel"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -545,6 +587,7 @@
       "Daniel & Kathi",
       "Dennis"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -557,6 +600,7 @@
     "storyTellers": [
       "Jessica & Sorel"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -569,6 +613,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   },
   {
@@ -581,6 +626,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   },
   {
@@ -594,6 +640,7 @@
       "Dennis",
       "Lars & Sorel"
     ],
+    "languages": [],
     "extra": "Special: Lars bringt ein eigens kreiertes einzigartiges Skript mit."
   },
   {
@@ -606,6 +653,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Kostenloser Account unter https://botc.app/ benötigt!\nTechnikeinführung ab 17:30, bitte vorher einen Account anlegen. Den Link zur Partie gibt es vorab per E-Mail."
   },
   {
@@ -618,6 +666,7 @@
     "storyTellers": [
       "Alex"
     ],
+    "languages": [],
     "extra": "Very Bad Moon Rising & Friends"
   },
   {
@@ -630,6 +679,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "17:00 Einführung, 17:30 erste Runde."
   },
   {
@@ -643,6 +693,7 @@
       "Dennis",
       "Sorel"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -655,6 +706,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Bitte vorher einen kostenlosen Account unter https://botc.app/ anlegen!\nTechnikcheck ab 17:45. Der Teilnahmelink kommt per E-Mail."
   },
   {
@@ -667,6 +719,7 @@
     "storyTellers": [
       "Daniel & Kathi"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -679,6 +732,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   },
   {
@@ -691,6 +745,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Achtung! Spätere Startzeit & abweichender Raum!"
   },
   {
@@ -704,6 +759,7 @@
       "Dennis",
       "Alex"
     ],
+    "languages": [],
     "extra": "Special zum Script World Cup 2025 in Extralänge!"
   },
   {
@@ -717,6 +773,7 @@
       "Alex",
       "Sorel"
     ],
+    "languages": [],
     "extra": "Spieleabend der FB3-Stugen mit BotC-Spielrunde."
   },
   {
@@ -729,6 +786,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   },
   {
@@ -743,6 +801,7 @@
       "Kathi",
       "Sorel"
     ],
+    "languages": [],
     "extra": "First time with a dedicated English speaking group!"
   },
   {
@@ -755,6 +814,7 @@
     "storyTellers": [
       "Lars"
     ],
+    "languages": [],
     "extra": "Lars' eigenes Skript - Anmeldung via Discord oder direkt bei Lars."
   },
   {
@@ -767,6 +827,7 @@
     "storyTellers": [
       "Clemens"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -779,6 +840,7 @@
     "storyTellers": [
       "Banane"
     ],
+    "languages": [],
     "extra": "Alle Personen sind Amnesiacs - findet eure Fähigkeit im Laufe des Spiels heraus!"
   },
   {
@@ -791,10 +853,11 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": "Ab 17:00 Einführung, 17:30 erste Spielrunde."
   },
   {
-    "title": "Uni Bremen / MZH [Deu/Eng]",
+    "title": "Uni Bremen / MZH",
     "start": "2025-06-21T11:00:00.000Z",
     "end": "2025-06-21T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
@@ -803,6 +866,10 @@
     "storyTellers": [
       "Dennis",
       "Sorel"
+    ],
+    "languages": [
+      "de",
+      "en"
     ],
     "extra": "Event with a dedicated English speaking group!"
   },
@@ -816,6 +883,7 @@
     "storyTellers": [
       "Dennis"
     ],
+    "languages": [],
     "extra": null
   },
   {
@@ -826,6 +894,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -836,6 +905,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -846,6 +916,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -856,6 +927,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -866,6 +938,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -876,6 +949,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -886,6 +960,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -896,6 +971,7 @@
     "locationUrl": null,
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": "Räumlichkeiten werden noch bekannt gegeben!"
   },
   {
@@ -906,6 +982,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   },
   {
@@ -916,6 +993,7 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": null,
     "storyTellers": [],
+    "languages": [],
     "extra": null
   }
 ]

@@ -305,19 +305,19 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250526T060826Z
+DTSTAMP:20250526T063758Z
 UID:42672aae-0750-4911-a75d-37cfd9157749
-SUMMARY:Uni Bremen / MZH [Deu/Eng]
+SUMMARY:Uni Bremen / MZH
 LOCATION:MZH 1460\, Bibliothekstr. 5\, 28359 Bremen
 DESCRIPTION:LOC: https://www.openstreetmap.org/relation/3293414\nURL: https
- ://events.botc-bremen.de/mzh250621/\nST: Dennis\, Sorel\n\nEvent with a de
- dicated English speaking group!
+ ://events.botc-bremen.de/mzh250621/\nST: Dennis\, Sorel\nLANG: de\, en\n\n
+ Event with a dedicated English speaking group!
 DTSTART;TZID=Europe/Berlin:20250621T130000
 DTEND;TZID=Europe/Berlin:20250621T220000
 CLASS:PUBLIC
 STATUS:CONFIRMED
-SEQUENCE:4
-LAST-MODIFIED:20250526T060826Z
+SEQUENCE:6
+LAST-MODIFIED:20250526T063758Z
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20240815T145418Z
