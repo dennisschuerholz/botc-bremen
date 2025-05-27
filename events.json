@@ -5,7 +5,7 @@
     "end": "2024-03-16T21:00:00.000Z",
     "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis",
       "Robert",
@@ -20,7 +20,7 @@
     "end": "2024-03-24T19:00:00.000Z",
     "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
     "locationUrl": "https://www.openstreetmap.org/way/315395128",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Robert"
     ],
@@ -33,7 +33,7 @@
     "end": "2024-04-13T20:00:00.000Z",
     "location": "MZH 1090, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Alex",
       "Dennis",
@@ -49,7 +49,7 @@
     "end": "2024-04-17T20:00:00.000Z",
     "location": "KGS Leeste, Schulstr. 40, 28844 Weyhe-Leeste",
     "locationUrl": "https://www.openstreetmap.org/way/315395128",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Robert"
     ],
@@ -103,7 +103,7 @@
     "end": "2024-05-31T23:00:00.000Z",
     "location": "MZH Ebene 0, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -279,7 +279,7 @@
     "end": "2024-08-31T16:00:00.000Z",
     "location": "Kommodore-Johnsen-Boulevard, 28217 Bremen",
     "locationUrl": "https://www.kultur-vor-ort.com/zutischprogramm/",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -333,7 +333,7 @@
     "end": "2024-09-17T20:00:00.000Z",
     "location": "ITB, Am Fallturm 1, 28359 Bremen (Eingang A)",
     "locationUrl": "https://www.openstreetmap.org/way/7723480",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Robert"
     ],
@@ -401,7 +401,7 @@
     "end": "2024-10-11T20:00:00.000Z",
     "location": "MZH 1400, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Alex",
       "Dennis"
@@ -662,7 +662,7 @@
     "end": "2025-03-15T23:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Alex"
     ],
@@ -836,7 +836,7 @@
     "end": "2025-06-06T20:00:00.000Z",
     "location": "MZH 1380/1400, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Sorel"
     ],
@@ -903,7 +903,7 @@
     "end": "2025-07-03T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -916,7 +916,7 @@
     "end": "2025-07-12T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -927,7 +927,7 @@
     "end": "2025-07-17T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Sorel"
     ],
@@ -940,7 +940,7 @@
     "end": "2025-07-26T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -951,7 +951,7 @@
     "end": "2025-07-31T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -964,7 +964,7 @@
     "end": "2025-08-09T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -975,7 +975,7 @@
     "end": "2025-08-14T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -988,7 +988,7 @@
     "end": "2025-08-23T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -999,7 +999,7 @@
     "end": "2025-08-28T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -1012,7 +1012,7 @@
     "end": "2025-09-06T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -1023,7 +1023,7 @@
     "end": "2025-09-11T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -1036,7 +1036,7 @@
     "end": "2025-09-20T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -1047,7 +1047,7 @@
     "end": "2025-09-25T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -1060,7 +1060,7 @@
     "end": "2025-10-09T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -1073,7 +1073,7 @@
     "end": "2025-10-18T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -1084,7 +1084,7 @@
     "end": "2025-10-23T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -1097,7 +1097,7 @@
     "end": "2025-10-31T21:00:00.000Z",
     "location": "TBA",
     "locationUrl": null,
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": "Räumlichkeiten werden noch bekannt gegeben!"
@@ -1108,7 +1108,7 @@
     "end": "2025-11-06T20:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -1121,7 +1121,7 @@
     "end": "2025-11-15T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null
@@ -1132,7 +1132,7 @@
     "end": "2025-11-20T20:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": null,
+    "url": "",
     "storyTellers": [
       "Dennis"
     ],
@@ -1145,7 +1145,7 @@
     "end": "2025-11-29T21:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": null,
+    "url": "",
     "storyTellers": [],
     "languages": [],
     "extra": null

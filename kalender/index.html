@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Dennis Schürholz, BotC Bremen &amp; Umzu" />
+        <title>Kalender | Blood on the Clocktower Bremen & Umzu</title>
+        <!--script(src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js')-->
+        <script src="/js/fullcalendar.min.js"></script>
+        <!--script(src='https://unpkg.com/ical.js/dist/ical.es5.min.cjs')-->
+        <!--script(src='https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.17/index.global.min.js')-->
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-xl-5 px-3">
+                <a class="navbar-brand" href="/#top">BotC Bremen & Umzu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Navigation ein-/ausblenden"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#events">Veranstaltungen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#rules">Regeln & Tipps</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#links">Ressourcen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#koop">Kooperationen</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--header.masthead.text-center.text-white.masthead-content
+    .container.px-xl-5.px-3
+        h1.masthead-heading.mb-0#top Terminübersicht-->
+        <section class="mt-5 py-4">
+            <div class="m-3" id="calendar"></div>
+            <div class="container px-xl-5 px-3">
+                <div class="row gx-5 align-items-center">
+                    <div class="col"><!--#calendar.mt-3--></div>
+                </div>
+            </div>
+        </section>
+        <script src="/js/scripts.calendar.js"></script>
+        <!-- Footer-->
+        <footer class="py-5" id="contact">
+            //.bg-black
+            <div class="container px-xl-5 px-3">
+                <p class="m-0 text-center text-white small">Copyright &copy; BotC Community Bremen & Umzu 2023-2025</p>
+                <p class="m-0 mt-3 text-center text-white small">
+                    "Blood on the Clocktower" ist eine eingetragene Marke von
+                    <a href="https://bloodontheclocktower.com/about-us" target="_blank">The Pandemonium Institute</a>
+                    und Steven Medway.
+                </p>
+                <p class="m-0 text-center text-white small">Verwendete Spielgrafiken wurden durch The Pandemonium Institute freundlicherweise für nichtkommerzielle Zwecke freigegeben.</p>
+                <p class="m-0 text-center text-white small">Diese Seite hat keine weitere Verbindung zu, noch wird unterstützt von, The Pandemonium Institute.</p>
+                <div class="mt-5 text-center text-white small row w-xl-75 m-auto">
+                    <div class="col-12 fs-5">Impressum &bull; Anbieterkennzeichnung</div>
+                    <div class="col-12 my-3"><a href="/impressum/">Ausführliches Impressum und Datenschutzerklärung</a></div>
+                    <div class="col-12 mb-1">Anbieter nach § 5 DDG und verantwortlich nach § 18 MStV:</div>
+                    <div class="col-12">
+                        Dennis Schürholz, Meta-Sattler-Str. 33, 28217 Bremen
+                        <br />
+                        E-Mail:
+                        <a href="mailto:dennis@botc-bremen.de">dennis@botc-bremen.de</a>
+                        &bull; Telefon: 015678 / 390 797
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
