@@ -1,0 +1,22 @@
+extends /pug/layouts/base
+
+block head
+    title Kalender | Blood on the Clocktower Bremen & Umzu
+    //script(src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.17/index.global.min.js')
+    script(src='/js/fullcalendar.min.js')
+    //script(src='https://unpkg.com/ical.js/dist/ical.es5.min.cjs')
+    //script(src='https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.17/index.global.min.js')
+
+block content
+    //header.masthead.text-center.text-white
+        .masthead-content
+            .container.px-xl-5.px-3
+                h1.masthead-heading.mb-0#top Terminübersicht
+    section.mt-5.py-4
+        #calendar.m-3
+        .container.px-xl-5.px-3
+            .row.gx-5.align-items-center
+                .col
+                    //#calendar.mt-3
+
+    script(src='/js/scripts.calendar.js')
