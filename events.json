@@ -893,7 +893,9 @@
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
     "url": "https://events.botc-bremen.de/jetzthier250626/",
-    "storyTellers": [],
+    "storyTellers": [
+      "Jessica"
+    ],
     "languages": [],
     "extra": null
   },
