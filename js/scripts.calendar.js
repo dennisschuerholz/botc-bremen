@@ -21,10 +21,6 @@ function fillCalendar() {
         initialView: 'dayGridMonth',
         locale: 'de',
         firstDay: 1,
-        /*events: {
-            url: '/events.ics',
-            format: 'ics',
-        },*/
         eventSources: [
             {
                 events: events,
@@ -33,15 +29,29 @@ function fillCalendar() {
             {
                 events: past_events,
                 color: 'gray',
+            },
+            {
+                url: 'https://openholidaysapi.org/PublicHolidays?countryIsoCode=DE&subdivisionCode=DE-HB&languageIsoCode=DE&validFrom=2024-01-01&validTo=2026-12-31',
+                eventDataTransform: function (eventData) {
+                    return {title: eventData['name'][0]['text'], start: eventData['startDate'], end: eventData['endDate']};
+                },
+                display: 'background',
+                color: '#80698f',
             }
         ],
-        height: '800px',
+        height: '100%',
+        businessHours: {
+            daysOfWeek: [1, 2, 3, 4, 5],
+            startTime: '00:00',
+            endTime: '24:00',
+        },
+        nowIndicator: true,
         headerToolbar: {
             left: 'prev,next today',
             center: 'title',
             right: 'dayGridMonth,timeGridWeek,listMonth,multiMonthYear',
         },
-        allDaySlot: false,
+        allDaySlot: true,
         slotMinTime: "10:00:00",
         weekNumbers: true,
     });
