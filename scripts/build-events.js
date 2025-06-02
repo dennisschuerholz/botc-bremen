@@ -69,6 +69,7 @@ fetch(icsUrl)
             'mzh': events.find((evt) => evt.title.includes('Uni Bremen / MZH') && new Date(evt.start) > new Date() && evt.url),
             'jh': events.find((evt) => evt.title.includes('jetzt hier') && new Date(evt.start) > new Date() && evt.url),
             'online': events.find((evt) => evt.title.includes('online') && new Date(evt.start) > new Date() && evt.url),
+            'en': events.find((evt) => evt.languages.includes('en') && new Date(evt.start) > new Date() && evt.url),
         };
         for (const next in filter) {
             let content = 'extends /pug/events/index';
