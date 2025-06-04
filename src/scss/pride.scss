@@ -1,0 +1,113 @@
+header.pridebg {
+    /*background: linear-gradient(
+            to bottom,
+            #e40303,
+            #e40303 16.67%,
+            #ff8c00 16.67%,
+            #ff8c00 33.33%,
+            #ffed00 33.33%,
+            #ffed00 50%,
+            #008026 50%,
+            #008026 66.67%,
+            #004dff 66.67%,
+            #004dff 83.33%,
+            #750787 83.33%,
+            #750787
+    );*/
+    /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fd/LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg");*/
+    background-image: url("/assets/img/pride_progress_wide.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: -1px;
+    margin-top: 72px;
+}
+.pridebg .masthead-heading, .pridebg .masthead-subheading {
+    color: $dark-purple !important;
+    text-shadow:
+        -1px -1px 0 $almost-white,
+        1px -1px 0 $almost-white,
+        -1px 1px 0 $almost-white,
+        1px 1px 0 $almost-white,
+        -2px 0px 0 $almost-white,
+        2px 0px 0 $almost-white,
+        0px -2px 0 $almost-white,
+        0px 2px 0 $almost-white;
+}
+nav {
+    height: 72px;
+}
+
+.pride-bar:after {
+     width: 100%;
+     height: 4px;
+     background-size: 100% 100%;
+     content: '';
+     display: block;
+     background-image: linear-gradient(left,
+         /*PINK*/#ffafc8 0%, #ffafc8 10%,
+         /*LIGHTBLUE*/#74d7ee 10%, #74d7ee 20%,
+         /*BROWN*/#613915 20%, #613915 30%,
+         /*BLACK*/#000000 30%, #000000 40%,
+         /*RED*/rgba(207, 15, 15, 1) 40%, rgba(207, 15, 15, 1) 50%,
+         /*ORANGE*/rgba(255, 160, 0, 1) 50%, rgba(255, 160, 0, 1) 60%,
+         /*YELLOW*/rgba(255, 210, 0, 1) 60%, rgba(255, 210, 0, 1) 70%,
+         /*GREEN*/rgba(54, 160, 48, 1) 70%, rgba(54, 160, 48, 1) 80%,
+         /*BLUE*/rgba(27, 119, 205, 1) 80%, rgba(27, 119, 205, 1) 90%,
+         /*PURPLE*/rgba(77, 20, 140, 1) 90%, rgba(77, 20, 140, 1) 100% );
+     background-image: -o-linear-gradient(left,
+         /*PINK*/#ffafc8 0%, #ffafc8 10%,
+         /*LIGHTBLUE*/#74d7ee 10%, #74d7ee 20%,
+         /*BROWN*/#613915 20%, #613915 30%,
+         /*BLACK*/#000000 30%, #000000 40%,
+         /*RED*/rgba(207, 15, 15, 1) 40%, rgba(207, 15, 15, 1) 50%,
+         /*ORANGE*/rgba(255, 160, 0, 1) 50%, rgba(255, 160, 0, 1) 60%,
+         /*YELLOW*/rgba(255, 210, 0, 1) 60%, rgba(255, 210, 0, 1) 70%,
+         /*GREEN*/rgba(54, 160, 48, 1) 70%, rgba(54, 160, 48, 1) 80%,
+         /*BLUE*/rgba(27, 119, 205, 1) 80%, rgba(27, 119, 205, 1) 90%,
+         /*PURPLE*/rgba(77, 20, 140, 1) 90%, rgba(77, 20, 140, 1) 100% );
+     background-image: -moz-linear-gradient(left,
+         /*WHITE*/#ffffff 0%, #ffffff 9%,
+         /*PINK*/#ffafc8 9%, #ffafc8 18%,
+         /*LIGHTBLUE*/#74d7ee 18%, #74d7ee 27%,
+         /*BROWN*/#613915 27%, #613915 36%,
+         /*BLACK*/#000000 36%, #000000 45%,
+         /*RED*/rgba(207, 15, 15, 1) 45%, rgba(207, 15, 15, 1) 54%,
+         /*ORANGE*/rgba(255, 160, 0, 1) 54%, rgba(255, 160, 0, 1) 63%,
+         /*YELLOW*/rgba(255, 210, 0, 1) 63%, rgba(255, 210, 0, 1) 72%,
+         /*GREEN*/rgba(54, 160, 48, 1) 72%, rgba(54, 160, 48, 1) 81%,
+         /*BLUE*/rgba(27, 119, 205, 1) 81%, rgba(27, 119, 205, 1) 90%,
+         /*PURPLE*/rgba(77, 20, 140, 1) 90%, rgba(77, 20, 140, 1) 100% );
+     background-image: -webkit-linear-gradient(left,
+         /*PINK*/#ffafc8 0%, #ffafc8 10%,
+         /*LIGHTBLUE*/#74d7ee 10%, #74d7ee 20%,
+         /*BROWN*/#613915 20%, #613915 30%,
+         /*BLACK*/#000000 30%, #000000 40%,
+         /*RED*/rgba(207, 15, 15, 1) 40%, rgba(207, 15, 15, 1) 50%,
+         /*ORANGE*/rgba(255, 160, 0, 1) 50%, rgba(255, 160, 0, 1) 60%,
+         /*YELLOW*/rgba(255, 210, 0, 1) 60%, rgba(255, 210, 0, 1) 70%,
+         /*GREEN*/rgba(54, 160, 48, 1) 70%, rgba(54, 160, 48, 1) 80%,
+         /*BLUE*/rgba(27, 119, 205, 1) 80%, rgba(27, 119, 205, 1) 90%,
+         /*PURPLE*/rgba(77, 20, 140, 1) 90%, rgba(77, 20, 140, 1) 100% );
+     background-image: -ms-linear-gradient(left,
+         /*PINK*/#ffafc8 0%, #ffafc8 10%,
+         /*LIGHTBLUE*/#74d7ee 10%, #74d7ee 20%,
+         /*BROWN*/#613915 20%, #613915 30%,
+         /*BLACK*/#000000 30%, #000000 40%,
+         /*RED*/rgba(207, 15, 15, 1) 40%, rgba(207, 15, 15, 1) 50%,
+         /*ORANGE*/rgba(255, 160, 0, 1) 50%, rgba(255, 160, 0, 1) 60%,
+         /*YELLOW*/rgba(255, 210, 0, 1) 60%, rgba(255, 210, 0, 1) 70%,
+         /*GREEN*/rgba(54, 160, 48, 1) 70%, rgba(54, 160, 48, 1) 80%,
+         /*BLUE*/rgba(27, 119, 205, 1) 80%, rgba(27, 119, 205, 1) 90%,
+         /*PURPLE*/rgba(77, 20, 140, 1) 90%, rgba(77, 20, 140, 1) 100% );
+     background-image: -webkit-gradient( linear, left bottom, right bottom,
+         /*PINK*/color-stop( 0.00, #ffafc8),color-stop( 0.1, #ffafc8),
+         /*LIGHTBLUE*/color-stop( 0.1, #74d7ee),color-stop( 0.2, #74d7ee),
+         /*BROWN*/color-stop( 0.2, #613915),color-stop( 0.3, #613915),
+         /*BLACK*/color-stop( 0.3, #000000),color-stop( 0.4, #000000),
+         /*RED*/color-stop( 0.4, rgba(207, 15, 15, 1)),color-stop( 0.5, rgba(207, 15, 15, 1)),
+         /*ORANGE*/color-stop( 0.5,rgba(255, 160, 0, 1)), color-stop( 0.6,rgba(255, 160, 0, 1)),
+         /*YELLOW*/color-stop( 0.6,rgba(255, 210, 0, 1)), color-stop( 0.7,rgba(255, 210, 0, 1)),
+         /*GREEN*/color-stop( 0.7,rgba(54, 160, 48, 1)),color-stop( 0.8,rgba(54, 160, 48, 1)),
+         /*BLUE*/color-stop( 0.8,rgba(27, 119, 205, 1)),color-stop( 0.9,rgba(27, 119, 205, 1)),
+         /*PURPLE*/color-stop( 0.9,rgba(77, 20, 140, 1)), color-stop( 1.00,rgba(77, 20, 140, 1)));
+ }
