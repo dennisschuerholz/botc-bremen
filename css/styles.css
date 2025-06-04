@@ -20276,3 +20276,47 @@ input.bg-transparent:focus-visible {
   background-color: var(--bs-secondary) !important;
   color: var(--bs-white) !important;
 }
+
+header.pridebg {
+  /*background: linear-gradient(
+          to bottom,
+          #e40303,
+          #e40303 16.67%,
+          #ff8c00 16.67%,
+          #ff8c00 33.33%,
+          #ffed00 33.33%,
+          #ffed00 50%,
+          #008026 50%,
+          #008026 66.67%,
+          #004dff 66.67%,
+          #004dff 83.33%,
+          #750787 83.33%,
+          #750787
+  );*/
+  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fd/LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg");*/
+  background-image: url("/assets/img/pride_progress_wide.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position-x: -1px;
+  margin-top: 72px;
+}
+
+.pridebg .masthead-heading, .pridebg .masthead-subheading {
+  color: rgb(49, 21, 62) !important;
+  text-shadow: -1px -1px 0 rgb(249, 247, 241), 1px -1px 0 rgb(249, 247, 241), -1px 1px 0 rgb(249, 247, 241), 1px 1px 0 rgb(249, 247, 241), -2px 0px 0 rgb(249, 247, 241), 2px 0px 0 rgb(249, 247, 241), 0px -2px 0 rgb(249, 247, 241), 0px 2px 0 rgb(249, 247, 241);
+}
+
+nav {
+  height: 72px;
+}
+
+.pride-bar:after {
+  width: 100%;
+  height: 4px;
+  background-size: 100% 100%;
+  content: "";
+  display: block;
+  background-image: linear-gradient(left, #ffafc8 0%, #ffafc8 10%, #74d7ee 10%, #74d7ee 20%, #613915 20%, #613915 30%, #000000 30%, #000000 40%, rgb(207, 15, 15) 40%, rgb(207, 15, 15) 50%, rgb(255, 160, 0) 50%, rgb(255, 160, 0) 60%, rgb(255, 210, 0) 60%, rgb(255, 210, 0) 70%, rgb(54, 160, 48) 70%, rgb(54, 160, 48) 80%, rgb(27, 119, 205) 80%, rgb(27, 119, 205) 90%, rgb(77, 20, 140) 90%, rgb(77, 20, 140) 100%);
+  background-image: -ms-linear-gradient(left, #ffafc8 0%, #ffafc8 10%, #74d7ee 10%, #74d7ee 20%, #613915 20%, #613915 30%, #000000 30%, #000000 40%, rgb(207, 15, 15) 40%, rgb(207, 15, 15) 50%, rgb(255, 160, 0) 50%, rgb(255, 160, 0) 60%, rgb(255, 210, 0) 60%, rgb(255, 210, 0) 70%, rgb(54, 160, 48) 70%, rgb(54, 160, 48) 80%, rgb(27, 119, 205) 80%, rgb(27, 119, 205) 90%, rgb(77, 20, 140) 90%, rgb(77, 20, 140) 100%);
+  background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0, #ffafc8), color-stop(0.1, #ffafc8), color-stop(0.1, #74d7ee), color-stop(0.2, #74d7ee), color-stop(0.2, #613915), color-stop(0.3, #613915), color-stop(0.3, #000000), color-stop(0.4, #000000), color-stop(0.4, rgb(207, 15, 15)), color-stop(0.5, rgb(207, 15, 15)), color-stop(0.5, rgb(255, 160, 0)), color-stop(0.6, rgb(255, 160, 0)), color-stop(0.6, rgb(255, 210, 0)), color-stop(0.7, rgb(255, 210, 0)), color-stop(0.7, rgb(54, 160, 48)), color-stop(0.8, rgb(54, 160, 48)), color-stop(0.8, rgb(27, 119, 205)), color-stop(0.9, rgb(27, 119, 205)), color-stop(0.9, rgb(77, 20, 140)), color-stop(1, rgb(77, 20, 140)));
+}
