@@ -20297,7 +20297,7 @@ header.pridebg {
   background-image: url("/assets/img/pride_progress_wide.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
-  background-position-x: -1px;
+  background-position-x: -5px;
   margin-top: 72px;
 }
 
@@ -20307,9 +20307,18 @@ header.pridebg {
 }
 
 nav {
-  height: 72px;
+  min-height: 72px;
 }
 
+.navbar-nav {
+  margin-top: 1em;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-top: unset;
+  }
+}
 .pride-bar:after {
   width: 100%;
   height: 4px;
