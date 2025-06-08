@@ -931,7 +931,7 @@
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
     "url": "",
     "storyTellers": [
-      "Sorel"
+      "Dennis"
     ],
     "languages": [],
     "extra": null
@@ -988,8 +988,7 @@
     "title": "Uni Bremen / MZH",
     "start": "2025-08-23T11:00:00.000Z",
     "end": "2025-08-23T20:00:00.000Z",
-    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
-    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
+    "locationUrl": null,
     "url": "",
     "storyTellers": [],
     "languages": [],
@@ -1097,7 +1096,6 @@
     "title": "Halloween-Special",
     "start": "2025-10-31T12:00:00.000Z",
     "end": "2025-10-31T21:00:00.000Z",
-    "location": "TBA",
     "locationUrl": null,
     "url": "",
     "storyTellers": [],
