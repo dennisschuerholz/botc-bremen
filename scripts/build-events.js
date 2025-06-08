@@ -26,6 +26,7 @@ fetch(icsUrl)
 
         // Extract the relevant data from the ics events
         const events = icsEvents.map(event => {
+            event.description = event.description || "";
             const descriptionLines = event.description.split('\n');
             let url = '';
             let locationUrl = null;
