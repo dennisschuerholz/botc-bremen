@@ -878,7 +878,7 @@
     "url": "https://events.botc-bremen.de/mzh250621/",
     "storyTellers": [
       "Dennis",
-      "Sorel"
+      "Kathi & Sorel"
     ],
     "languages": [
       "de",
@@ -919,7 +919,9 @@
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "",
-    "storyTellers": [],
+    "storyTellers": [
+      "Lars"
+    ],
     "languages": [],
     "extra": null
   },
@@ -943,8 +945,15 @@
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "",
-    "storyTellers": [],
-    "languages": [],
+    "storyTellers": [
+      "Dennis",
+      "Lars",
+      "Sorel"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
     "extra": null
   },
   {
