@@ -905,7 +905,7 @@
     "end": "2025-07-03T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": "",
+    "url": "https://events.botc-bremen.de/jetzthier250703/",
     "storyTellers": [
       "Dennis"
     ],
@@ -913,12 +913,12 @@
     "extra": null
   },
   {
-    "title": "Uni Bremen / MZH",
+    "title": "Uni Bremen / MZH (Sects & Violets)",
     "start": "2025-07-12T11:00:00.000Z",
     "end": "2025-07-12T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": "",
+    "url": "https://events.botc-bremen.de/mzh250712/",
     "storyTellers": [
       "Lars"
     ],
@@ -931,7 +931,7 @@
     "end": "2025-07-17T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": "",
+    "url": "https://events.botc-bremen.de/jetzthier250717/",
     "storyTellers": [
       "Dennis"
     ],
@@ -944,7 +944,7 @@
     "end": "2025-07-26T20:00:00.000Z",
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": "",
+    "url": "https://events.botc-bremen.de/mzh250726/",
     "storyTellers": [
       "Dennis",
       "Lars",
@@ -962,7 +962,7 @@
     "end": "2025-07-31T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": "",
+    "url": "https://events.botc-bremen.de/jetzthier250731/",
     "storyTellers": [
       "Dennis"
     ],
