@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -18,19 +18,19 @@
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-xl-5 px-3">
                 <a class="navbar-brand" href="/#">BotC Bremen &amp; Umzu</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Navigation ein-/ausblenden"><span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#events">Veranstaltungen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#links">Ressourcen</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#koop">Kooperationen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#links">Resources</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#koop">Collaborations</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link-alt dropdown-toggle" id="langToggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i></a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="langToggle">
+                                <li class="nav-item"><a class="dropdown-item" href="/de/" onclick='setLanguage("de", event);'>Deutsch</a></li>
                                 <break></break>
-                                <li class="nav-item"><a class="dropdown-item" href="/en/" onclick='setLanguage("en", event);'>English</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -42,9 +42,9 @@
             <div class="masthead-content">
                 <div class="container px-xl-5 px-3">
                     <h1 class="masthead-heading mb-0">Blood on&nbsp;the Clocktower</h1>
-                    <h2 class="masthead-subheading mb-0">Lokalcommunity Bremen &amp;&nbsp;Umzu</h2>
-                    <a class="btn btn-dark btn-xl rounded-pill mt-4 mt-lg-5 mx-2" href="#events">Anstehende Veranstaltungen</a>
-                    <a class="btn btn-dark btn-xl rounded-pill mt-2 mt-lg-5 mx-2" href="#community">Werde Teil der Community</a>
+                    <h2 class="masthead-subheading mb-0">Local community Bremen &amp;&nbsp;Umzu</h2>
+                    <a class="btn btn-dark btn-xl rounded-pill mt-4 mt-lg-5 mx-2" href="#events">Upcoming events</a>
+                    <a class="btn btn-dark btn-xl rounded-pill mt-2 mt-lg-5 mx-2" href="#community">Be part of the Community</a>
                 </div>
             </div>
         </header>
@@ -53,57 +53,52 @@
                 <div class="row gx-5 align-items-center">
                     <div class="col">
                         <div class="p-xl-5 p-2">
-                            <h2 class="display-4">Nur ein Spiel ... oder?</h2>
-                            <p>Über der verschlafenen Stadt Ravenswood Bluff tobt ein schweres Gewitter. Plötzlich hörst du um Mitternacht einen Schrei! Als du zum Marktplatz eilst entdeckst du, aufgespießt auf dem Stundenzeiger der Turmuhr, eine ermordete Gestalt. Langsam tropft das Blut auf das Kopfsteinpflaster des Platzes darunter. Welches Unheil sucht hier eure Stadt heim?</p>
+                            <h2 class="display-4">Just a game ... or is it?</h2>
+                            <p>A heavy thunderstorm is raging over the sleepy town of Ravenswood Bluff. Suddenly you hear a scream at midnight! As you rush to the market square, you discover a murdered body impaled on the hour hand of the tower clock. Blood slowly drips onto the cobblestones of the town square below. What evil is haunting your town?</p>
                             <p>
-                                Im Verborgenen agiert ein
-                                <emph class="bad">böser Dämon</emph>
-                                mit einigen
-                                <emph class="bad">Schergen</emph>
-                                und möchte alles Gute eliminieren. Die Aufgabe der
-                                <emph class="good">guten Bürger:innen</emph>
-                                und seltsamen
-                                <emph class="good">Außenseiter:innen</emph>
-                                ist es daher, den
-                                <emph class="bad">Dämon</emph>
-                                zu finden und über ihn zu richten, bevor sich der böse Plan entfalten kann.
+                                An
+                                <emph class="bad">evil Demon</emph>
+                                is operating in secret with a few
+                                <emph class="bad">Minions</emph>
+                                and wants to eliminate all good things. The task of the
+                                <emph class="good">good Townsfolk</emph>
+                                and strange
+                                <emph class="good">Outsiders</emph>
+                                is therefore to find the
+                                <emph class="bad">Demon</emph>
+                                and bring it to justice before the evil plan can unfold.
                             </p>
                             <p>
-                                Jede Person in der Stadt verkörpert einen einzigartigen Charakter. Auch der
-                                <emph class="bad">Dämon</emph>
-                                und die
-                                <emph class="bad">Schergen</emph>
-                                wirken am Tag wie normale Menschen. In der Nacht jedoch agieren viele Charaktere,
-                                <emph class="good">gute</emph>
-                                wie
-                                <emph class="bad ddot">böse</emph>
+                                Each person in the town embodies a unique character. Even the
+                                <emph class="bad">Demon</emph>
+                                and the
+                                <emph class="bad">Minions</emph>
+                                look like normal people during the day. At night, however, many characters act, both
+                                <emph class="good">good</emph>
+                                and
+                                <emph class="bad ddot">evil</emph>
                                 <!--| :-->
-                                Du erhältst eine Information oder darfst aktiv werden, vielleicht ist deine besondere Fähigkeit aber auch passiv. Das
-                                <emph class="bad">böse Team</emph>
-                                kann diese Informationen jedoch trüben und außerdem jede Nacht eine Person töten, bevor sie handeln kann. Deine persönliche Fähigkeit wird dir zu Beginn des Spiels geheim zugeteilt. Gegenüber der übrigen Runde darfst du aber alles vorgeben, was du möchtest. Schließlich ist unter ihnen auch der mordende
-                                <emph class="bad emark">Dämon</emph>
-                                <!--| !-->
-                                In einer Abstimmung wird nach den täglichen Diskussionen bestimmt, wen ihr hinrichtet um der Befreiung etwas näher zu kommen.
+                                You receive information or may take action, but your special ability might also be passive. However, the
+                                <emph class="bad">evil team</emph>
+                                can cloud this information and also kill one person each night before they can act. Your personal ability is secretly assigned to you at the start of the game. You may, however, say and pretend anything you like to the rest of the group. After all, the murdering
+                                <emph class="bad">Demon</emph>
+                                is also among them! After the daily discussions, a vote will determine who you execute in order to get a little closer to liberation.
                                 <br />
-                                In unserer famosen Stadt ist aber auch der Tod nicht das Ende: Als Geist nimmst du weiter am Spiel teil, auch wenn deine Fähigkeit meistens erlischt. Deine Worte hallen aus dem Jenseits nach, denn du kannst dich weiter mit deinen Vertrauten beraten, um schließlich gemeinsam gegen das
-                                <emph class="bad">böse Team</emph>
-                                zu siegen. Am Ende könnte deine letzte Stimme die Abstimmung herum reißen und den
-                                <emph class="bad">Dämon</emph>
-                                zur Hinrichtung führen.
+                                In our fantastic town, however, death is not the end: as a ghost, you continue to take part in the game, even if your ability usually expires. Your words echo from the afterlife, as you are still able to consult with your trusted friends in order to finally win together against the
+                                <emph class="bad dot">evil team</emph>
+                                By the end, your final vote could turn the scale and lead the
+                                <emph class="bad">Demon</emph>
+                                to execution.
                             </p>
                             <p>
-                                Hast du nach dieser kurzen Einführung Lust bekommen, dich selbst mit uns auf die Suche nach dem
-                                <emph class="bad">Dämon</emph>
-                                und seinen
-                                <emph class="bad">Schergen</emph>
-                                zu begeben?
+                                Has this brief introduction whetted your appetite to join us on the hunt for the
+                                <emph class="bad">Demon</emph>
+                                and its
+                                <emph class="bad qmark">Minions</emph>
                             </p>
-                            <p class="lead">Dann melde dich direkt zu einem unserer nächsten Treffen an!</p>
-                            <p>
-                                Du bist jetzt schon bestens gerüstet, um direkt in deine erste Runde zu starten. Eine Übersicht der möglichen Charaktere für diese erhältst du nach der Anmeldung. Vor Ort wird dir noch gezeigt, wie die stille Kommunikation in der Nacht abläuft. Außerdem können Fragen zu den unterschiedlichen Charakteren beantwortet werden.
-                                <!--| Wenn du dennoch nicht genug bekommst haben wir unten für dich eine Auswahl weiterführender Ressourcen wie eine Videoanleitung zum Spiel und das Regelwerk selbst verlinkt.-->
-                            </p>
-                            <div class="text-end" style="font-family: 'Charmonman'; font-size: 1.4rem">Bis bald in Ravenswood Bluff!</div>
+                            <p class="lead">Then sign up directly for one of our next events!</p>
+                            <p>You are now well equipped to start your first round straight away. You will receive an overview of the possible characters for this after registration. On site, you will be shown how silent communication works at night. Questions about the different characters will also be answered.</p>
+                            <div class="text-end" style="font-family: 'Charmonman'; font-size: 1.4rem">See you soon in Ravenswood Bluff!</div>
                         </div>
                     </div>
                 </div>
@@ -114,13 +109,13 @@
                 <div class="row gx-5">
                     <div class="col-lg-6">
                         <div class="p-xl-5 p-2">
-                            <h2 class="display-4">Veranstaltungen</h2>
-                            <p>Hier findet ihr immer die nächsten geplanten Veranstaltungen. Unsere offenen Runden finden an wechselnden Locations statt. Anmeldungen über den Link oder ggf. direkt bei den Storytellern.</p>
+                            <h2 class="display-4">Events</h2>
+                            <p>You will always find the next planned events here. Our open rounds take place at different locations. Register via the link or directly with the storytellers.</p>
                             <p class="mb-0">
                                 <i class="bi bi-translate"></i>
-                                <b>Kommunikationssprache</b>
+                                <b>Communication language</b>
                                 <br />
-                                Unsere Runden sind meistens deutschsprachig. Englischsprachige oder bilinguale Termine werden separat gekennzeichnet. Es sind normalerweise deutsche und englische Skripte vorhanden.
+                                Our sessions are mostly in German. English-language or bilingual events are marked separately. There are usually German and English scripts available.
                             </p>
                             <img class="img-fluid rounded-circle d-none d-lg-block mt-2" src="/assets/img/3.jpg" alt="..." />
                         </div>
@@ -129,19 +124,19 @@
                         <div class="p-xl-5 p-2">
                             <div class="row mb-2 mt-2">
                                 <div class="text-start col-7">
-                                    <a class="p-1 m1" href="javascript:nextEvents(true)" title="Frühere Veranstaltungen" id="prevEvents"><i class="bi bi-chevron-left"></i></a>
+                                    <a class="p-1 m1" href="javascript:nextEvents(true)" title="Previous events" id="prevEvents"><i class="bi bi-chevron-left"></i></a>
                                     <span class="p-1 m1" id="eventsCounter">Seite 1 von ...</span>
-                                    <a class="p-1 m1" href="javascript:nextEvents()" title="Spätere Veranstaltungen" id="nextEvents"><i class="bi bi-chevron-right"></i></a>
+                                    <a class="p-1 m1" href="javascript:nextEvents()" title="Next events" id="nextEvents"><i class="bi bi-chevron-right"></i></a>
                                 </div>
                                 <div class="text-end col-5 text-nowrap">
-                                    Abonnieren:
-                                    <a class="p-1 m-1" href="/events.ics" title="Termindownload oder Kalenderabonnement (ics/ical)"><i class="bi bi-calendar-heart"></i></a>
+                                    Subscribe:
+                                    <a class="p-1 m-1" href="/events.ics" title="Download dates or calendar subscription (ics/ical)"><i class="bi bi-calendar-heart"></i></a>
                                 </div>
                             </div>
                             <ul class="list-group" id="botc-event-widget">
                                 <li class="list-group-item d-flex justify-content-center align-items-center">
                                     <i class="bi bi-arrow-repeat bi-spin"></i>
-                                    <span class="m-2">Lade Veranstaltungen...</span>
+                                    <span class="m-2">Loading events...</span>
                                 </li>
                             </ul>
                             <img class="img-fluid rounded-circle mt-2 d-lg-none" src="/assets/img/3.jpg" alt="..." />
@@ -403,9 +398,9 @@
                                     <div class="row align-items-center">
                                         <i class="col-1 p-0 fs-1 bi bi-people"></i>
                                         <div class="col">
-                                            Sprich uns einfach auf einem
-                                            <a href="#events">Event</a>
-                                            persönlich an.
+                                            Just talk to us personally at an
+                                            <a href="#events">event</a>
+                                            if you like.
                                         </div>
                                     </div>
                                 </li>
@@ -413,7 +408,7 @@
                                     <div class="row align-items-center">
                                         <i class="col-1 p-0 fs-1 bi bi-discord"></i>
                                         <div class="col">
-                                            Tritt unserem Discord-Server bei:
+                                            Join our Discord server:
                                             <br />
                                             <a href="/discord" target="_blank">https://botc-bremen.de/discord</a>
                                         </div>
@@ -423,9 +418,9 @@
                                     <div class="row align-items-center">
                                         <i class="col-1 p-0 fs-1 bi bi-whatsapp"></i>
                                         <div class="col">
-                                            Du möchtest Teil der WhatsApp-Gruppen werden?
+                                            Would you like to join the WhatsApp groups?
                                             <br />
-                                            Schreibe uns eine Nachricht:
+                                            Write us a message:
                                             <a href="https://wa.me/4915678390797" target="_blank">+49 15678 390797</a>
                                         </div>
                                     </div>
@@ -434,7 +429,7 @@
                                     <div class="row align-items-center">
                                         <i class="col-1 p-0 fs-1 bi bi-telegram"></i>
                                         <div class="col">
-                                            Ankündigungen auch auf Telegram abonnieren:
+                                            Subscribe to announcements on Telegram:
                                             <br />
                                             <a href="/telegram" target="_blank">https://botc-bremen.de/telegram</a>
                                         </div>
@@ -444,9 +439,8 @@
                                     <div class="row align-items-center">
                                         <i class="col-1 p-0 fs-1 bi bi-envelope-plus"></i>
                                         <div class="col">
-                                            E-Mail-Newsletter für Ankündigungen
-                                            <a href="/newsletter" target="_blank">hier</a>
-                                            abonnieren.
+                                            <a href="/newsletter" target="_blank">Subscribe</a>
+                                            to e-mail newsletter for announcements
                                         </div>
                                     </div>
                                 </li>
@@ -454,11 +448,11 @@
                                     <div class="row align-items-center">
                                         <i class="col-1 p-0 fs-1 bi bi-envelope-fill"></i>
                                         <div class="col">
-                                            Kontaktiere das
-                                            <a href="#team">Team</a>
-                                            gerne per
-                                            <a href="mailto:info@botc-bremen.de">E-Mail</a>
-                                            für weitere Fragen, Anregungen oder sonstige Anliegen.
+                                            Feel free to contact the
+                                            <a href="#team">team</a>
+                                            by
+                                            <a href="mailto:info@botc-bremen.de">e-mail</a>
+                                            for further questions, suggestions or other concerns.
                                         </div>
                                     </div>
                                 </li>
@@ -476,25 +470,25 @@
                     </div>
                     <div class="col-lg-6 order-lg-1 order-1">
                         <div class="p-xl-5 p-2">
-                            <h2 class="display-4">Ressourcen</h2>
+                            <h2 class="display-4">Ressources</h2>
                             <p></p>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                    <a href="https://bloodontheclocktower.com/" target="_blank">Offizielle Homepage</a>
+                                    <a href="https://bloodontheclocktower.com/" target="_blank">Official Homepage</a>
                                     [en]
                                 </li>
                                 <li class="list-group-item">
-                                    <a href="https://wiki.bloodontheclocktower.com/" target="_blank">Offizielles Wiki</a>
+                                    <a href="https://wiki.bloodontheclocktower.com/" target="_blank">Official Wiki</a>
                                     [en]
                                 </li>
-                                <li class="list-group-item"><a href="https://funtails.de/produkt/blood-on-the-clocktower-deutsch/" target="_blank">Deutsche Spielversion bei Funtails</a></li>
+                                <li class="list-group-item"><a href="https://funtails.de/produkt/blood-on-the-clocktower-deutsch/" target="_blank">German game version at Funtails</a></li>
                                 <li class="list-group-item">
-                                    <a href="https://youtu.be/M-aZP47Nm9g" target="_blank">Kurze Einführung</a>
-                                    (9 Minuten) [en]
+                                    <a href="https://youtu.be/M-aZP47Nm9g" target="_blank">Short introduction</a>
+                                    (9 minutes) [en]
                                 </li>
                                 <li class="list-group-item">
-                                    <a href="https://youtu.be/-xT_pnFNZBA" target="_blank">Ausführliche Regelerklärung</a>
-                                    (41 Minuten) [de]
+                                    <a href="https://youtu.be/-xT_pnFNZBA" target="_blank">Detailed explanation of the rules</a>
+                                    (41 minutes) [de]
                                 </li>
                                 <li class="list-group-item">
                                     <a href="https://clocktowertimer.com/" target="_blank">Clocktowertimer</a>
@@ -505,15 +499,15 @@
                                     (Storyteller-Tool)
                                 </li>
                                 <li class="list-group-item">
-                                    <a href="https://discord.com/invite/hQrXsWutt6" target="_blank">Deutscher Discord</a>
-                                    (Inoffiziell)
+                                    <a href="https://discord.com/invite/hQrXsWutt6" target="_blank">German Discord</a>
+                                    (Unofficial)
                                 </li>
                                 <li class="list-group-item">
-                                    <a href="https://discord.gg/botc" target="_blank">Globaler Discord</a>
-                                    (Inoffiziell) [en]
+                                    <a href="https://discord.gg/botc" target="_blank">Global Discord</a>
+                                    (Unofficial) [en]
                                 </li>
                                 <li class="list-group-item">
-                                    <a href="https://linktr.ee/bloodontheclocktower" target="_blank">Offizielle Linkliste</a>
+                                    <a href="https://linktr.ee/bloodontheclocktower" target="_blank">Official Linklist</a>
                                     [en]
                                 </li>
                             </ul>
@@ -527,7 +521,7 @@
                 <div class="row gx-5 align-items-center">
                     <div class="col">
                         <div class="p-xl-5 p-2">
-                            <h2 class="display-4">Kooperationen</h2>
+                            <h2 class="display-4">Collaborations</h2>
                             <div class="row row-cols-1 row-cols-md-3 g-4">
                                 <div class="col">
                                     <div class="card h-100">
@@ -535,10 +529,10 @@
                                             <img class="w-50 p-1" src="/assets/img/stugainf_comp.svg" alt="StugA Informatik" />
                                             <img class="w-50 p-1" src="/assets/img/stugamathe.svg" alt="StugA Mathematik" />
                                         </div>
-                                        <div class="card-body"><div class="card-text">Dank Kooperation mit den Stugen des FB3 an der Universität Bremen können wir die regelmäßigen Spieletage im MZH anbieten. Im Gegenzug unterstützen wir auch Veranstaltungen der Studierendenschaft.</div></div>
+                                        <div class="card-body"><div class="card-text">Thanks to the cooperation with the students' groups of FB3 at the University of Bremen, we are able to offer regular games days in the MZH. In return, we also support events organized by the student body.</div></div>
                                         <div class="card-footer">
                                             <a href="https://fb3.stugen.de" target="_blank">
-                                                Zu den Stugen des FB3
+                                                To the Stugen of the FB3
                                                 <!--i.bi.bi-box-arrow-up-right-->
                                             </a>
                                         </div>
@@ -550,10 +544,10 @@
                                             <div class="img" style="mask-image: url('/assets/img/jetzthier.svg'); background-color: rgb(227, 173, 234); aspect-ratio: 1125/411" alt="Quartierstreff Jetzt Hier"></div>
                                             <!--img(src='/assets/img/jetzthier.svg', alt='Quartierstreff Jetzt Hier')-->
                                         </div>
-                                        <div class="card-body"><div class="card-text">jetzt hier ist ein Projekt von Kultur Vor Ort e.V. zur Förderung nachbarschaftlicher Verbundenheit in der Überseestadt. Gemeinsam mit Bewohner:innen werden Formate und Programme entwickelt, die das Miteinander stärken.</div></div>
+                                        <div class="card-body"><div class="card-text">jetzt hier is a project by Kultur Vor Ort e.V. to promote neighborly bonds in the Überseestadt. Together with residents, formats and programs are developed that strengthen community ties.</div></div>
                                         <div class="card-footer">
                                             <a href="https://jetzthier.eu/" target="_blank">
-                                                Zum Quartierstreff jetzt hier
+                                                To Quartierstreff jetzt hier!
                                                 <!--i.bi.bi-box-arrow-up-right-->
                                             </a>
                                         </div>
@@ -572,22 +566,22 @@
             <div class="container px-xl-5 px-3">
                 <p class="m-0 text-center text-white small">Copyright &copy; BotC Community Bremen & Umzu 2023-2025</p>
                 <p class="m-0 mt-3 text-center text-white small">
-                    "Blood on the Clocktower" ist eine eingetragene Marke von
+                    "Blood on the Clocktower" is a registered trademark of
                     <a href="https://bloodontheclocktower.com/about-us" target="_blank">The Pandemonium Institute</a>
-                    und Steven Medway.
+                    and Steven Medway.
                 </p>
-                <p class="m-0 text-center text-white small">Verwendete Spielgrafiken wurden durch The Pandemonium Institute freundlicherweise für nichtkommerzielle Zwecke freigegeben.</p>
-                <p class="m-0 text-center text-white small">Diese Seite hat keine weitere Verbindung zu, noch wird unterstützt von, The Pandemonium Institute.</p>
+                <p class="m-0 text-center text-white small">Game graphics used have been kindly released by The Pandemonium Institute for non-commercial use.</p>
+                <p class="m-0 text-center text-white small">This site has no further affiliation with, nor is it endorsed by, The Pandemonium Institute.</p>
                 <div class="mt-5 text-center text-white small row w-xl-75 m-auto">
-                    <div class="col-12 fs-5">Impressum • Anbieterkennzeichnung</div>
-                    <div class="col-12 my-3"><a href="/impressum/">Ausführliches Impressum und Datenschutzerklärung</a></div>
-                    <div class="col-12 mb-1">Anbieter nach § 5 DDG und verantwortlich nach § 18 MStV:</div>
+                    <div class="col-12 fs-5">Imprint • Provider identification</div>
+                    <div class="col-12 my-3"><a href="/impressum/">Detailed Imprint and privacy policy (in German)</a></div>
+                    <div class="col-12 mb-1">Provider according to § 5 DDG and responsible according to § 18 MStV:</div>
                     <div class="col-12">
                         Dennis Schürholz, Meta-Sattler-Str. 33, 28217 Bremen
                         <br />
                         E-Mail:
                         <a href="mailto:dennis@botc-bremen.de">dennis@botc-bremen.de</a>
-                        &bull;Telefon: 015678 / 390 797
+                        &bull;Phone: 015678 / 390 797
                     </div>
                 </div>
             </div>
