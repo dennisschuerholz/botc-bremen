@@ -1,5 +1,15 @@
+include /pug/mixins/langnav
+block config
+    - lang = "de"
+    - toggleNavigation = "Navigation ein-/ausblenden"
+    - navbarBrand = "BotC Bremen & Umzu"
+    - imprintTitle = "Impressum • Anbieterkennzeichnung"
+    - imprintLinktext = "Ausführliches Impressum und Datenschutzerklärung"
+    - imprintDdgMstv = "Anbieter nach § 5 DDG und verantwortlich nach § 18 MStV:"
+    - textEmail = "E-Mail: "
+    - textTelephone = "Telefon: "
 doctype html
-html(lang='de')
+html(lang=lang)
     head
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
@@ -21,48 +31,42 @@ html(lang='de')
         // Navigation
         nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
             .container.px-xl-5.px-3
-                a.navbar-brand(href='/#top') BotC Bremen & Umzu
-                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Navigation ein-/ausblenden')
+                a.navbar-brand(href='/#')= navbarBrand
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label=toggleNavigation)
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto
                         block nav-items
                             li.nav-item
-                                a.nav-link(href='#events') Veranstaltungen
+                                a.nav-link(href='/') Startseite
                             li.nav-item
-                                a.nav-link(href='#team') Team
-                            li.nav-item
-                                a.nav-link(href='#community') Community
-                            li.nav-item
-                                a.nav-link(href='#rules') Regeln & Tipps
-                            li.nav-item
-                                a.nav-link(href='#links') Ressourcen
-                            li.nav-item
-                                a.nav-link(href='#koop') Kooperationen
+                                a.nav-link(href='/impressum') Impressum
         block content
 
         // Footer
-        footer.py-5#contact //.bg-black
+        footer.py-5#contact
             .container.px-xl-5.px-3
                 p.m-0.text-center.text-white.small Copyright &copy; BotC Community Bremen & Umzu 2023-2025
-                p.m-0.mt-3.text-center.text-white.small "Blood on the Clocktower" ist eine eingetragene Marke von
-                    a(href='https://bloodontheclocktower.com/about-us', target='_blank') The Pandemonium Institute
-                    | und Steven Medway.
-                p.m-0.text-center.text-white.small Verwendete Spielgrafiken wurden durch The Pandemonium Institute freundlicherweise für nichtkommerzielle Zwecke freigegeben.
-                p.m-0.text-center.text-white.small Diese Seite hat keine weitere Verbindung zu, noch wird unterstützt von, The Pandemonium Institute.
+                block footerExtra
+                    p.m-0.mt-3.text-center.text-white.small
+                        | "Blood on the Clocktower" ist eine eingetragene Marke von
+                        a(href='https://bloodontheclocktower.com/about-us', target='_blank') The Pandemonium Institute
+                        | und Steven Medway.
+                    p.m-0.text-center.text-white.small Verwendete Spielgrafiken wurden durch The Pandemonium Institute freundlicherweise für nichtkommerzielle Zwecke freigegeben.
+                    p.m-0.text-center.text-white.small Diese Seite hat keine weitere Verbindung zu, noch wird unterstützt von, The Pandemonium Institute.
                 .mt-5.text-center.text-white.small.row.w-xl-75.m-auto
-                    .col-12.fs-5
-                        | Impressum &bull; Anbieterkennzeichnung
+                    .col-12.fs-5= imprintTitle
                     .col-12.my-3
-                        a(href='/impressum/') Ausführliches Impressum und Datenschutzerklärung
-                    .col-12.mb-1
-                        | Anbieter nach § 5 DDG und verantwortlich nach § 18 MStV:
+                        a(href='/impressum/')= imprintLinktext
+                    .col-12.mb-1= imprintDdgMstv
                     .col-12
                         | Dennis Schürholz, Meta-Sattler-Str. 33, 28217 Bremen
                         br
-                        | E-Mail:
+                        = textEmail
                         a(href='mailto:dennis@botc-bremen.de') dennis@botc-bremen.de
-                        | &bull; Telefon: 015678 / 390 797
+                        | &bull;
+                        = textTelephone
+                        | 015678 / 390 797
 
         // Bootstrap core JS
         script(src='/js/bootstrap.bundle.min.js')

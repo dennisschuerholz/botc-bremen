@@ -1,0 +1,231 @@
+extends /pug/index
+
+block config
+    - lang = "en"
+    - toggleNavigation = "Toggle Navigation"
+    - navbarBrand = "BotC Bremen & Umzu"
+    - imprintTitle = "Imprint • Provider identification"
+    - imprintLinktext = "Detailed Imprint and privacy policy (in German)"
+    - imprintDdgMstv = "Provider according to § 5 DDG and responsible according to § 18 MStV:"
+    - textEmail = "E-Mail: "
+    - textTelephone = "Phone: "
+    - blockIntroTitle = "Just a game ... or is it?"
+    - blockEventsTitle = "Events"
+    - blockTeamTitle = "Team"
+    - blockCommunityTitle = "Community"
+    - blockLinksTitle = "Ressources"
+    - blockKoopTitle = "Collaborations"
+    - textEventsPrev = "Previous events"
+    - textEventsNext = "Next events"
+    - textEventsAbo = "Subscribe: "
+    - textEventsAboLink = "Download dates or calendar subscription (ics/ical)"
+    - textEventsLoading = "Loading events..."
+
+block footerExtra
+    p.m-0.mt-3.text-center.text-white.small "Blood on the Clocktower" is a registered trademark of
+        a(href='https://bloodontheclocktower.com/about-us', target='_blank') The Pandemonium Institute
+        | and Steven Medway.
+    p.m-0.text-center.text-white.small Game graphics used have been kindly released by The Pandemonium Institute for non-commercial use.
+    p.m-0.text-center.text-white.small This site has no further affiliation with, nor is it endorsed by, The Pandemonium Institute.
+
+block nav-items
+    li.nav-item
+        a.nav-link(href='#events') Events
+    li.nav-item
+        a.nav-link(href='#team') Team
+    li.nav-item
+        a.nav-link(href='#community') Community
+    li.nav-item
+        a.nav-link(href='#links') Resources
+    li.nav-item
+        a.nav-link(href='#koop') Collaborations
+    +langNav(lang)
+
+block blockHeader
+    h1.masthead-heading.mb-0 Blood on&nbsp;the Clocktower
+    h2.masthead-subheading.mb-0 Local community Bremen &amp;&nbsp;Umzu
+    a.btn.btn-dark.btn-xl.rounded-pill.mt-4.mt-lg-5.mx-2(href='#events') Upcoming events
+    a.btn.btn-dark.btn-xl.rounded-pill.mt-2.mt-lg-5.mx-2(href='#community') Be part of the Community
+
+block blockIntroContent
+    p
+        | A heavy thunderstorm is raging over the sleepy town of Ravenswood Bluff.
+        | Suddenly you hear a scream at midnight!
+        | As you rush to the market square, you discover a murdered body impaled on the hour hand of the tower clock.
+        | Blood slowly drips onto the cobblestones of the town square below.
+        | What evil is haunting your town?
+    p
+        | An
+        emph.bad evil Demon
+        | is operating in secret with a few
+        emph.bad Minions
+        | and wants to eliminate all good things.
+        | The task of the
+        emph.good good Townsfolk
+        | and strange
+        emph.good Outsiders
+        | is therefore to find the
+        emph.bad Demon
+        | and bring it to justice before the evil plan can unfold.
+    p
+        | Each person in the town embodies a unique character.
+        | Even the
+        emph.bad Demon
+        | and the
+        emph.bad Minions
+        | look like normal people during the day.
+        | At night, however, many characters act, both
+        emph.good good
+        | and
+        emph.bad.ddot evil
+        //| :
+        | You receive information or may take action, but your special ability might also be passive.
+        | However, the
+        emph.bad evil team
+        | can cloud this information and also kill one person each night before they can act.
+        | Your personal ability is secretly assigned to you at the start of the game.
+        | You may, however, say and pretend anything you like to the rest of the group.
+        | After all, the murdering
+        emph.bad Demon
+        | is also among them!
+        | After the daily discussions, a vote will determine who you execute in order to get a little closer to liberation.
+        br
+        | In our fantastic town, however, death is not the end:
+        | as a ghost, you continue to take part in the game, even if your ability usually expires.
+        | Your words echo from the afterlife, as you are still able to consult with your trusted friends in order to finally win together against the
+        emph.bad.dot evil team
+        | By the end, your final vote could turn the scale and lead the
+        emph.bad Demon
+        | to execution.
+    p
+        | Has this brief introduction whetted your appetite to join us on the hunt for the
+        emph.bad Demon
+        | and its
+        emph.bad.qmark Minions
+    p.lead
+        | Then sign up directly for one of our next events!
+    p
+        | You are now well equipped to start your first round straight away.
+        | You will receive an overview of the possible characters for this after registration.
+        | On site, you will be shown how silent communication works at night.
+        | Questions about the different characters will also be answered.
+    .text-end(style='font-family:"Charmonman";font-size:1.4rem;')
+        | See you soon in Ravenswood Bluff!
+
+block blockEventsContent
+    p
+        | You will always find the next planned events here.
+        | Our open rounds take place at different locations.
+        | Register via the link or directly with the storytellers.
+    p.mb-0
+        i.bi.bi-translate
+        b Communication language
+        br
+        | Our sessions are mostly in German.
+        | English-language or bilingual events are marked separately.
+        | There are usually German and English scripts available.
+
+block blockCommunityContent
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-people
+            .col
+                | Just talk to us personally at an
+                a(href='#events') event
+                | if you like.
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-discord
+            .col
+                | Join our Discord server:
+                br
+                a(href='/discord', target='_blank') https://botc-bremen.de/discord
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-whatsapp
+            .col
+                | Would you like to join the WhatsApp groups?
+                br
+                | Write us a message:
+                a(href='https://wa.me/4915678390797', target='_blank') +49 15678 390797
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-telegram
+            .col
+                | Subscribe to announcements on Telegram:
+                br
+                a(href='/telegram', target='_blank') https://botc-bremen.de/telegram
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-envelope-plus
+            .col
+                a(href='/newsletter', target='_blank') Subscribe
+                | to e-mail newsletter for announcements
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-envelope-fill
+            .col
+                | Feel free to contact the
+                a(href='#team') team
+                | by
+                a(href='mailto:info@botc-bremen.de') e-mail
+                | for further questions, suggestions or other concerns.
+
+block blockLinksContent
+    li.list-group-item
+        a(href='https://bloodontheclocktower.com/', target='_blank') Official Homepage
+        | [en]
+    li.list-group-item
+        a(href='https://wiki.bloodontheclocktower.com/', target='_blank') Official Wiki
+        | [en]
+    li.list-group-item
+        a(href='https://funtails.de/produkt/blood-on-the-clocktower-deutsch/', target='_blank') German game version at Funtails
+    li.list-group-item
+        a(href='https://youtu.be/M-aZP47Nm9g', target='_blank') Short introduction
+        | (9 minutes) [en]
+    li.list-group-item
+        a(href='https://youtu.be/-xT_pnFNZBA', target='_blank') Detailed explanation of the rules
+        | (41 minutes) [de]
+    li.list-group-item
+        a(href='https://clocktowertimer.com/', target='_blank') Clocktowertimer
+        | (Storyteller-Tool)
+    li.list-group-item
+        a(href='https://savant.botc-bremen.de/', target='_blank') Savant Info-Generator
+        | (Storyteller-Tool)
+    li.list-group-item
+        a(href='https://discord.com/invite/hQrXsWutt6', target='_blank') German Discord
+        | (Unofficial)
+    li.list-group-item
+        a(href='https://discord.gg/botc', target='_blank') Global Discord
+        | (Unofficial)
+        | [en]
+    li.list-group-item
+        a(href='https://linktr.ee/bloodontheclocktower', target='_blank') Official Linklist
+        | [en]
+
+block blockKoopStuga
+    .card-img-container
+        img.w-50.p-1(src='/assets/img/stugainf_comp.svg', alt='StugA Informatik')
+        img.w-50.p-1(src='/assets/img/stugamathe.svg', alt='StugA Mathematik')
+    .card-body
+        .card-text
+            | Thanks to the cooperation with the students' groups of FB3 at the University of Bremen, we are able to offer regular games days in the MZH.
+            | In return, we also support events organized by the student body.
+    .card-footer
+        a(href='https://fb3.stugen.de', target='_blank')
+            | To the Stugen of the FB3
+            //i.bi.bi-box-arrow-up-right
+
+block blockKoopJetzthier
+    .card-img-container
+        .img(style="mask-image: url('/assets/img/jetzthier.svg'); background-color: rgb(227, 173, 234); aspect-ratio: 1125/411;", alt='Quartierstreff Jetzt Hier')
+        //img(src='/assets/img/jetzthier.svg', alt='Quartierstreff Jetzt Hier')
+    .card-body
+        .card-text
+            | jetzt hier is a project by Kultur Vor Ort e.V. to promote neighborly bonds in the Überseestadt. Together with residents, formats and programs are developed that strengthen community ties.
+    .card-footer
+        a(href='https://jetzthier.eu/', target='_blank')
+            | To Quartierstreff jetzt hier!
+            //i.bi.bi-box-arrow-up-right
+
+

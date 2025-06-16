@@ -109,3 +109,16 @@ input.bg-transparent:focus-visible {
     background-color: var(--bs-secondary) !important;
     color: var(--bs-white) !important;
 }
+
+.nav-link-alt {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link-alt:hover, .nav-link-alt:focus {
+    color: var(--bs-nav-link-hover-color);
+}

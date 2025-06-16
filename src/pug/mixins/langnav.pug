@@ -1,0 +1,13 @@
+mixin langNav(lang)
+    li.nav-item.dropdown
+        a.nav-link-alt.dropdown-toggle#langToggle(href='#', role='button', data-bs-toggle='dropdown', aria-expanded='false')
+            i.bi.bi-translate
+        ul.dropdown-menu.dropdown-menu-dark(aria-labelledby='langToggle')
+            - var languages = {de: 'Deutsch', en: 'English'}
+            each value, code in languages
+                case code
+                    when lang
+                        break
+                    default
+                        li.nav-item
+                            a.dropdown-item(href=`/${code}/`, onclick=`setLanguage("${code}", event);`)= value
