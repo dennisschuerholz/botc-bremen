@@ -976,9 +976,11 @@
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "",
-    "storyTellers": [],
+    "storyTellers": [
+      "Alle"
+    ],
     "languages": [],
-    "extra": null
+    "extra": "Open-Air am Unisee"
   },
   {
     "title": "Überseestadt / jetzt hier",
@@ -999,7 +1001,9 @@
     "end": "2025-08-23T20:00:00.000Z",
     "locationUrl": null,
     "url": "",
-    "storyTellers": [],
+    "storyTellers": [
+      "Dennis"
+    ],
     "languages": [],
     "extra": null
   },
@@ -1023,8 +1027,14 @@
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "",
-    "storyTellers": [],
-    "languages": [],
+    "storyTellers": [
+      "Daniel & Dennis",
+      "Kathi & Sorel"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
     "extra": null
   },
   {
@@ -1047,7 +1057,11 @@
     "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "",
-    "storyTellers": [],
+    "storyTellers": [
+      "Daniel",
+      "Dennis",
+      "Kathi"
+    ],
     "languages": [],
     "extra": null
   },
