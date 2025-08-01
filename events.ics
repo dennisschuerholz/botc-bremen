@@ -513,22 +513,6 @@ CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-CREATED:20250801T104617Z
-DTSTAMP:20250801T105336Z
-LAST-MODIFIED:20250801T105336Z
-SEQUENCE:2
-UID:2ab3197b-f6f1-487b-b12d-075d67b380d5
-DTSTART;TZID=Europe/Berlin:20250815T200000
-DTEND;TZID=Europe/Berlin:20250815T230000
-STATUS:CONFIRMED
-SUMMARY:@NipponCon 2025
-LOCATION:D27\, Gustav-Heinemann-Bürgerhaus Vegesack\, Kirchheide 49\, 2875
- 7 Bremen
-DESCRIPTION:LOC: https://www.openstreetmap.org/way/25484338\nURL: https://n
- ipponcon.de/index.php/tickets/ticket-information\nST: Dennis\n\nKeine Vora
- nmeldung zur Teilnahme. Zugang nur mit Ticket der NipponCon.
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20240418T105438Z
 UID:6abed21f-5d12-49e9-9cca-425db99f5e85
 SEQUENCE:2
@@ -633,9 +617,9 @@ LAST-MODIFIED:20241011T082955Z
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20250801T105341Z
-DTSTAMP:20250801T105353Z
-LAST-MODIFIED:20250801T105353Z
-SEQUENCE:2
+DTSTAMP:20250801T110616Z
+LAST-MODIFIED:20250801T110616Z
+SEQUENCE:3
 UID:c698f803-4c6f-48e3-944d-98d10b0da366
 DTSTART;TZID=Europe/Berlin:20250816T200000
 DTEND;TZID=Europe/Berlin:20250816T230000
@@ -644,7 +628,7 @@ LOCATION:D27\, Gustav-Heinemann-Bürgerhaus Vegesack\, Kirchheide 49\, 2875
  7 Bremen
 DESCRIPTION:LOC: https://www.openstreetmap.org/way/25484338\nURL: https://n
  ipponcon.de/index.php/tickets/ticket-information\nST: Dennis\n\nKeine Vora
- nmeldung zur Teilnahme. Zugang nur mit Ticket der NipponCon.
+ nmeldung. Zugang mit Ticket der NipponCon.
 CLASS:PUBLIC
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -740,21 +724,20 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250801T104305Z
+DTSTAMP:20250801T110740Z
 UID:859cd1e5-a3d4-4ed5-b8b4-540263cefc47
-SEQUENCE:3
+SEQUENCE:4
 SUMMARY:Überseestadt / Straßenfest "Zu Tisch"
 DESCRIPTION:ST: Dennis\nURL: https://events.botc-bremen.de/zutisch250823/\n
  LOC: https://www.openstreetmap.org/way/667767975\n\nWir spielen auf dem St
- raßenfest "Zu Tisch" Open Air auf einer gesperrten Straße. Offizieller S
- tart ist 16 Uhr\, wir können aber theoretisch früher aufbauen. Siehe Det
- ails in der Anmeldung!
+ raßenfest 'Zu Tisch' auf einer gesperrten Straße. Offizieller Start ist 
+ 16 Uhr\, wir bauen aber früher auf. Siehe Details in der Anmeldung!
 DTSTART;TZID=Europe/Berlin:20250823T140000
 DTEND;TZID=Europe/Berlin:20250823T210000
 CLASS:PUBLIC
 STATUS:CONFIRMED
 LOCATION:Auf der Straße Überseetor\, 28217 Bremen
-LAST-MODIFIED:20250801T104305Z
+LAST-MODIFIED:20250801T110740Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250403T084633Z
@@ -1062,6 +1045,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+CREATED:20250801T110901Z
+DTSTAMP:20250801T110909Z
+LAST-MODIFIED:20250801T110909Z
+SEQUENCE:2
+UID:f2f626ae-30ad-402d-bb8a-f513586ae444
+DTSTART;TZID=Europe/Berlin:20251204T170000
+DTEND;TZID=Europe/Berlin:20251204T210000
+SUMMARY:Überseestadt / jetzt hier
+LOCATION:Konsul-Schmidt-Straße 38\, 28217 Bremen
+DESCRIPTION:ST: Dennis\nLOC: https://www.openstreetmap.org/node/9833701807
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 CREATED:20250527T153350Z
 DTSTAMP:20250527T153354Z
 LAST-MODIFIED:20250527T153354Z
@@ -1134,6 +1132,39 @@ LOCATION:Kommodore-Johnsen-Boulevard 19\, 28217 Bremen
 DESCRIPTION:ST: Dennis\nLOC: https://www.openstreetmap.org/node/11114562722
  \nURL: https://events.botc-bremen.de/jetzthier250206/\n\nAb 17:00 Einführ
  ung\, 17:30 erste Spielrunde.
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250801T110916Z
+DTSTAMP:20250801T110922Z
+LAST-MODIFIED:20250801T110922Z
+SEQUENCE:2
+UID:41d5331b-f3be-4d0b-adc5-5bca5410410e
+DTSTART;TZID=Europe/Berlin:20251218T170000
+DTEND;TZID=Europe/Berlin:20251218T210000
+SUMMARY:Überseestadt / jetzt hier
+LOCATION:Konsul-Schmidt-Straße 38\, 28217 Bremen
+DESCRIPTION:ST: Dennis\nLOC: https://www.openstreetmap.org/node/9833701807
+CLASS:PUBLIC
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20250801T110619Z
+DTSTAMP:20250801T110625Z
+LAST-MODIFIED:20250801T110625Z
+SEQUENCE:2
+UID:11edaaf3-81ab-4918-8ef5-fefec2bfd01a
+DTSTART;TZID=Europe/Berlin:20250815T200000
+DTEND;TZID=Europe/Berlin:20250815T230000
+SUMMARY:@NipponCon 2025
+LOCATION:D27\, Gustav-Heinemann-Bürgerhaus Vegesack\, Kirchheide 49\, 2875
+ 7 Bremen
+DESCRIPTION:LOC: https://www.openstreetmap.org/way/25484338\nURL: https://n
+ ipponcon.de/index.php/tickets/ticket-information\nST: Dennis\n\nKeine Vora
+ nmeldung. Zugang mit Ticket der NipponCon.
 CLASS:PUBLIC
 STATUS:CONFIRMED
 TRANSP:OPAQUE

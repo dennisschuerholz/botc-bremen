@@ -1006,7 +1006,7 @@
       "Dennis"
     ],
     "languages": [],
-    "extra": "Keine Voranmeldung zur Teilnahme. Zugang nur mit Ticket der NipponCon."
+    "extra": "Keine Voranmeldung. Zugang mit Ticket der NipponCon."
   },
   {
     "title": "@NipponCon 2025",
@@ -1019,7 +1019,7 @@
       "Dennis"
     ],
     "languages": [],
-    "extra": "Keine Voranmeldung zur Teilnahme. Zugang nur mit Ticket der NipponCon."
+    "extra": "Keine Voranmeldung. Zugang mit Ticket der NipponCon."
   },
   {
     "title": "Überseestadt / Straßenfest Zu Tisch",
@@ -1032,7 +1032,7 @@
       "Dennis"
     ],
     "languages": [],
-    "extra": "Wir spielen auf dem Straßenfest Zu Tisch Open Air auf einer gesperrten Straße. Offizieller Start ist 16 Uhr, wir können aber theoretisch früher aufbauen. Siehe Details in der Anmeldung!"
+    "extra": "Wir spielen auf dem Straßenfest 'Zu Tisch' auf einer gesperrten Straße. Offizieller Start ist 16 Uhr, wir bauen aber früher auf. Siehe Details in der Anmeldung!"
   },
   {
     "title": "Überseestadt / jetzt hier",
@@ -1214,6 +1214,32 @@
     "locationUrl": "https://www.openstreetmap.org/relation/3293414",
     "url": "",
     "storyTellers": [],
+    "languages": [],
+    "extra": null
+  },
+  {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-12-04T16:00:00.000Z",
+    "end": "2025-12-04T20:00:00.000Z",
+    "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/9833701807",
+    "url": "",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "languages": [],
+    "extra": null
+  },
+  {
+    "title": "Überseestadt / jetzt hier",
+    "start": "2025-12-18T16:00:00.000Z",
+    "end": "2025-12-18T20:00:00.000Z",
+    "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/node/9833701807",
+    "url": "",
+    "storyTellers": [
+      "Dennis"
+    ],
     "languages": [],
     "extra": null
   }
