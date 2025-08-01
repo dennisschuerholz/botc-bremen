@@ -970,17 +970,17 @@
     "extra": null
   },
   {
-    "title": "Uni Bremen / MZH",
+    "title": "Unisee Open Air",
     "start": "2025-08-09T11:00:00.000Z",
-    "end": "2025-08-09T20:00:00.000Z",
-    "location": "MZH 1460, Bibliothekstr. 5, 28359 Bremen",
-    "locationUrl": "https://www.openstreetmap.org/relation/3293414",
-    "url": "",
+    "end": "2025-08-09T19:00:00.000Z",
+    "location": "Liegewiese am Stadtwaldsee (Unisee), 28259 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/way/23321551",
+    "url": "https://events.botc-bremen.de/unisee250809/",
     "storyTellers": [
       "Alle"
     ],
     "languages": [],
-    "extra": "Open-Air am Unisee"
+    "extra": "Mit Grillen, Cocktails und mehr!"
   },
   {
     "title": "Überseestadt / jetzt hier",
@@ -988,7 +988,7 @@
     "end": "2025-08-14T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": "",
+    "url": "https://events.botc-bremen.de/jetzthier250814/",
     "storyTellers": [
       "Dennis"
     ],
@@ -996,16 +996,43 @@
     "extra": null
   },
   {
-    "title": "Uni Bremen / MZH",
-    "start": "2025-08-23T11:00:00.000Z",
-    "end": "2025-08-23T20:00:00.000Z",
-    "locationUrl": null,
-    "url": "",
+    "title": "@NipponCon 2025",
+    "start": "2025-08-15T18:00:00.000Z",
+    "end": "2025-08-15T21:00:00.000Z",
+    "location": "D27, Gustav-Heinemann-Bürgerhaus Vegesack, Kirchheide 49, 28757 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/way/25484338",
+    "url": "https://nipponcon.de/index.php/tickets/ticket-information",
     "storyTellers": [
       "Dennis"
     ],
     "languages": [],
-    "extra": null
+    "extra": "Keine Voranmeldung zur Teilnahme. Zugang nur mit Ticket der NipponCon."
+  },
+  {
+    "title": "@NipponCon 2025",
+    "start": "2025-08-16T18:00:00.000Z",
+    "end": "2025-08-16T21:00:00.000Z",
+    "location": "D27, Gustav-Heinemann-Bürgerhaus Vegesack, Kirchheide 49, 28757 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/way/25484338",
+    "url": "https://nipponcon.de/index.php/tickets/ticket-information",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "languages": [],
+    "extra": "Keine Voranmeldung zur Teilnahme. Zugang nur mit Ticket der NipponCon."
+  },
+  {
+    "title": "Überseestadt / Straßenfest Zu Tisch",
+    "start": "2025-08-23T12:00:00.000Z",
+    "end": "2025-08-23T19:00:00.000Z",
+    "location": "Auf der Straße Überseetor, 28217 Bremen",
+    "locationUrl": "https://www.openstreetmap.org/way/667767975",
+    "url": "https://events.botc-bremen.de/zutisch250823/",
+    "storyTellers": [
+      "Dennis"
+    ],
+    "languages": [],
+    "extra": "Wir spielen auf dem Straßenfest Zu Tisch Open Air auf einer gesperrten Straße. Offizieller Start ist 16 Uhr, wir können aber theoretisch früher aufbauen. Siehe Details in der Anmeldung!"
   },
   {
     "title": "Überseestadt / jetzt hier",
@@ -1013,7 +1040,7 @@
     "end": "2025-08-28T19:00:00.000Z",
     "location": "Konsul-Schmidt-Straße 38, 28217 Bremen",
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
-    "url": "",
+    "url": "https://events.botc-bremen.de/jetzthier250828/",
     "storyTellers": [
       "Dennis"
     ],
@@ -1077,6 +1104,23 @@
     ],
     "languages": [],
     "extra": null
+  },
+  {
+    "title": "@Kreativ + Spiel",
+    "start": "2025-10-03T10:00:00.000Z",
+    "end": "2025-10-05T16:00:00.000Z",
+    "location": "Stand 6H60, Halle 6, Messe Bremen",
+    "locationUrl": "https://www.openstreetmap.org/way/184724875",
+    "url": "https://kreativ-spiel.de/besuchen/",
+    "storyTellers": [
+      "Fr: Sorel",
+      "... Sa: Dennis",
+      "Jessica",
+      "So: Alex",
+      "..."
+    ],
+    "languages": [],
+    "extra": "Regelmäßige (kleine) Spielrunden mit Anmeldung vor Ort: Fr, 12-20 Uhr • Sa+So, 10-18 Uhr"
   },
   {
     "title": "Überseestadt / jetzt hier",
