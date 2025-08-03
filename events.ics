@@ -585,19 +585,18 @@ CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250801T103926Z
+DTSTAMP:20250803T145704Z
 UID:72762370-acef-4f3f-a1bc-e9953111d3d1
-SEQUENCE:2
+SEQUENCE:3
 SUMMARY:Unisee Open Air
 LOCATION:Liegewiese am Stadtwaldsee (Unisee)\, 28259 Bremen
 DESCRIPTION:LOC: https://www.openstreetmap.org/way/23321551\nST: Alle\nURL:
-  https://events.botc-bremen.de/unisee250809/\n\nMit Grillen\, Cocktails un
- d mehr!
+  https://events.botc-bremen.de/unisee250809/\n\nMit Cocktails und mehr!
 DTSTART;TZID=Europe/Berlin:20250809T130000
 DTEND;TZID=Europe/Berlin:20250809T210000
 CLASS:PUBLIC
 STATUS:CONFIRMED
-LAST-MODIFIED:20250801T103926Z
+LAST-MODIFIED:20250803T145704Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20241011T082955Z
@@ -614,24 +613,6 @@ CLASS:PUBLIC
 STATUS:CONFIRMED
 CREATED:20241008T142754Z
 LAST-MODIFIED:20241011T082955Z
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20250801T105341Z
-DTSTAMP:20250801T110616Z
-LAST-MODIFIED:20250801T110616Z
-SEQUENCE:3
-UID:c698f803-4c6f-48e3-944d-98d10b0da366
-DTSTART;TZID=Europe/Berlin:20250816T200000
-DTEND;TZID=Europe/Berlin:20250816T230000
-SUMMARY:@NipponCon 2025
-LOCATION:D27\, Gustav-Heinemann-Bürgerhaus Vegesack\, Kirchheide 49\, 2875
- 7 Bremen
-DESCRIPTION:LOC: https://www.openstreetmap.org/way/25484338\nURL: https://n
- ipponcon.de/index.php/tickets/ticket-information\nST: Dennis\n\nKeine Vora
- nmeldung. Zugang mit Ticket der NipponCon.
-CLASS:PUBLIC
-STATUS:CONFIRMED
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20241010T124802Z
@@ -1153,18 +1134,19 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20250801T110619Z
-DTSTAMP:20250801T110625Z
-LAST-MODIFIED:20250801T110625Z
-SEQUENCE:2
+DTSTAMP:20250803T145952Z
+LAST-MODIFIED:20250803T145952Z
+SEQUENCE:4
 UID:11edaaf3-81ab-4918-8ef5-fefec2bfd01a
 DTSTART;TZID=Europe/Berlin:20250815T200000
-DTEND;TZID=Europe/Berlin:20250815T230000
-SUMMARY:@NipponCon 2025
+DTEND;TZID=Europe/Berlin:20250816T230000
+SUMMARY:@NipponCon 2025 (Fr+Sa Abend)
 LOCATION:D27\, Gustav-Heinemann-Bürgerhaus Vegesack\, Kirchheide 49\, 2875
  7 Bremen
 DESCRIPTION:LOC: https://www.openstreetmap.org/way/25484338\nURL: https://n
- ipponcon.de/index.php/tickets/ticket-information\nST: Dennis\n\nKeine Vora
- nmeldung. Zugang mit Ticket der NipponCon.
+ ipponcon.de/index.php/tickets/ticket-information\nST: Dennis\n\nAm Fr- und
+  Sa-Abend (je ab 20 Uhr) auf der NipponCon. Zugang nur mit Con-Ticket. Kei
+ ne Voranmeldung.
 CLASS:PUBLIC
 STATUS:CONFIRMED
 TRANSP:OPAQUE

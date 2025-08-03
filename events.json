@@ -980,7 +980,7 @@
       "Alle"
     ],
     "languages": [],
-    "extra": "Mit Grillen, Cocktails und mehr!"
+    "extra": "Mit Cocktails und mehr!"
   },
   {
     "title": "Überseestadt / jetzt hier",
@@ -996,21 +996,8 @@
     "extra": null
   },
   {
-    "title": "@NipponCon 2025",
+    "title": "@NipponCon 2025 (Fr+Sa Abend)",
     "start": "2025-08-15T18:00:00.000Z",
-    "end": "2025-08-15T21:00:00.000Z",
-    "location": "D27, Gustav-Heinemann-Bürgerhaus Vegesack, Kirchheide 49, 28757 Bremen",
-    "locationUrl": "https://www.openstreetmap.org/way/25484338",
-    "url": "https://nipponcon.de/index.php/tickets/ticket-information",
-    "storyTellers": [
-      "Dennis"
-    ],
-    "languages": [],
-    "extra": "Keine Voranmeldung. Zugang mit Ticket der NipponCon."
-  },
-  {
-    "title": "@NipponCon 2025",
-    "start": "2025-08-16T18:00:00.000Z",
     "end": "2025-08-16T21:00:00.000Z",
     "location": "D27, Gustav-Heinemann-Bürgerhaus Vegesack, Kirchheide 49, 28757 Bremen",
     "locationUrl": "https://www.openstreetmap.org/way/25484338",
@@ -1019,7 +1006,7 @@
       "Dennis"
     ],
     "languages": [],
-    "extra": "Keine Voranmeldung. Zugang mit Ticket der NipponCon."
+    "extra": "Am Fr- und Sa-Abend (je ab 20 Uhr) auf der NipponCon. Zugang nur mit Con-Ticket. Keine Voranmeldung."
   },
   {
     "title": "Überseestadt / Straßenfest Zu Tisch",
