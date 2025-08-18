@@ -1,0 +1,245 @@
+extends /pug/index
+
+block config
+    - lang = "nds"
+    - toggleNavigation = "Navigatschoon in-/utblenden"
+    - navbarBrand = "BotC Bremen un ümto"
+    - imprintTitle = "Impressum • Anbieterkennzeichnung"
+    - imprintLinktext = "Utföhrlich Impressum un Datenschutzerklärung (op Hööchdüütsch)"
+    - imprintDdgMstv = "Anbeder na § 5 DDG un verantwurtlich na § 18 MStV:"
+    - textEmail = "E-Mail: "
+    - textTelephone = "Telefoon: "
+    - blockIntroTitle = "Bloots en Spel ... oder nich?"
+    - blockEventsTitle = "Speelavende"
+    - blockTeamTitle = "Uns Lüüd"
+    - blockCommunityTitle = "De Community"
+    - blockLinksTitle = "Nützliche Länks"
+    - blockKoopTitle = "Partnerschoppen"
+    - textEventsPrev = "Fröhere Speelavende"
+    - textEventsNext = "Tokamen Speelavende"
+    - textEventsAbo = "Abonnieren: "
+    - textEventsAboLink = "Download Terminen oder Kalenner abonnieren (ics/ical)"
+    - textEventsLoading = "Lad Speelavende..."
+
+block footerExtra
+    p.m-0.mt-3.text-center.text-white.small "Blood on the Clocktower" is en ingetragen Marken vun
+        a(href='https://bloodontheclocktower.com/about-us', target='_blank') The Pandemonium Institute
+        | un Steven Medway.
+    p.m-0.text-center.text-white.small Bruukte Speelgrafiken sünd fründlich von The Pandemonium Institute för nich-kommerscheell Bruk frigeven.
+    p.m-0.text-center.text-white.small Disse Sied hett keen anner Verbinnen to un warrt ok nich ünnerstütt von The Pandemonium Institute.
+
+block nav-items
+    li.nav-item
+        a.nav-link(href='#events') Speelavende
+    li.nav-item
+        a.nav-link(href='#team') Uns Lüüd
+    li.nav-item
+        a.nav-link(href='#community') Community
+    li.nav-item
+        a.nav-link(href='#links') Nützliche Länks
+    li.nav-item
+        a.nav-link(href='#koop') Partnerschoppen
+    +langNav(lang)
+
+block blockHeader
+    h1.masthead-heading.mb-0 Blood on&nbsp;the Clocktower
+    h2.masthead-subheading.mb-0 Lokalcommunity Bremen un ümto
+    a.btn.btn-dark.btn-xl.rounded-pill.mt-4.mt-lg-5.mx-2(href='#events') Wat bald anstaht
+    a.btn.btn-dark.btn-xl.rounded-pill.mt-2.mt-lg-5.mx-2(href='#community') Maak mit bi uns
+
+block blockIntroContent
+    p
+        | Över de dösige Stadt Ravenswood Bluff geiht en düsters Gewedder los.
+        | Plötzlich hörst du üm Middernacht en gellen Schriek!
+        | As du na den Marktplatz toschüßt, finnst du dor een Liek – uppspiest op de Stunnenspieker vun de Tuurmklauk.
+        | Langsam dröppt dat Blod op dat Koppsteenpadd ünner den Tuurm.
+        | Wat för’n Unheil kummt dor över jümmer Stadt?
+    p
+        | In’n Stillen treckt en
+        emph.bad bös' Dämoon
+        | mit sien
+        emph.bad Gesellen
+        | dorhen un will all dat Gute utroten.
+        | De Opgav vun de
+        emph.good guten Lüüd
+        | un de kummersch’n
+        emph.good Utkamen
+        | is dat, den
+        emph.bad Dämoon
+        | op't Spören to kamen un em to richten, vördat sien finster Plän in’t Rollen kummt.
+    p
+        | Jeder in’t Dörp speelt en eigenen Charakter.
+        | Ok de
+        emph.bad Dämoon
+        | un sien
+        emph.bad Gesellen
+        | doot op’n Dag as wenn se ganz normale Lüüd weern.
+        | Awwer in de Nacht geiht dat los:
+        | Vele Charaktere sünd denn aktiev –
+        emph.good good
+        | un
+        emph.bad.dot bös
+        | Du kriggs en Info oder darfst wat maken, man vielleicht is dien Spetzialkunn sogar ganz passiev.
+        | Dat
+        emph.bad bös Team
+        | kann disse Infos verschwarten un dor nich alleen mit:
+        | Se köönt ok nachts een ümbringen, vördat de wat maken kann.
+        | Dien eigene Kunn kriggs du an’n Anfang ganz still towiest.
+        | Wat du de annern verklöppst, is dien Sak – du kannst seggen, wat du wullt.
+        | Denn unter de annern sitt ok de mörder’sche
+        emph.bad.emark Dämoon
+        //| !
+        | Na de Dagdiskussionen warrt afstimmt, wenn ihr to de Richtbank brenkt – op dat dat bös Spiel en Enn nimmt.
+        br
+        | Man in uns famoose Stadt is ok de Dood nich dat Enn:
+        | As Geest büst du noch bi – ok wenn dien Kunn meist verloten hett.
+        | Dien Woord hallt dör’t Jenseits, un du kannst mit dien Vertrauten weiter schnacken, üm dat
+        emph.bad bös Team
+        | to stoppen.
+        | Am Enn kann dien leste Stimm de Saken dreihen un den
+        emph.bad Dämoon
+        | to sien Enn bringen.
+    p
+        | Hest du no disse lütte Inblick Lust krigg, sülvst mit uns op
+        emph.bad Dämoonjacht
+        | to gahn?
+    p.lead
+        | Denn melde di glieks to een vun uns nächsten Speelavende an!
+    p
+        | Du büst nu redig vörbereidt, glieks in dien eerste Runn to starten.
+        | En Översicht vun de möglichen Charaktere kriggs du na de Anmellen.
+        | Bi’t Spel vertellen wi di ok, wie dat nachts mit de stille Kommunikatschoon löppt.
+        | Froogen to de Charaktere beantworen wi di dor ok gern.
+    .text-end(style='font-family:"Charmonman";font-size:1.4rem;')
+        | Bis bald in Ravenswood Bluff!
+
+block blockEventsContent
+    p
+        | Hier finnt ji allens, wat as nächst so anstaht.
+        | Uns offenen Runn’n sünd an verscheden Steed’n.
+        | Anmellen könnt ji euch över den Länk oder ok direktemang bi de Storytellers.
+    p.mb-0
+        i.bi.bi-translate
+        b Snackwark
+        br
+        | Meistens snackt wi op Hochdüütsch.
+        | Wenn mal en Runn op Engelsch oder tweetalig is, seggt wi dat dorbi.
+        | Normalerwies hebbt wi Skripten op Hochdüütsch un Engelsch vörhannen.
+
+block blockCommunityContent
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-people
+            .col
+                | Snack uns einfach bi'n
+                a(href='#events') Speelavend
+                | mal persoonlich an.
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-discord
+            .col
+                | Tritt uns op'n Discord-Server bi:
+                br
+                a(href='/discord', target='_blank') https://botc-bremen.de/discord
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-whatsapp
+            .col
+                | Du wullt bi de WhatsApp-Grupp'n mitmaken?
+                br
+                | Schriev uns en Naricht:
+                a(href='https://wa.me/4915678390797', target='_blank') +49 15678 390797
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-telegram
+            .col
+                | För Ankündigungen ok Telegram abonnieren:
+                br
+                a(href='/telegram', target='_blank') https://botc-bremen.de/telegram
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-envelope-plus
+            .col
+                | Hier kannst di för den
+                a(href='/newsletter', target='_blank') E-Mail-Newsletter
+                | mit Ankündigungen intragen.
+    li.list-group-item
+        .row.align-items-center
+            i.col-1.p-0.fs-1.bi.bi-envelope-fill
+            .col
+                | Hast Froogen, Ideen oder wat anners op'n Herzen?
+                a(href='mailto:info@botc-bremen.de') Mail
+                | uns gern –
+                a(href='#team') uns Lüüd
+                | sünd för di dor.
+
+block blockLinksContent
+    li.list-group-item
+        a(href='https://bloodontheclocktower.com/', target='_blank') Offiziell  Homepage
+        | [en]
+    li.list-group-item
+        a(href='https://wiki.bloodontheclocktower.com/', target='_blank') Offiziell  Wiki
+        | [en]
+    li.list-group-item
+        a(href='https://funtails.de/produkt/blood-on-the-clocktower-deutsch/', target='_blank') Düütsche Spelverschoon bi Funtails
+    li.list-group-item
+        a(href='https://youtu.be/M-aZP47Nm9g', target='_blank') Kort Inföhrung
+        | (9 Minuten) [en]
+    li.list-group-item
+        a(href='https://youtu.be/-xT_pnFNZBA', target='_blank') Utföhrliche Regelverkloren
+        | (41 Minuten) [de]
+    li.list-group-item
+        a(href='https://clocktowertimer.com/', target='_blank') Clocktowertimer
+        | (Storyteller-Tool)
+    li.list-group-item
+        a(href='https://savant.botc-bremen.de/', target='_blank') Savant Info-Generator
+        | (Storyteller-Tool)
+    li.list-group-item
+        a(href='https://discord.com/invite/hQrXsWutt6', target='_blank') Düütschen Discord
+        | (Nich-offiziell)
+    li.list-group-item
+        a(href='https://discord.gg/botc', target='_blank') Global Discord
+        | (Nich-offiziell)
+        | [en]
+    li.list-group-item
+        a(href='https://linktr.ee/bloodontheclocktower', target='_blank') Offiziell Länklist
+        | [en]
+
+block blockKoopStuga
+    .card-img-container
+        img.w-50.p-1(src='/assets/img/stugainf_comp.svg', alt='StugA Informatik')
+        img.w-50.p-1(src='/assets/img/stugamathe.svg', alt='StugA Mathematik')
+    .card-body
+        .card-text
+            | Dank de Tosamenarbeit mit de Stugen vun'n FB3 an de Uni Bremen köönt wi regelmößig Speeldagen in’t MZH anbeden.
+            | Daför maakt wi ok mit bi Veranstaltungen vun de Studierendenschaft.
+    .card-footer
+        a(href='https://fb3.stugen.de', target='_blank')
+            | To de Stugen vun’n FB3
+            //i.bi.bi-box-arrow-up-right
+
+block blockKoopJetzthier
+    .card-img-container
+        .img(style="mask-image: url('/assets/img/jetzthier.svg'); background-color: rgb(227, 173, 234); aspect-ratio: 1125/411;", alt='Quartierstreff Jetzt Hier')
+        //img(src='/assets/img/jetzthier.svg', alt='Quartierstreff Jetzt Hier')
+    .card-body
+        .card-text
+            | jetzt hier is en Projekt vun Kultur Vor Ort e.V., dat de Verbunnenheit in de Naberhood vun de Überseestadt stärken will. Tohopen mit de Lüüd vun dor warrt an Ideen un Programmen arbeidt, de dat Miteenanner fördern.
+    .card-footer
+        a(href='https://jetzthier.eu/', target='_blank')
+            | To'n Quartierstreff jetzt hier
+            //i.bi.bi-box-arrow-up-right
+
+block blockKoopKreativundSpiel
+    .card-img-container
+        img(src="/assets/img/Kreativ-Spiel-Onlinebanner-400x160px-250721.jpg", alt='Kreativ + Spiel 2025')
+    .card-body
+        .card-text
+            | De Kreativ + Spiel is vun'n 3. bit 5. Oktober op de MESSE BREMEN!
+            | För de allererste Mol dreit sik dor allens üm Hobby, Basteln un Spelen!
+            br
+            | Wi bieden bi Stand 6H60 abn all' Dagen regelmößig Speelrunn'n an - kummt mol rin!
+    .card-footer
+        a(href='https://kreativ-spiel.de/besuchen/', target='_blank')
+            | To de Kreativ + Spiel 2025
+            //i.bi.bi-box-arrow-up-right

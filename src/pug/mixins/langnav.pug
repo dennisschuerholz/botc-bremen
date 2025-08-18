@@ -3,7 +3,7 @@ mixin langNav(lang)
         a.nav-link-alt.dropdown-toggle#langToggle(href='#', role='button', data-bs-toggle='dropdown', aria-expanded='false')
             i.bi.bi-translate
         ul.dropdown-menu.dropdown-menu-dark(aria-labelledby='langToggle')
-            - var languages = {de: 'Deutsch', en: 'English'}
+            - var languages = {de: 'Deutsch', en: 'English', nds: 'Plattdüütsch'}
             each value, code in languages
                 case code
                     when lang
