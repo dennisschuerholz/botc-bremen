@@ -1057,7 +1057,8 @@
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
     "url": "https://events.botc-bremen.de/jetzthier250911/",
     "storyTellers": [
-      "Dennis"
+      "Dennis",
+      "Jessica"
     ],
     "languages": [],
     "extra": null
@@ -1085,7 +1086,8 @@
     "locationUrl": "https://www.openstreetmap.org/node/9833701807",
     "url": "https://events.botc-bremen.de/jetzthier250925/",
     "storyTellers": [
-      "Dennis"
+      "Dennis",
+      "Jessica"
     ],
     "languages": [],
     "extra": null
@@ -1098,11 +1100,10 @@
     "locationUrl": "https://www.openstreetmap.org/way/184724875",
     "url": "https://kreativ-spiel.de/besuchen/",
     "storyTellers": [
-      "Fr: Sorel",
-      "... Sa: Dennis",
+      "Fr: ??",
+      "Sa: Dennis",
       "Jessica",
-      "So: Alex",
-      "..."
+      "So: ??"
     ],
     "languages": [],
     "extra": "Regelmäßige (kleine) Spielrunden mit Anmeldung vor Ort: Fr, 12-20 Uhr • Sa+So, 10-18 Uhr"
