@@ -5,8 +5,15 @@ const upath = require('upath');
 const ical = require('node-ical');
 
 // Download ics file from source configured in package.json
-const icsUrl = packageJSON.custom.eventSource;
-fetch(icsUrl)
+let icsUrl = packageJSON.custom.eventSource;
+let headers = null;
+if (typeof icsUrl !== "string") {
+    headers = new Headers({
+        "Authorization": `Basic ${btoa(icsUrl['username'] + ':' + icsUrl['password'])}`
+    });
+    icsUrl = icsUrl['url'];
+}
+fetch(icsUrl, {headers: headers})
     .then(response => response.text())
     .then(icsContent => {
         try {
