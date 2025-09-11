@@ -20,11 +20,7 @@
         "bremen"
     ],
     "custom": {
-        "eventSource": {
-            "url": "https://calendar.d5l.de/caldav.php/botc/dummy--cyssoxei/?export",
-            "username": "botc",
-            "password": "PQ2iv6cgA1"
-        }
+        "eventSource": "https://nc.uni-bremen.de/remote.php/dav/public-calendars/FbJ5PyY7MqBHT5iJ?export"
     },
     "homepage": "https://botc-bremen.de",
     "private": true,

@@ -6,7 +6,7 @@ const ical = require('node-ical');
 
 // Download ics file from source configured in package.json
 let icsUrl = packageJSON.custom.eventSource;
-let headers = null;
+let headers = new Headers();
 if (typeof icsUrl !== "string") {
     headers = new Headers({
         "Authorization": `Basic ${btoa(icsUrl['username'] + ':' + icsUrl['password'])}`
