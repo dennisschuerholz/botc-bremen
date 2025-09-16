@@ -290,20 +290,20 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250905T040747Z
+DTSTAMP:20250916T191325Z
 UID:44bfe802-e5de-4001-9044-172741323892
-SEQUENCE:7
+SEQUENCE:8
 SUMMARY:@Kreativ + Spiel
 LOCATION:Stand 6H60\, Halle 6\, Messe Bremen
 DESCRIPTION:URL: https://kreativ-spiel.de/besuchen/\nLOC: https://www.opens
- treetmap.org/way/184724875\nST: Fr: ??\, Sa: Dennis\, Jessica\, So: ??\n\n
- Regelmäßige (kleine) Spielrunden mit Anmeldung vor Ort: Fr\, 12-20 Uhr 
- • Sa+So\, 10-18 Uhr
+ treetmap.org/way/184724875\nST: Fr: ?? • Sa: Dennis\, Jessica • So: De
+ nnis\n\nRegelmäßige (kleine) Spielrunden mit Anmeldung vor Ort: Fr\, 12-
+ 20 Uhr • Sa+So\, 10-18 Uhr
 DTSTART;TZID=Europe/Berlin:20251003T120000
 DTEND;TZID=Europe/Berlin:20251005T180000
 STATUS:CONFIRMED
 CREATED:20250523T142046Z
-LAST-MODIFIED:20250905T040747Z
+LAST-MODIFIED:20250916T191325Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250616T074431Z
@@ -841,15 +841,15 @@ CLASS:PUBLIC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250911T065445Z
+DTSTAMP:20250916T191219Z
 UID:1cfaf5c1-dacf-490b-b484-f4158411ce64
-SEQUENCE:2
+SEQUENCE:3
 SUMMARY:Uni Bremen / MZH
-DESCRIPTION:LOC: https://www.openstreetmap.org/relation/3293414\nST: Daniel
- \, Dennis\, Kathi\nURL: https://events.botc-bremen.de/mzh250920/
+DESCRIPTION:LOC: https://www.openstreetmap.org/relation/3293414\nST: Dennis
+ \, Jessica\nURL: https://events.botc-bremen.de/mzh250920/
 CLASS:PUBLIC
 STATUS:CONFIRMED
-LAST-MODIFIED:20250911T065445Z
+LAST-MODIFIED:20250916T191219Z
 DTSTART;TZID=Europe/Berlin:20250920T130000
 LOCATION:MZH 1460\, Bibliothekstr. 5\, 28359 Bremen
 DTEND;TZID=Europe/Berlin:20250920T220000
